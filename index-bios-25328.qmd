@@ -1,0 +1,18 @@
+---
+title: "BIOS25328"
+listing:
+  contents: [post/bios-25328]
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+description: "Cancer Genetics and Genomics BIOS-25328"
+---
+
+This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is [here](https://bios25328.hakyimlab.org/)
+
+
+

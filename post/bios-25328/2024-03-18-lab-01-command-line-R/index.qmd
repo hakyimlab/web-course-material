@@ -1,5 +1,5 @@
 ---
-title: bios25328 lab 1 command line and R
+title: lab 1 command line and R
 author: Haky Im
 date: 2024-03-18
 categories:

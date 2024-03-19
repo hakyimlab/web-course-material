@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  title: "qweb-BIOS-25328"
+  title: "HakyimLab"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - index-bios-25328.qmd
 
 format:
   html:
