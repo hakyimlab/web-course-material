@@ -1,5 +1,5 @@
 ---
-title: "Hakyimlab Course Material Page"
+title: "Hakyimlab Training Material Page"
 listing:
   contents: [post]
   sort: "date desc"
