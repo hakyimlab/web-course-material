@@ -8,7 +8,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html"
+      "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
+      "/post/logistics/2024-03-19-course-checklist/index.html"
+    ]
+  },
+  {
+    "listing": "/index-logistics.html",
+    "items": [
+      "/post/logistics/2024-03-19-course-checklist/index.html"
     ]
   }
 ]

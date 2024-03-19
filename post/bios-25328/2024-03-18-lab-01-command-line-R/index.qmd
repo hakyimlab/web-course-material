@@ -5,6 +5,14 @@ date: 2024-03-18
 categories:
   - bios25328
   - lab
+format:
+  html:
+    toc: true
+    code-fold: false
+    code-summary: "Show the code"
+    code-tools: true
+    code-overflow: wrap
+date-modified: last-modified
 ---
 
 We will learn to use the command line by doing. Follow the instructions below.

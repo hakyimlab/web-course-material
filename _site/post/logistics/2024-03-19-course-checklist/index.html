@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Haky Im">
-<meta name="dcterms.date" content="2024-03-18">
+<meta name="dcterms.date" content="2023-03-19">
 
-<title>HakyimLab - lab 1 command line and R</title>
+<title>HakyimLab - course checklist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,8 +145,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#command-line" id="toc-command-line" class="nav-link active" data-scroll-target="#command-line">command line</a></li>
-  <li><a href="#r-introduction" id="toc-r-introduction" class="nav-link" data-scroll-target="#r-introduction">R introduction</a></li>
+  <li><a href="#course-checklist" id="toc-course-checklist" class="nav-link active" data-scroll-target="#course-checklist">course checklist</a></li>
   </ul>
 </nav>
     </div>
@@ -155,10 +154,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">lab 1 command line and R</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">course checklist</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
   <div class="quarto-categories">
-    <div class="quarto-category">bios25328</div>
-    <div class="quarto-category">lab</div>
+    <div class="quarto-category">logistics</div>
   </div>
   </div>
 
@@ -176,7 +174,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2024</p>
+      <p class="date">March 19, 2023</p>
     </div>
   </div>
   
@@ -192,41 +190,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>We will learn to use the command line by doing. Follow the instructions below.</p>
-<section id="command-line" class="level2">
-<h2 class="anchored" data-anchor-id="command-line">command line</h2>
+<section id="course-checklist" class="level1">
+<h1>course checklist</h1>
+<p><strong>three months prior</strong></p>
 <ul class="task-list">
-<li><p><input type="checkbox">read the article that explains why it is a good idea to learn to use the command line <a href="https://www.nature.com/articles/d41586-021-00263-0">Five reasons why researchers should learn to love the command line</a></p></li>
-<li><p><input type="checkbox">Answer the questions showing that you did read the paper <a href="https://forms.gle/DQQdBt3cNoY6SADVA">link to questions</a>. But you are expected to respond at least 80% of the questions correctly.</p></li>
-<li><p><input type="checkbox">follow the instructions on the paper’s github <a href="https://github.com/jperkel/nature_bash/blob/main/README.md">README page</a> copied below for your convenience.</p></li>
+<li><input type="checkbox">identify a TA for the course</li>
 </ul>
-<ol type="1">
-<li><p>If you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.</p></li>
-<li><p>From the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.</p></li>
-<li><p>Enter the newly created directory: cd nature_bash.</p></li>
-<li><p>Make the scripts executable: chmod +x *.sh.</p></li>
-<li><p>Run the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.</p></li>
-<li><p>You don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.</p></li>
-</ol>
-<p>There are six scripts in total:</p>
+<p><strong>two weeks prior</strong></p>
 <ul class="task-list">
-<li><p><input type="checkbox">01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files</p></li>
-<li><p><input type="checkbox">02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.</p></li>
-<li><p><input type="checkbox">03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.</p></li>
-<li><p><input type="checkbox">04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.</p></li>
-<li><p><input type="checkbox">05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.</p></li>
-<li><p><input type="checkbox">99_clean_all.sh: Deletes all temporary files.</p></li>
+<li><input type="checkbox">update the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)</li>
 </ul>
-<p>Feel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands.</p>
-</section>
-<section id="r-introduction" class="level2">
-<h2 class="anchored" data-anchor-id="r-introduction">R introduction</h2>
-<p>You are probably familiar with R. If not, start learning with swirl</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">swirl</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<p><strong>one week prior</strong></p>
+<ul class="task-list">
+<li><p><input type="checkbox">download the class roster from facultyaccess page <a href="https://facultyaccess.uchicago.edu/selectClass.php">link</a></p></li>
+<li><p><input type="checkbox">send welcome email (optional)</p></li>
+<li><p><input type="checkbox">check assigned classroom (edit syllabus as needed)</p></li>
+<li><p><input type="checkbox">create canvas for the course follow <a href="https://courses.uchicago.edu/faq/">link</a> under “how to create an organization site in Canvas” or try direct link <a href="https://lmsmiddleware.uchicago.edu/org/">canvas creation link</a></p></li>
+<li><p><input type="checkbox">don’t forget to publish the canvas</p></li>
+<li><p><input type="checkbox">add TA and intructors to canvas</p></li>
+<li><p><input type="checkbox">update slack channel</p>
+<ul>
+<li><a href="https://bios25328canc-zp55302.slack.com/admin">cancer genetics and genomics slack</a></li>
+</ul></li>
+</ul>
+<p><strong>first week</strong></p>
+<ul class="task-list">
+<li><input type="checkbox">create RCC account for students / or posit account</li>
+<li><input type="checkbox">set visibility of canvas to Institution during the first 2 weeks (shopping around period)
+<ul class="task-list">
+<li><input type="checkbox">after two week set it to course</li>
+</ul></li>
+</ul>
+<hr>
+<p>template email</p>
+<pre class="{text}"><code>    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im
+    </code></pre>
 
 
 <!-- -->
@@ -519,69 +517,59 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> lab 1 command line and R</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> course checklist</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> Haky Im</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-03-18</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - bios25328</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - lab</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: false</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: "Show the code"</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co">    code-overflow: wrap</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>We will learn to use the command line by doing. Follow the instructions below.</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## command line</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> read the article that explains why it is a good idea to learn to use the command line <span class="co">[</span><span class="ot">Five reasons why researchers should learn to love the command line</span><span class="co">](https://www.nature.com/articles/d41586-021-00263-0)</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Answer the questions showing that you did read the paper <span class="co">[</span><span class="ot">link to questions</span><span class="co">](https://forms.gle/DQQdBt3cNoY6SADVA)</span>. But you are expected to respond at least 80% of the questions correctly.</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> follow the instructions on the paper's github <span class="co">[</span><span class="ot">README page</span><span class="co">](https://github.com/jperkel/nature_bash/blob/main/README.md)</span> copied below for your convenience.</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2023-03-19</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">  markdown:</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">    wrap: 72</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - logistics</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu"># course checklist</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>**three months prior**</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  identify a TA for the course</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>**two weeks prior**</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  update the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>**one week prior**</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  download the class roster from facultyaccess page <span class="co">[</span><span class="ot">link</span><span class="co">](https://facultyaccess.uchicago.edu/selectClass.php)</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  send welcome email (optional)</span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="ss">1.    </span>If you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you'll need something like MobaXterm.</span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="ss">2.    </span>From the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="ss">3.    </span>Enter the newly created directory: cd nature_bash.</span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="ss">4.    </span>Make the scripts executable: chmod +x *.sh.</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="ss">5.    </span>Run the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.</span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="ss">6.    </span>You don't have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash's 'autocomplete' feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.</span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>There are six scripts in total:</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files</span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of "readings" and 1 "background" file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.</span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 99_clean_all.sh: Deletes all temporary files.</span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>Feel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands.</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="fu">## R introduction</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>You are probably familiar with R. If not, start learning with swirl</span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="in">```{r eval=FALSE}</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="fu">swirl</span>()</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  check assigned classroom (edit syllabus as needed)</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  create canvas for the course</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>follow <span class="co">[</span><span class="ot">link</span><span class="co">](https://courses.uchicago.edu/faq/)</span> under "how to create an organization site in Canvas" or try direct link <span class="co">[</span><span class="ot">canvas creation link</span><span class="co">](https://lmsmiddleware.uchicago.edu/org/)</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  don't forget to publish the canvas</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  add TA and intructors to canvas</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  update slack channel</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span><span class="co">[</span><span class="ot">cancer genetics and genomics slack</span><span class="co">](https://bios25328canc-zp55302.slack.com/admin)</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>**first week**</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  create RCC account for students / or posit account</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  set visibility of canvas to Institution during the first 2 weeks (shopping around period)</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span><span class="va">[ ]</span>  after two week set it to course</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>template email</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="in">```{text}</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="in">    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="in">    </span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>        </span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

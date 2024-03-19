@@ -25,14 +25,14 @@
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
     "title": "lab 1 command line and R",
     "section": "R introduction",
-    "text": "R introduction\nYou are probably familiar with R. If not, start learning with swirl\n\n\nCode\ninstall.packages(\"swirl\")\nlibrary(\"swirl\")\nswirl()"
+    "text": "R introduction\nYou are probably familiar with R. If not, start learning with swirl\n\ninstall.packages(\"swirl\")\nlibrary(\"swirl\")\nswirl()"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hakyimlab Course Material Page",
     "section": "",
-    "text": "lab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "lab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -40,5 +40,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
+    "href": "post/logistics/2024-03-19-course-checklist/index.html",
+    "title": "course checklist",
+    "section": "",
+    "text": "course checklist\nthree months prior\n\nidentify a TA for the course\n\ntwo weeks prior\n\nupdate the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)\n\none week prior\n\ndownload the class roster from facultyaccess page link\nsend welcome email (optional)\ncheck assigned classroom (edit syllabus as needed)\ncreate canvas for the course follow link under “how to create an organization site in Canvas” or try direct link canvas creation link\ndon’t forget to publish the canvas\nadd TA and intructors to canvas\nupdate slack channel\n\ncancer genetics and genomics slack\n\n\nfirst week\n\ncreate RCC account for students / or posit account\nset visibility of canvas to Institution during the first 2 weeks (shopping around period)\n\nafter two week set it to course\n\n\n\ntemplate email\n    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im"
+  },
+  {
+    "objectID": "index-logistics.html",
+    "href": "index-logistics.html",
+    "title": "Logistics",
+    "section": "",
+    "text": "course checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   }
 ]
