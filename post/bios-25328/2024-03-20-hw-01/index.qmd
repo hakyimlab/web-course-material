@@ -19,7 +19,9 @@ date-modified: last-modified
 Go through the
 [lecture 1 self-assessment quiz](https://forms.gle/qd8zykYyQg16RfEC7). Feel free to use multiple attempts.
 
-## Edit the bash scripts from the lab (10 points)
+## Run the lab 1 and show your work (10 points)
+
+## Edit the bash scripts from the lab and show your work (10 points) 
 
 1. **For the `01_init.sh` part:**
    - Task: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.
