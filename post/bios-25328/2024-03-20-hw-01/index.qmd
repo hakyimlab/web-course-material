@@ -15,35 +15,37 @@ format:
 date-modified: last-modified
 ---
 
-## Self assessment quiz (10 points)
+Homeworks problems for week 1
+
+## 1. Self assessment quiz (10 points)
 Go through the
 [lecture 1 self-assessment quiz](https://forms.gle/qd8zykYyQg16RfEC7). Feel free to use multiple attempts.
 
-## Run the lab 1 and show your work (10 points)
+## 2. Run the lab 1 and show your work (10 points)
 
-## Edit the bash scripts from the lab and show your work (10 points) 
+## 3. Edit the bash scripts from the lab and show your work (10 points) 
 
-1. **For the `01_init.sh` part:**
+a. **For the `01_init.sh` part:**
    - Task: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.
    - Learning Objective: This task will help understand how to modify string literals in bash scripts.
 
-2. **For the `02_fix_filenames.sh` part:**
+b. **For the `02_fix_filenames.sh` part:**
    - Task: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).
    - Learning Objective: This task will teach your how to use the `sed` command for more complex pattern matching and substitution.
 
-3. **For the `03_process_data.sh` part:**
+c. **For the `03_process_data.sh` part:**
    - Task: Modify the script to calculate the sum of the readings in addition to the average.
    - Learning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.
 
-4. **For the `04_geo.sh` part:**
+d. **For the `04_geo.sh` part:**
    - Task: Modify the script to print a message saying "Download complete" after downloading the gene expression data file.
    - Learning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.
 
-5. **For the `05_filter_geo.sh` part:**
+e. **For the `05_filter_geo.sh` part:**
    - Task: Modify the script to create a new file called `filtered_results.csv` that contains the filtered records, instead of displaying them on the screen.
    - Learning Objective: This task will teach you how to redirect output to a file in bash scripts.
 
-6. **For the `99_clean_all.sh` part:**
+f. **For the `99_clean_all.sh` part:**
    - Task: Modify the script to print a message saying "Directory cleaned" after deleting all the files and removing the directory.
    - Learning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.
 
