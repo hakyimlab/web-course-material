@@ -9,7 +9,7 @@
 <meta name="author" content="Haky Im">
 <meta name="dcterms.date" content="2024-03-18">
 
-<title>HKI Courses - lab 1 command line and R</title>
+<title>HKI Courses - Homework 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,8 +145,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#command-line" id="toc-command-line" class="nav-link active" data-scroll-target="#command-line">command line</a></li>
-  <li><a href="#r-introduction" id="toc-r-introduction" class="nav-link" data-scroll-target="#r-introduction">R introduction</a></li>
+  <li><a href="#self-assessment-quiz-10-points" id="toc-self-assessment-quiz-10-points" class="nav-link active" data-scroll-target="#self-assessment-quiz-10-points">Self assessment quiz (10 points)</a></li>
+  <li><a href="#edit-the-bash-scripts-from-the-lab-10-points" id="toc-edit-the-bash-scripts-from-the-lab-10-points" class="nav-link" data-scroll-target="#edit-the-bash-scripts-from-the-lab-10-points">Edit the bash scripts from the lab (10 points)</a></li>
   </ul>
 </nav>
     </div>
@@ -155,10 +155,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">lab 1 command line and R</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Homework 1</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
   <div class="quarto-categories">
     <div class="quarto-category">bios25328</div>
-    <div class="quarto-category">lab</div>
+    <div class="quarto-category">homework</div>
   </div>
   </div>
 
@@ -192,41 +192,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>We will learn to use the command line by doing. Follow the instructions below.</p>
-<section id="command-line" class="level2">
-<h2 class="anchored" data-anchor-id="command-line">command line</h2>
-<ul class="task-list">
-<li><p><input type="checkbox">read the article that explains why it is a good idea to learn to use the command line <a href="https://www.nature.com/articles/d41586-021-00263-0">Five reasons why researchers should learn to love the command line</a></p></li>
-<li><p><input type="checkbox">Answer the questions showing that you did read the paper <a href="https://forms.gle/DQQdBt3cNoY6SADVA">link to questions</a>. You have multiple attempts.</p></li>
-<li><p><input type="checkbox">follow the instructions on the paper’s github <a href="https://github.com/jperkel/nature_bash/blob/main/README.md">README page</a> copied below for your convenience.</p></li>
-</ul>
-<ol type="1">
-<li><p>If you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.</p></li>
-<li><p>From the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.</p></li>
-<li><p>Enter the newly created directory: cd nature_bash.</p></li>
-<li><p>Make the scripts executable: chmod +x *.sh.</p></li>
-<li><p>Run the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.</p></li>
-<li><p>You don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.</p></li>
-</ol>
-<p>There are six scripts in total:</p>
-<ul class="task-list">
-<li><p><input type="checkbox">01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files</p></li>
-<li><p><input type="checkbox">02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.</p></li>
-<li><p><input type="checkbox">03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.</p></li>
-<li><p><input type="checkbox">04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.</p></li>
-<li><p><input type="checkbox">05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.</p></li>
-<li><p><input type="checkbox">99_clean_all.sh: Deletes all temporary files.</p></li>
-</ul>
-<p>Feel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands.</p>
+<section id="self-assessment-quiz-10-points" class="level2">
+<h2 class="anchored" data-anchor-id="self-assessment-quiz-10-points">Self assessment quiz (10 points)</h2>
+<p>Go through the <a href="https://forms.gle/qd8zykYyQg16RfEC7">lecture 1 self-assessment quiz</a>. Feel free to use multiple attempts.</p>
 </section>
-<section id="r-introduction" class="level2">
-<h2 class="anchored" data-anchor-id="r-introduction">R introduction</h2>
-<p>You are probably familiar with R. If not, start learning with swirl</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">swirl</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="edit-the-bash-scripts-from-the-lab-10-points" class="level2">
+<h2 class="anchored" data-anchor-id="edit-the-bash-scripts-from-the-lab-10-points">Edit the bash scripts from the lab (10 points)</h2>
+<ol type="1">
+<li><strong>For the <code>01_init.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.</li>
+<li>Learning Objective: This task will help understand how to modify string literals in bash scripts.</li>
+</ul></li>
+<li><strong>For the <code>02_fix_filenames.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).</li>
+<li>Learning Objective: This task will teach your how to use the <code>sed</code> command for more complex pattern matching and substitution.</li>
+</ul></li>
+<li><strong>For the <code>03_process_data.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to calculate the sum of the readings in addition to the average.</li>
+<li>Learning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.</li>
+</ul></li>
+<li><strong>For the <code>04_geo.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.</li>
+<li>Learning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.</li>
+</ul></li>
+<li><strong>For the <code>05_filter_geo.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to create a new file called <code>filtered_results.csv</code> that contains the filtered records, instead of displaying them on the screen.</li>
+<li>Learning Objective: This task will teach you how to redirect output to a file in bash scripts.</li>
+</ul></li>
+<li><strong>For the <code>99_clean_all.sh</code> part:</strong>
+<ul>
+<li>Task: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.</li>
+<li>Learning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.</li>
+</ul></li>
+</ol>
 
 
 <!-- -->
@@ -518,70 +521,56 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> lab 1 command line and R</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> Haky Im</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-03-18</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - bios25328</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - lab</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: false</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: "Show the code"</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co">    code-overflow: wrap</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>We will learn to use the command line by doing. Follow the instructions below.</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## command line</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> read the article that explains why it is a good idea to learn to use the command line <span class="co">[</span><span class="ot">Five reasons why researchers should learn to love the command line</span><span class="co">](https://www.nature.com/articles/d41586-021-00263-0)</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Answer the questions showing that you did read the paper <span class="co">[</span><span class="ot">link to questions</span><span class="co">](https://forms.gle/DQQdBt3cNoY6SADVA)</span>. You have multiple attempts.</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> follow the instructions on the paper's github <span class="co">[</span><span class="ot">README page</span><span class="co">](https://github.com/jperkel/nature_bash/blob/main/README.md)</span> copied below for your convenience.</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="ss">1.    </span>If you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you'll need something like MobaXterm.</span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="ss">2.    </span>From the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="ss">3.    </span>Enter the newly created directory: cd nature_bash.</span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="ss">4.    </span>Make the scripts executable: chmod +x *.sh.</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="ss">5.    </span>Run the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.</span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="ss">6.    </span>You don't have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash's 'autocomplete' feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.</span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>There are six scripts in total:</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files</span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of "readings" and 1 "background" file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.</span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 99_clean_all.sh: Deletes all temporary files.</span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>Feel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands.</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="fu">## R introduction</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>You are probably familiar with R. If not, start learning with swirl</span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="in">```{r eval=FALSE}</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"swirl"</span>)</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="fu">swirl</span>()</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> Homework 1</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> Haky Im</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-03-18</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - bios25328</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - homework</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: false</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: "Show the code"</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">    code-overflow: wrap</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Self assessment quiz (10 points)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Go through the</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">lecture 1 self-assessment quiz</span><span class="co">](https://forms.gle/qd8zykYyQg16RfEC7)</span>. Feel free to use multiple attempts.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## Edit the bash scripts from the lab (10 points)</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**For the `01_init.sh` part:**</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will help understand how to modify string literals in bash scripts.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**For the `02_fix_filenames.sh` part:**</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will teach your how to use the <span class="in">`sed`</span> command for more complex pattern matching and substitution.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**For the `03_process_data.sh` part:**</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to calculate the sum of the readings in addition to the average.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**For the `04_geo.sh` part:**</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to print a message saying "Download complete" after downloading the gene expression data file.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**For the `05_filter_geo.sh` part:**</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to create a new file called <span class="in">`filtered_results.csv`</span> that contains the filtered records, instead of displaying them on the screen.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will teach you how to redirect output to a file in bash scripts.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**For the `99_clean_all.sh` part:**</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Task: Modify the script to print a message saying "Directory cleaned" after deleting all the files and removing the directory.</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Learning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

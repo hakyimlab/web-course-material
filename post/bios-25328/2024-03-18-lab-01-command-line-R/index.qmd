@@ -21,7 +21,7 @@ We will learn to use the command line by doing. Follow the instructions below.
 
 - [ ] read the article that explains why it is a good idea to learn to use the command line [Five reasons why researchers should learn to love the command line](https://www.nature.com/articles/d41586-021-00263-0)
 
-- [ ] Answer the questions showing that you did read the paper [link to questions](https://forms.gle/DQQdBt3cNoY6SADVA). But you are expected to respond at least 80% of the questions correctly.
+- [ ] Answer the questions showing that you did read the paper [link to questions](https://forms.gle/DQQdBt3cNoY6SADVA). You have multiple attempts.
 
 - [ ] follow the instructions on the paper's github [README page](https://github.com/jperkel/nature_bash/blob/main/README.md) copied below for your convenience.
 

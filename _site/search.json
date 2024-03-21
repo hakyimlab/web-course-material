@@ -4,7 +4,7 @@
     "href": "index-bios-25328.html",
     "title": "BIOS25328",
     "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
@@ -18,7 +18,7 @@
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
     "title": "lab 1 command line and R",
     "section": "command line",
-    "text": "command line\n\nread the article that explains why it is a good idea to learn to use the command line Five reasons why researchers should learn to love the command line\nAnswer the questions showing that you did read the paper link to questions. But you are expected to respond at least 80% of the questions correctly.\nfollow the instructions on the paper’s github README page copied below for your convenience.\n\n\nIf you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.\nFrom the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.\nEnter the newly created directory: cd nature_bash.\nMake the scripts executable: chmod +x *.sh.\nRun the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.\nYou don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.\n\nThere are six scripts in total:\n\n01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files\n02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.\n03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.\n04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.\n05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.\n99_clean_all.sh: Deletes all temporary files.\n\nFeel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands."
+    "text": "command line\n\nread the article that explains why it is a good idea to learn to use the command line Five reasons why researchers should learn to love the command line\nAnswer the questions showing that you did read the paper link to questions. You have multiple attempts.\nfollow the instructions on the paper’s github README page copied below for your convenience.\n\n\nIf you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.\nFrom the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.\nEnter the newly created directory: cd nature_bash.\nMake the scripts executable: chmod +x *.sh.\nRun the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.\nYou don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.\n\nThere are six scripts in total:\n\n01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files\n02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.\n03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.\n04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.\n05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.\n99_clean_all.sh: Deletes all temporary files.\n\nFeel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands."
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,40 @@
     "title": "Logistics",
     "section": "",
     "text": "course checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Go through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Go through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab",
+    "title": "Homework 1",
+    "section": "Edit the bash scripts from the lab",
+    "text": "Edit the bash scripts from the lab\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Go through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-10-points",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-10-points",
+    "title": "Homework 1",
+    "section": "Edit the bash scripts from the lab (10 points)",
+    "text": "Edit the bash scripts from the lab (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts."
   }
 ]
