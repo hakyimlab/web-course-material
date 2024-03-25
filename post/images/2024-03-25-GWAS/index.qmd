@@ -1,0 +1,17 @@
+---
+title: "Images GWAS"
+author: "Haky Im"
+date: "March 24, 2024"
+format: 
+  revealjs: 
+    self-contained: true
+draft: false
+---
+
+## GWAS
+
+```{r}
+FOLDER="/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images"
+```
+
+![GWAS-image](paste0(FOLDER,"/","GWAS.png"))

@@ -50,6 +50,6 @@ f. **For the `99_clean_all.sh` part:**
    - Learning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.
 
 
-
+Quiz selected and edited from content generated with chatGPT
 
 

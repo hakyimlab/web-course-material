@@ -62,4 +62,6 @@ swirl()
 ```
 
 
+## Command line basics
 
+For the bare minimum list of commands check out [this link](https://lvairus.github.io/Hands-on-Training/commandline.html)

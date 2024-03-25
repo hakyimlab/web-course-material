@@ -4,7 +4,7 @@
     "href": "index-bios-25328.html",
     "title": "BIOS25328",
     "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nHomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nHomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -102,6 +102,48 @@
     "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
     "title": "Homework 1",
     "section": "3. Edit the bash scripts from the lab and show your work (10 points)",
-    "text": "3. Edit the bash scripts from the lab and show your work (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts."
+    "text": "3. Edit the bash scripts from the lab and show your work (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.\n\n\nQuiz selected and edited from content generated with chatGPT"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "href": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "title": "Images GWAS",
+    "section": "GWAS",
+    "text": "GWAS\n\n\nGWAS-image"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html",
+    "title": "Homework 2",
+    "section": "",
+    "text": "Homeworks problems for week 2"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#read-sud-et-al-and-complete-the-self-assessment-quiz-10-points",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#read-sud-et-al-and-complete-the-self-assessment-quiz-10-points",
+    "title": "Homework 2",
+    "section": "1. Read Sud et al and complete the self assessment quiz (10 points)",
+    "text": "1. Read Sud et al and complete the self assessment quiz (10 points)\nSUD comprehension assessment quiz. Feel free to use multiple attempts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-lecture-3-4-assessment-quiz",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-lecture-3-4-assessment-quiz",
+    "title": "Homework 2",
+    "section": "2. Complete the Lecture 3-4 assessment quiz",
+    "text": "2. Complete the Lecture 3-4 assessment quiz"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-20-points",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-20-points",
+    "title": "Homework 2",
+    "section": "3. Multiple testing simulation (20 points)",
+    "text": "3. Multiple testing simulation (20 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
+    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
+    "title": "lab 1 command line and R",
+    "section": "Command line basics",
+    "text": "Command line basics\nFor the bare minimum list of commands check out this link"
   }
 ]
