@@ -116,14 +116,14 @@
     "href": "post/bios-25328/2024-03-25-homework-02/index.html",
     "title": "Homework 2",
     "section": "",
-    "text": "Homeworks problems for week 2"
+    "text": "Homeworks problems for week 2\n\n\nSUD comprehension assessment quiz. Feel free to use multiple attempts.\n\n\n\n\n\n\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
   },
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#read-sud-et-al-and-complete-the-self-assessment-quiz-10-points",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html#read-sud-et-al-and-complete-the-self-assessment-quiz-10-points",
     "title": "Homework 2",
-    "section": "1. Read Sud et al and complete the self assessment quiz (10 points)",
-    "text": "1. Read Sud et al and complete the self assessment quiz (10 points)\nSUD comprehension assessment quiz. Feel free to use multiple attempts."
+    "section": "",
+    "text": "SUD comprehension assessment quiz. Feel free to use multiple attempts."
   },
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-lecture-3-4-assessment-quiz",
@@ -136,8 +136,8 @@
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-20-points",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-20-points",
     "title": "Homework 2",
-    "section": "3. Multiple testing simulation (20 points)",
-    "text": "3. Multiple testing simulation (20 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
+    "section": "",
+    "text": "Simulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
