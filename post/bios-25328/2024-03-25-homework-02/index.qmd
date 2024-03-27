@@ -16,17 +16,11 @@ date-modified: last-modified
 draft: false
 ---
 
+## 1. Complete the following 
+- [Lecture 3 assessment quiz](https://forms.gle/KsyP7b5RYFsaAXFW6) (10 points)
+- [Lecture 4 assessment quiz](https://forms.gle/gpvmRE1tJCCTfYZXA) (10 points)
 
-# Under construction
-
-Homeworks problems for week 2
-
-## 1. Read Sud et al and complete the self assessment quiz (10 points)
-[SUD comprehension assessment quiz](new link here). Feel free to use multiple attempts.
-
-## 2. Complete the [Lecture 3-4 assessment quiz](https://forms.gle/KsyP7b5RYFsaAXFW6) 
-
-## 3.  Multiple testing simulation (20 points)
+## 2.  Multiple testing simulation (30 points)
 
 1. Simulate X, Ynull, Yalt
 2. Plot Ynull vs X, Yalt vs X

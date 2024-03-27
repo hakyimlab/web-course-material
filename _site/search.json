@@ -108,15 +108,15 @@
     "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
     "href": "post/images/2024-03-25-GWAS/index.html#gwas",
     "title": "Images GWAS",
-    "section": "GWAS",
-    "text": "GWAS\n\n\nGWAS-image"
+    "section": "",
+    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
   },
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html",
     "title": "Homework 2",
     "section": "",
-    "text": "Homeworks problems for week 2\n\n\nSUD comprehension assessment quiz. Feel free to use multiple attempts.\n\n\n\n\n\n\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
+    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
   },
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#read-sud-et-al-and-complete-the-self-assessment-quiz-10-points",
@@ -145,5 +145,54 @@
     "title": "lab 1 command line and R",
     "section": "Command line basics",
     "text": "Command line basics\nFor the bare minimum list of commands check out this link"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#markdown-with-full-path",
+    "href": "post/images/2024-03-25-GWAS/index.html#markdown-with-full-path",
+    "title": "Images GWAS",
+    "section": "markdown with full path",
+    "text": "markdown with full path\n\nGWAS-image"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#markdown-with-..-relative-path",
+    "href": "post/images/2024-03-25-GWAS/index.html#markdown-with-..-relative-path",
+    "title": "Images GWAS",
+    "section": "markdown with .. relative path",
+    "text": "markdown with .. relative path\n\nGWAS-image"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#markdown-with-..-relative-path-1",
+    "href": "post/images/2024-03-25-GWAS/index.html#markdown-with-..-relative-path-1",
+    "title": "Images GWAS",
+    "section": "markdown with .. relative path",
+    "text": "markdown with .. relative path\n\n\n\nGWAS-image"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
+    "title": "Homework 2",
+    "section": "2. Multiple testing simulation (30 points)",
+    "text": "2. Multiple testing simulation (30 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html",
+    "href": "post/images/2024-03-25-GWAS/index.html",
+    "title": "Images GWAS",
+    "section": "",
+    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the",
+    "title": "Homework 2",
+    "section": "",
+    "text": "Lecture 3 assessment quiz and\nLecture 4 assessment quiz"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
+    "title": "Homework 2",
+    "section": "",
+    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
   }
 ]
