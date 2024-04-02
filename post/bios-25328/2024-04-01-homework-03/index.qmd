@@ -56,7 +56,7 @@ draft: false
     - [https://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/](https://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/)
 - slides
 
-### The following code will directly download the bed/bim/fam files 
+#### The following code will directly download the bed/bim/fam files 
 
 ```bash
 wget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed
@@ -64,7 +64,7 @@ wget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywu
 wget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam
 ```
 
-### How to download plink
+#### How to download plink
 
 ```bash
 wget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip
@@ -75,9 +75,9 @@ mikdir bin
 mv plink bin
 ```
 
-## C. Run the full Marees GWAS tutorial
+## C. Finish running the Marees GWAS tutorial 
 
-Finish the lab and answer the questions
+- [ ] Finish [lab 3](/post/bios-25328/2024-04-05-lab-03/) and answer the following questions.
 
 
 Using the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.
