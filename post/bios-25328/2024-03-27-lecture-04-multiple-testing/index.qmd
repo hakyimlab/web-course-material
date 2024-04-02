@@ -8,7 +8,6 @@ format:
     slide-number: c/t
     width: 1600
     height: 900
-    css: ["../theme/theme.css"]
     theme: simple
     echo: true
     transition: none
@@ -21,7 +20,7 @@ draft: true
 FOLDER="/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images"
 ```
 
-# The Perils of Multiple Testing
+## The Perils of Multiple Testing
 
 ```{r, eval=TRUE, fig.align='center'}
 #| echo: false
@@ -32,7 +31,7 @@ knitr::include_graphics(paste0(FOLDER,"/","2024-03-27-multiple-testing/multiple-
 This xkcd cartoon illustrates the problem with multiple testing
 :::
 
-# The Perils of Multiple Testing (cont)
+## The Perils of Multiple Testing (cont)
 
 ```{r, eval=TRUE, fig.align='center'}
 #| echo: false
@@ -58,7 +57,7 @@ What happened? Is the conclusion sensible?
 :::
 . . .
 
-# What is the probability of not rejecting null when we should?
+## What is the probability of not rejecting null?
 
 :::{.incremental}
 - what is the probability of not rejecting the null at 0.05 significance level when testing once?
@@ -75,10 +74,13 @@ What happened? Is the conclusion sensible?
 
 :::
 
-# How to solve multiple testing problem? 
 
 
-. . . 
+
+## How to solve multiple testing problem?
+
+
+. . .
 
 :::{.incremental}
 - Bonferroni Correction
@@ -88,9 +90,9 @@ What happened? Is the conclusion sensible?
 - Pros and cons of using Bonferroni correction
 :::
 
-. . . 
+. . .
 
-# Genome-Wide Significance Level
+## Genome-Wide Significance Level
 
 :::{.incremental}
 - Typical level: $5 \times 10^{-8}$
@@ -98,19 +100,19 @@ What happened? Is the conclusion sensible?
 :::
 
 
-# Distribution of P-values Under the Null
+## Distribution of P-values Under the Null
 
 
 
 
-# Simulations of P-values
+## Simulations of P-values
 
 - Under null and alternative hypotheses.
 - Generating distribution of p-values through simulations.
 
 
 
-# Common Approaches to Correct for Multiple Testing
+## Common Approaches to Correct for Multiple Testing
 
 - Bonferroni correction
 - False Discovery Rate (FDR) control
@@ -118,7 +120,7 @@ What happened? Is the conclusion sensible?
 
 
 
-# Using qvalue Package
+## Using qvalue Package
 
 - Calculating q-values and controlling FDR in R.
 

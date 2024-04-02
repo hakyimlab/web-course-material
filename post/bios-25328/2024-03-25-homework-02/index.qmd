@@ -1,5 +1,5 @@
 ---
-title: Homework 2
+title: homework 2
 author: Haky Im
 date: 2024-03-25
 categories:

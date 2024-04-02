@@ -1,0 +1,12 @@
+---
+title: lab 3
+date: 2024-04-05
+categories: 
+  - bios25328
+  - lab
+date-modified: last-modified
+---
+
+Get started running the GWAS tutorial [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/)
+
+Some instructions [here](https://bios25328.hakyimlab.org/post/2021/04/09/lab-2-gwas-in-practice/)

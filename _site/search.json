@@ -4,26 +4,26 @@
     "href": "index-bios-25328.html",
     "title": "BIOS25328",
     "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nHomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
-    "title": "lab 1 command line and R",
+    "title": "lab 1 - command line and R",
     "section": "",
     "text": "We will learn to use the command line by doing. Follow the instructions below."
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
-    "title": "lab 1 command line and R",
+    "title": "lab 1 - command line and R",
     "section": "command line",
     "text": "command line\n\nread the article that explains why it is a good idea to learn to use the command line Five reasons why researchers should learn to love the command line\nAnswer the questions showing that you did read the paper link to questions. You have multiple attempts.\nfollow the instructions on the paper’s github README page copied below for your convenience.\n\n\nIf you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.\nFrom the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.\nEnter the newly created directory: cd nature_bash.\nMake the scripts executable: chmod +x *.sh.\nRun the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.\nYou don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.\n\nThere are six scripts in total:\n\n01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files\n02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.\n03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.\n04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.\n05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.\n99_clean_all.sh: Deletes all temporary files.\n\nFeel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands."
   },
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
-    "title": "lab 1 command line and R",
+    "title": "lab 1 - command line and R",
     "section": "R introduction",
     "text": "R introduction\nYou are probably familiar with R. If not, start learning with swirl\n\ninstall.packages(\"swirl\")\nlibrary(\"swirl\")\nswirl()"
   },
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nHomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nHomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -58,7 +58,7 @@
   {
     "objectID": "post/bios-25328/2024-03-20-hw-01/index.html",
     "href": "post/bios-25328/2024-03-20-hw-01/index.html",
-    "title": "Homework 1",
+    "title": "homework 1",
     "section": "",
     "text": "Homeworks problems for week 1"
   },
@@ -79,7 +79,7 @@
   {
     "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
     "href": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
-    "title": "Homework 1",
+    "title": "homework 1",
     "section": "1. Self assessment quiz (10 points)",
     "text": "1. Self assessment quiz (10 points)\nGo through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
   },
@@ -93,14 +93,14 @@
   {
     "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
     "href": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
-    "title": "Homework 1",
+    "title": "homework 1",
     "section": "2. Run the lab 1 and show your work (10 points)",
     "text": "2. Run the lab 1 and show your work (10 points)"
   },
   {
     "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
     "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
-    "title": "Homework 1",
+    "title": "homework 1",
     "section": "3. Edit the bash scripts from the lab and show your work (10 points)",
     "text": "3. Edit the bash scripts from the lab and show your work (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.\n\n\nQuiz selected and edited from content generated with chatGPT"
   },
@@ -114,7 +114,7 @@
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html",
-    "title": "Homework 2",
+    "title": "homework 2",
     "section": "",
     "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
   },
@@ -142,7 +142,7 @@
   {
     "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
     "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
-    "title": "lab 1 command line and R",
+    "title": "lab 1 - command line and R",
     "section": "Command line basics",
     "text": "Command line basics\nFor the bare minimum list of commands check out this link"
   },
@@ -170,7 +170,7 @@
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
-    "title": "Homework 2",
+    "title": "homework 2",
     "section": "2. Multiple testing simulation (30 points)",
     "text": "2. Multiple testing simulation (30 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
   },
@@ -191,8 +191,92 @@
   {
     "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
     "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
-    "title": "Homework 2",
+    "title": "homework 2",
     "section": "",
     "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html",
+    "href": "post/bios-25328/2024-04-05-lab-03/index.html",
+    "title": "lab 3",
+    "section": "",
+    "text": "Get started running the GWAS tutorial here\nSome instructions here"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-29-lab-02/index.html",
+    "href": "post/bios-25328/2024-03-29-lab-02/index.html",
+    "title": "lab 2",
+    "section": "",
+    "text": "get started with simulations for homework 2"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html",
+    "title": "homework 3",
+    "section": "",
+    "text": "========"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#complete-the-following-assessments",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#complete-the-following-assessments",
+    "title": "homework 3",
+    "section": "Complete the following assessments",
+    "text": "Complete the following assessments\n\nLecture 5 assessment quiz (10 points)\nLecture 6 assessment quiz  FILL OUT THE QUIZ LINK (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#complete-the-following-assessments-10-points",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#complete-the-following-assessments-10-points",
+    "title": "homework 3",
+    "section": "Complete the following assessments (10 points)",
+    "text": "Complete the following assessments (10 points)\n\nLecture 5 assessment quiz\nLecture 6 assessment quiz  FILL OUT THE QUIZ LINK"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#run-the-full-gwas-tutorial-20-points",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#run-the-full-gwas-tutorial-20-points",
+    "title": "homework 3",
+    "section": "Run the full GWAS tutorial (20 points)",
+    "text": "Run the full GWAS tutorial (20 points)\nby Marees et al A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis. You should have started this in the lab on 4/5/2024."
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#run-a-gwas-20-points",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#run-a-gwas-20-points",
+    "title": "homework 3",
+    "section": "Run a GWAS (20 points)",
+    "text": "Run a GWAS (20 points)\n\nDownload HapMap3 chromosome 22 data (5pt)\nDownload Growth Data (5pt)\nCalculate PCs using plink (10pt)\nPlot the first two principal components of the genotype matrix, color by population (10pt)\nRun GWAS of growth with and without adjusting for PCs (20pt)\n\nshow qqplot and manhattan plot for each (10pt)\n\nCreate HapMap Trios Relatedness Matrix (10pt)\ngenerate a tileplot to visualize the population and relatedness patterns here (10pt)\n\nSee below for additional information on the assignment.\nLinks\n\nYou can borrow code from here\n\nhttps://hakyimlab.github.io/hgen471/L6-population-structure.html\nhttps://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/\n\nslides\n\nLecture 5 https://docs.google.com/presentation/d/1VYfx0coU5HKQLXwbo5yr7XvgJeqt8Hdf/edit#slide=id.p1\nLecture 6\nhttps://docs.google.com/presentation/d/1I0-4u_6PAG5Q9LNi3mfQNnvZsVgf16tO/edit#slide=id.p1"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#introduction",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#introduction",
+    "title": "homework 3",
+    "section": "Introduction",
+    "text": "Introduction\nThe main goal of this of this homework is to reproduce and interpret the graphs that were shown in this week’s lectures. This document will walk you through getting the data and installing plink in order to run through the code.\nSubmit the report as a a knitted document of your choice( ex: pdf, html, etc.).\n\nNote: be sure that the code is visible in the final document knitted document."
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#downloading-the-data-and-plink",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#downloading-the-data-and-plink",
+    "title": "homework 3",
+    "section": "Downloading the Data and Plink",
+    "text": "Downloading the Data and Plink\nFor this homework you will need to two data folders and install and set up plink. You can use your local device for this. If you have trouble installing plink, you can use the Rstudio cloud.\nDownload the hapmap3 genotype files in plink format (bed/bim/fam), here we are linking to the subset of chromosome 22 to keep files small.\nwget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed\nwget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywufrowtm3uqqgad0b2.bim\nwget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam\n\nYou can find the full HapMap 3 genotype data with other useful information here\nGrowth phenotype Data here\n\nif you want background information on this trait you can read this paper)\n\n\n\nDownloading Plink\nwget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip\n##Use this link if you are on Rstudio Cloud otherwise go to the website\n##https://zzz.bwh.harvard.edu/plink/download.shtml \nunzip plink_linux_x86_64_20220305.zip\nmikdir bin \nmv plink bin"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#run-the-full-gwas-tutorial-30-points",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#run-the-full-gwas-tutorial-30-points",
+    "title": "homework 3",
+    "section": "Run the full GWAS tutorial (30 points)",
+    "text": "Run the full GWAS tutorial (30 points)\nby Marees et al A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis. You should have started this in the lab on 4/5/2024."
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#run-a-gwas",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#run-a-gwas",
+    "title": "homework 3",
+    "section": "Run a GWAS",
+    "text": "Run a GWAS\n\nDownload HapMap3 chromosome 22 data (5pt)\n\n\nYou can find the full HapMap 3 genotype data with other useful information here\n\n\nDownload Growth Data (5pt) here\n\n\nif you want background information on this trait you can read this paper)\n\n\nCalculate PCs using plink (10pt)\nPlot the first two principal components of the genotype matrix, color by population (10pt)\nRun GWAS of growth with and without adjusting for PCs (20pt)\n\nshow qqplot and manhattan plot for each (10pt)\n\nCreate HapMap Trios Relatedness Matrix (10pt)\ngenerate a tileplot to visualize the population and relatedness patterns here (10pt)\n\nLinks\n\nYou can borrow code from the lecture and the links below\n\nhttps://hakyimlab.github.io/hgen471/L6-population-structure.html\nhttps://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/\n\nslides\n\n\nThe following code will directly download the bed/bim/fam files\nwget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed\nwget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywufrowtm3uqqgad0b2.bim\nwget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam\n\n\nHow to download plink\nwget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip\n##Use this link if you are on Rstudio Cloud otherwise go to the website\n##https://zzz.bwh.harvard.edu/plink/download.shtml \nunzip plink_linux_x86_64_20220305.zip\nmikdir bin \nmv plink bin"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#reproduce-figures-and-analysis-in-lectures",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#reproduce-figures-and-analysis-in-lectures",
+    "title": "homework 3",
+    "section": "Reproduce figures and analysis in lectures",
+    "text": "Reproduce figures and analysis in lectures\n\nDownload HapMap3 chromosome 22 data (5pt)\n\n\nYou can find the full HapMap 3 genotype data with other useful information here\n\n\nDownload Growth Data (5pt) here\n\n\nif you want background information on this trait you can read this paper)\n\n\nCalculate PCs using plink (10pt)\nPlot the first two principal components of the genotype matrix, color by population (10pt)\nRun GWAS of growth with and without adjusting for PCs (20pt)\n\nshow qqplot and manhattan plot for each (10pt)\n\nCreate HapMap Trios Relatedness Matrix (10pt)\ngenerate a tileplot to visualize the population and relatedness patterns here (10pt)\n\nLinks\n\nYou can borrow code from the lecture and the links below\n\nhttps://hakyimlab.github.io/hgen471/L6-population-structure.html\nhttps://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/\n\nslides\n\n\nThe following code will directly download the bed/bim/fam files\nwget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed\nwget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywufrowtm3uqqgad0b2.bim\nwget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam\n\n\nHow to download plink\nwget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip\n##Use this link if you are on Rstudio Cloud otherwise go to the website\n##https://zzz.bwh.harvard.edu/plink/download.shtml \nunzip plink_linux_x86_64_20220305.zip\nmikdir bin \nmv plink bin"
   }
 ]

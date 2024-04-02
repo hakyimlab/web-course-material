@@ -1,0 +1,11 @@
+---
+title: lab 2
+date: 2024-03-29
+categories: 
+  - bios25328
+  - lab
+date-modified: last-modified
+---
+
+get started with simulations for [homework 2](/post/bios-25328/2024-03-25-homework-02/)
+
