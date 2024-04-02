@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-04-05">
+<meta name="description" content="In this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.">
 
 <title>HKI Courses - lab 3</title>
 <style>
@@ -140,7 +141,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -154,6 +163,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
   </div>
 
+<div>
+  <div class="description">
+    In this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -169,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">April 1, 2024</p>
+      <p class="date-modified">April 2, 2024</p>
     </div>
   </div>
     
@@ -178,12 +192,62 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>Get started running the GWAS tutorial <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/">here</a></p>
-<p>Some instructions <a href="https://bios25328.hakyimlab.org/post/2021/04/09/lab-2-gwas-in-practice/">here</a></p>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<ul class="task-list">
+<li><input type="checkbox">Read and summarize in a few sentences this GWAS tutorial paper <a href="https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608">https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608</a></li>
+<li><input type="checkbox">Download plink from <a href="https://www.cog-genomics.org/plink/1.9/">LINK</a> (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)</li>
+<li><input type="checkbox">Create a github user if you don’t already have one</li>
+<li><input type="checkbox">Git clone the tutorial from the command line (run <code>git clone &lt;https://github.com/MareesAT/GWA_tutorial.git</code>&gt; on the terminal). You will need to unzip files that look like *.zip</li>
+<li><input type="checkbox">run the QC and Association components of the tutorial
+<ul>
+<li>1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt
+<ul>
+<li>you may want to download the hapmap data from here <a href="https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace">https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace</a></li>
+</ul></li>
+<li>you may need to download plink (<a href="https://www.cog-genomics.org/plink/1.9/">https://www.cog-genomics.org/plink/1.9/</a>)</li>
+<li>The tutorial is designed so that you need to run all the steps but since 2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here <a href="https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x">https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<blockquote class="blockquote">
+<p>Some modifications to the code may be needed. Use them if you encounter errors.</p>
+</blockquote>
+<p>Relatedness.R needs to change lines 7 and 15 to</p>
+<pre><code>legend(1,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))
+legend(0.02,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))
+</code></pre>
+<p>line 31 of 2_Main_script_MDS.txt replace</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">plink</span> <span class="at">--bfile</span> ALL.2of4intersection.20100804.genotypes <span class="at">--set-missing-var-ids</span> @:#<span class="pp">[</span><span class="ss">b37</span><span class="pp">]</span><span class="dt">\$</span>1,\$2 <span class="at">--make-bed</span> <span class="at">--out</span> ALL.2of4intersection.20100804.genotypes_no_missing_IDs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>with</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">plink</span> <span class="at">--bfile</span> ALL.2of4intersection.20100804.genotypes <span class="at">--set-missing-var-ids</span> <span class="st">'@:#[b37]$1,$2'</span> <span class="at">--make-bed</span> <span class="at">--out</span> ALL.2of4intersection.20100804.genotypes_no_missing_IDs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>line 144 in 2_Main_script_MDS.txt replace</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">(</span><span class="ex">base</span><span class="kw">)</span> <span class="ex">haekyungim@Im-Lab-016</span> 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt <span class="kw">|</span> <span class="fu">sed</span> <span class="at">-e</span> <span class="st">'1i\FID IID race'</span> <span class="op">&gt;</span> racefile.txt</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">sed:</span> 1: <span class="st">"1i\FID IID race</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>: extra characters after <span class="dt">\ </span>at the end of i command</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="kw">(</span><span class="ex">base</span><span class="kw">)</span> <span class="ex">haekyungim@Im-Lab-016</span> 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt <span class="kw">|</span> <span class="fu">sed</span> <span class="at">-e</span> <span class="st">'1i\</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="st">FID IID race'</span> <span class="op">&gt;</span> racefile.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>install qqman in R and comment out first line on Manhattan_plot.R and QQ_plot.R</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">##install.packages("qqman",repos="http://cran.cnr.berkeley.edu/",lib="~" ) # location of installation can be changed but has to correspond with the library location </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">##library("qqman",lib.loc="~")  </span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">library</span><span class="er">(</span><span class="st">"qqman"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<p>Using the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.</p>
+<ol type="1">
+<li>How many individuals are in the genotype file you downloaded? (5 pts)</li>
+<li>Explain the contents of <code>.fam,</code>.bim, ``.bed files (5 pts)</li>
+<li>Write the captions for the pdf’s generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)</li>
+<li>Discuss what you did and the results you obtained. (20 pts)</li>
+</ol>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -470,18 +534,81 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> lab 3</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-04-05</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> </span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  - bios25328</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - lab</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Get started running the GWAS tutorial <span class="co">[</span><span class="ot">here</span><span class="co">](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Some instructions <span class="co">[</span><span class="ot">here</span><span class="co">](https://bios25328.hakyimlab.org/post/2021/04/09/lab-2-gwas-in-practice/)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> lab 3</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-04-05</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> </span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">  - bios25328</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - lab</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> In this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## Instructions</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  Read and summarize in a few sentences this GWAS tutorial paper <span class="co">[</span><span class="ot">https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608</span><span class="co">](https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608)</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  Download plink from <span class="co">[</span><span class="ot">LINK</span><span class="co">](https://www.cog-genomics.org/plink/1.9/)</span> (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  Create a github user if you don’t already have one</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  Git clone the tutorial from the command line (run <span class="in">`git clone &lt;https://github.com/MareesAT/GWA_tutorial.git`</span>&gt; on the terminal). You will need to unzip files that look like *.zip</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span>  run the QC and Association components of the tutorial</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="ss">        - </span>you may want to download the hapmap data from here <span class="co">[</span><span class="ot">https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace</span><span class="co">](https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace)</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>you may need to download plink (<span class="co">[</span><span class="ot">https://www.cog-genomics.org/plink/1.9/</span><span class="co">](https://www.cog-genomics.org/plink/1.9/)</span>)</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>The tutorial is designed so that you need to run all the steps but since   2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here <span class="co">[</span><span class="ot">https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x</span><span class="co">](https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x)</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Notes</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Some modifications to the code may be needed. Use them if you encounter errors.</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>Relatedness.R needs to change lines 7 and 15 to</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="in">legend(1,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a><span class="in">legend(0.02,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>line 31 of 2_Main_script_MDS.txt replace</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="ex">plink</span> <span class="at">--bfile</span> ALL.2of4intersection.20100804.genotypes <span class="at">--set-missing-var-ids</span> @:#<span class="pp">[</span><span class="ss">b37</span><span class="pp">]</span><span class="dt">\$</span>1,\$2 <span class="at">--make-bed</span> <span class="at">--out</span> ALL.2of4intersection.20100804.genotypes_no_missing_IDs</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>with</span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a><span class="ex">plink</span> <span class="at">--bfile</span> ALL.2of4intersection.20100804.genotypes <span class="at">--set-missing-var-ids</span> <span class="st">'@:#[b37]$1,$2'</span> <span class="at">--make-bed</span> <span class="at">--out</span> ALL.2of4intersection.20100804.genotypes_no_missing_IDs</span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>line 144 in 2_Main_script_MDS.txt replace </span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a><span class="kw">(</span><span class="ex">base</span><span class="kw">)</span> <span class="ex">haekyungim@Im-Lab-016</span> 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt <span class="kw">|</span> <span class="fu">sed</span> <span class="at">-e</span> <span class="st">'1i\FID IID race'</span> <span class="op">&gt;</span> racefile.txt</span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a><span class="ex">sed:</span> 1: <span class="st">"1i\FID IID race</span></span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>: extra characters after <span class="dt">\ </span>at the end of i command</span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a><span class="kw">(</span><span class="ex">base</span><span class="kw">)</span> <span class="ex">haekyungim@Im-Lab-016</span> 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt <span class="kw">|</span> <span class="fu">sed</span> <span class="at">-e</span> <span class="st">'1i\</span></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a><span class="st">FID IID race'</span> <span class="op">&gt;</span> racefile.txt</span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a>install qqman in R and comment out first line on Manhattan_plot.R and QQ_plot.R</span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="co">##install.packages("qqman",repos="http://cran.cnr.berkeley.edu/",lib="~" ) # location of installation can be changed but has to correspond with the library location </span></span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a><span class="co">##library("qqman",lib.loc="~")  </span></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a><span class="ex">library</span><span class="er">(</span><span class="st">"qqman"</span><span class="kw">)</span></span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-67"><a href="#cb6-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a><span class="fu">## Questions</span></span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a>Using the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.</span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>How many individuals are in the genotype file you downloaded? (5 pts)</span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Explain the contents of ``.fam, ``.bim, ``.bed files (5 pts)</span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Write the captions for the pdf's generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)</span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Discuss what you did and the results you obtained. (20 pts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

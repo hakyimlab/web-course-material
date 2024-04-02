@@ -22,15 +22,12 @@ draft: false
 
 <mark> ======== </mark>
 
-## Complete the following assessments
+## A. Complete the following assessments
 - [Lecture 5 assessment quiz](https://forms.gle/ShSWpUvbT8MZ1bfDA) (10 points)
 - [Lecture 6 assessment quiz]() <mark> FILL OUT THE QUIZ LINK</mark>  (10 points)
 
 
-## Run the full GWAS tutorial (30 points)
-by [Marees et al A tutorial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/) on conducting genome‐wide association studies: Quality control and statistical analysis. You should have started this in the lab on 4/5/2024.
-
-## Reproduce figures and analysis in lectures
+## B. Reproduce figures and analysis in lectures 5 and 6 (80 points)
 
 1. Download HapMap3 chromosome 22 data (5pt)
 
@@ -51,7 +48,6 @@ by [Marees et al A tutorial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC600169
 
 7. generate a tileplot to visualize the population and relatedness patterns [here](https://docs.google.com/presentation/d/1I0-4u_6PAG5Q9LNi3mfQNnvZsVgf16tO/edit#slide=id.p13) (10pt)
     
-    
 
 **Links**
 
@@ -59,8 +55,6 @@ by [Marees et al A tutorial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC600169
     - [https://hakyimlab.github.io/hgen471/L6-population-structure.html](https://hakyimlab.github.io/hgen471/L6-population-structure.html)
     - [https://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/](https://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/)
 - slides
-
-
 
 ### The following code will directly download the bed/bim/fam files 
 
@@ -80,5 +74,13 @@ unzip plink_linux_x86_64_20220305.zip
 mikdir bin 
 mv plink bin
 ```
+
+## C. Run the full Marees GWAS tutorial (20 points)
+
+Follow the steps listed in [here](https://github.com/MareesAT/GWA_tutorial/) to run the GWAS tutorial 
+
+Use the corresponding paper as reference.
+Marees et al., “A Tutorial on Conducting Genome‐wide Association Studies.”
+[link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/).
 
 
