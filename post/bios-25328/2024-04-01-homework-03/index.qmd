@@ -16,15 +16,10 @@ date-modified: last-modified
 draft: false
 ---
 
-<mark> ======== </mark>
-
-# UNDER CONSTRUCTION
-
-<mark> ======== </mark>
 
 ## A. Complete the following assessments
 - [Lecture 5 assessment quiz](https://forms.gle/ShSWpUvbT8MZ1bfDA) (10 points)
-- [Lecture 6 assessment quiz]() <mark> FILL OUT THE QUIZ LINK</mark>  (10 points)
+- [Lecture 6 assessment quiz](https://forms.gle/2FazW6RRTqqfVgY59)   (10 points)
 
 
 ## B. Reproduce figures and analysis in lectures 5 and 6 (80 points)
