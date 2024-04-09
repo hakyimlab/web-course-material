@@ -1,0 +1,11 @@
+---
+title: lecture 3
+date: 2024-03-25
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+---
+
+Lecture 3 notes [link](https://www.icloud.com/keynote/0732_Z6aieupeLeuqhYCaYqMQ#L3-Cancer-GWAS-QC-UKBiobank)
+

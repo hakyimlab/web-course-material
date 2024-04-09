@@ -1,0 +1,11 @@
+---
+title: lecture 7
+date: 2024-04-08
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+---
+
+Lecture 7 notes [link](https://www.icloud.com/keynote/032A2dOmLeseT9sStEAIypfgQ#L7-Polygenic-Risk-Scores)
+

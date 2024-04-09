@@ -1,0 +1,11 @@
+---
+title: lecture 6
+date: 2024-04-03
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+---
+
+Lecture 6 notes [link](https://www.icloud.com/keynote/0fciaJqMH4_Nb1PDKAs_XE0Yg#L6-Mixed-Effects-Models-LDSC)
+

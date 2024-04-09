@@ -1,0 +1,11 @@
+---
+title: lecture 5
+date: 2024-04-01
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+---
+
+Lecture 5 slides [link](https://www.icloud.com/keynote/0b2KR-0HeObP5vRwOB991I9sQ#L5-Population-Structure-PCA)
+
