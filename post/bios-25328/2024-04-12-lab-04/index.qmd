@@ -8,3 +8,5 @@ date-modified: last-modified
 description: description here
 draft: true
 ---
+
+We will do this [lab](https://bios25328.hakyimlab.org/post/2022/04/21/prsice-and-the-personal-genome-project/)
