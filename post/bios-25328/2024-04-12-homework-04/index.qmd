@@ -20,7 +20,7 @@ draft: false
 
 
 ## A. Complete the following assessments
-- [ADD LINK Lecture 7 assessment quiz]() (10 points)
+- [ADD LINK Lecture 7 assessment quiz](https://forms.gle/nDuJCpRxaP4p7eot8) (10 points)
 - [ADD LINK Lecture 8 assessment quiz]()   (10 points)
 
 ## B. 

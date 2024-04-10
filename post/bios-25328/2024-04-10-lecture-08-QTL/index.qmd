@@ -1,0 +1,62 @@
+---
+title: lecture 8
+date: 2024-04-10
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+editor_options: 
+  chunk_output_type: console
+---
+
+Lecture 8 notes [link](https://www.icloud.com/keynote/025sZaAoLKDAekdsgjQ7-KAhg#L8-QTL-analysis-GTEx-2024)
+
+## Download the GWAS catalog
+
+```{r prelim}
+suppressMessages(library(tidyverse))
+suppressMessages(library(glue))
+##PRE = "/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data"
+PRE="~/Downloads/"
+DATA = glue("{PRE}/2024-04-10-gwas-catalog-analysis-2022")
+if(!file.exists(DATA)) system(glue("mkdir -p {DATA}"))
+WORK=DATA
+
+## download data from GWAS catalog
+## https://www.ebi.ac.uk/gwas/docs/file-downloads
+
+# - [ ] make sure the DATAFILE name is the same as the one you just downloaded
+# DATAFILE = "gwas_catalog_v1.0.2-associations_e105_r2022-04-07.tsv"
+DATAFILE="full"
+filename = glue("{DATA}/{DATAFILE}")
+
+if(!file.exists(filename)) system(glue("wget -P {DATA} https://www.ebi.ac.uk/gwas/api/search/downloads/full"))
+
+
+```
+
+
+```{r}
+
+gwascatalog = read_tsv(filename)
+dim(gwascatalog)
+names(gwascatalog)
+
+```
+
+
+```{r}
+## show number of entries in the GWAS catalog with cancer
+gwascatalog %>% select(`DISEASE/TRAIT`, MAPPED_GENE) %>% filter(grepl("cancer",`DISEASE/TRAIT`)) %>% dim()
+
+```
+
+> Number of distinct loci reported in GWAS of various cancers
+
+Number of entries in the GWAS catalog with cancer, unique loci (it's a reasonable assumption that mapped genes will be a good way to count loci)
+
+```{r}
+
+gwascatalog %>% select(`DISEASE/TRAIT`, MAPPED_GENE) %>% filter(grepl("cancer",`DISEASE/TRAIT`)) %>% unique() %>% dim()
+
+```
