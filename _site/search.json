@@ -11,14 +11,14 @@
     "href": "post/bios-25328/2024-04-12-homework-04/index.html",
     "title": "homework 4",
     "section": "",
-    "text": "ADD LINK Lecture 7 assessment quiz (10 points)\nADD LINK Lecture 8 assessment quiz (10 points)"
+    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)\n\n\n\n\n\n\n\n\nLecture 8 assessment quiz"
   },
   {
     "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
     "href": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
     "title": "homework 4",
     "section": "",
-    "text": "ADD LINK Lecture 7 assessment quiz (10 points)\nADD LINK Lecture 8 assessment quiz (10 points)"
+    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)"
   },
   {
     "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#b.",
@@ -299,5 +299,12 @@
     "title": "lab 4",
     "section": "regress observed height with predicted height (PRS)",
     "text": "regress observed height with predicted height (PRS)\n\nsummary(lm(height ~ PRS,data=combined)) %&gt;% coef() \n\n               Estimate   Std. Error    t value      Pr(&gt;|t|)\n(Intercept)    172.6716 6.075067e-01 284.230021 1.916175e-259\nPRS         159197.1399 2.478220e+04   6.423849  9.758137e-10"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#c.-fill-out-the-lab-4-assessment-quiz-5-points",
+    "href": "post/bios-25328/2024-04-12-homework-04/index.html#c.-fill-out-the-lab-4-assessment-quiz-5-points",
+    "title": "homework 4",
+    "section": "",
+    "text": "Lecture 8 assessment quiz"
   }
 ]
