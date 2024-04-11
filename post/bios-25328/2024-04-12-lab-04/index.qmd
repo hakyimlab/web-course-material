@@ -187,7 +187,7 @@ predicted_height = read_delim(glue::glue("{DATA}/output/height_score_all.best"),
 
 ```{r}
 combined <- predicted_height %>% inner_join(fam,by=c("IID"="IID")) 
-combined %>% ggplot(aes(PRS,height)) + geom_point()
+combined %>% ggplot(aes(PRS,height)) + geom_point() + theme_minimal(base_size = 15)
 ```
 
 ## regress observed height with predicted height (PRS)

@@ -442,7 +442,7 @@ dbl (2): FID, PRS
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>combined <span class="ot">&lt;-</span> predicted_height <span class="sc">%&gt;%</span> <span class="fu">inner_join</span>(fam,<span class="at">by=</span><span class="fu">c</span>(<span class="st">"IID"</span><span class="ot">=</span><span class="st">"IID"</span>)) </span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>combined <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(PRS,height)) <span class="sc">+</span> <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>combined <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(PRS,height)) <span class="sc">+</span> <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -937,7 +937,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-188"><a href="#cb28-188" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-191"><a href="#cb28-191" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
 <span id="cb28-192"><a href="#cb28-192" aria-hidden="true" tabindex="-1"></a>combined <span class="ot">&lt;-</span> predicted_height <span class="sc">%&gt;%</span> <span class="fu">inner_join</span>(fam,<span class="at">by=</span><span class="fu">c</span>(<span class="st">"IID"</span><span class="ot">=</span><span class="st">"IID"</span>)) </span>
-<span id="cb28-193"><a href="#cb28-193" aria-hidden="true" tabindex="-1"></a>combined <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(PRS,height)) <span class="sc">+</span> <span class="fu">geom_point</span>()</span>
+<span id="cb28-193"><a href="#cb28-193" aria-hidden="true" tabindex="-1"></a>combined <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(PRS,height)) <span class="sc">+</span> <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span>
 <span id="cb28-194"><a href="#cb28-194" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb28-195"><a href="#cb28-195" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-196"><a href="#cb28-196" aria-hidden="true" tabindex="-1"></a><span class="fu">## regress observed height with predicted height (PRS)</span></span>
