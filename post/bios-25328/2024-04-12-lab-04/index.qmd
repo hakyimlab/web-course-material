@@ -39,16 +39,12 @@ suppressMessages(library(glue))
 PRE = "/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data"
 DATA=glue("{PRE}/2021-04-21-personal-genomes-project-data/Lab-personal-genomes-project-data")
 if(!file.exists(DATA)) system(glue("mkdir -p {DATA}"))
-
+sqlite <- dbDriver("SQLite")
 ```
 
 ## Download data
 
 - [ ] download the data [from here](https://uchicago.box.com/s/snhot2x0272dzuuas4ipkgnrlxva2qga) and place it in a directory called DATA
-
-```{r,echo=FALSE}
-sqlite <- dbDriver("SQLite")
-```
 
 - [ ] download PRSice software from https://choishingwan.github.io/PRSice/
 
