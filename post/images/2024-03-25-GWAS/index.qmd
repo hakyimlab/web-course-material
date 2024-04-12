@@ -2,12 +2,6 @@
 title: "Images GWAS"
 author: "Haky Im"
 date: "March 24, 2024"
-format: 
-  revealjs: 
-    self-contained: true
-    transition: slide
-    transition-speed: fast
-draft: false
 ---
 
 ## GWAS

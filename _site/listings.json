@@ -1,22 +1,7 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/index-logistics.html",
     "items": [
-      "/post/bios-25328/2024-04-12-lab-04/index.html",
-      "/post/bios-25328/2024-04-12-homework-04/index.html",
-      "/post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
-      "/post/bios-25328/2024-04-08-lecture-07-prs/index.html",
-      "/post/bios-25328/2024-04-05-lab-03/index.html",
-      "/post/bios-25328/2024-04-01-homework-03/index.html",
-      "/post/bios-25328/2024-04-03-lecture-06/index.html",
-      "/post/bios-25328/2024-04-01-lecture-05/index.html",
-      "/post/bios-25328/2024-03-29-lab-02/index.html",
-      "/post/bios-25328/2024-03-25-lecture-03/index.html",
-      "/post/bios-25328/2024-03-25-homework-02/index.html",
-      "/post/images/2024-03-25-GWAS/index.html",
-      "/post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
-      "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
-      "/post/bios-25328/2024-03-20-hw-01/index.html",
       "/post/logistics/2024-03-19-course-checklist/index.html"
     ]
   },
@@ -40,8 +25,23 @@
     ]
   },
   {
-    "listing": "/index-logistics.html",
+    "listing": "/index.html",
     "items": [
+      "/post/bios-25328/2024-04-12-lab-04/index.html",
+      "/post/bios-25328/2024-04-12-homework-04/index.html",
+      "/post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
+      "/post/bios-25328/2024-04-08-lecture-07-prs/index.html",
+      "/post/bios-25328/2024-04-05-lab-03/index.html",
+      "/post/bios-25328/2024-04-01-homework-03/index.html",
+      "/post/bios-25328/2024-04-03-lecture-06/index.html",
+      "/post/bios-25328/2024-04-01-lecture-05/index.html",
+      "/post/bios-25328/2024-03-29-lab-02/index.html",
+      "/post/bios-25328/2024-03-25-lecture-03/index.html",
+      "/post/bios-25328/2024-03-25-homework-02/index.html",
+      "/post/images/2024-03-25-GWAS/index.html",
+      "/post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
+      "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
+      "/post/bios-25328/2024-03-20-hw-01/index.html",
       "/post/logistics/2024-03-19-course-checklist/index.html"
     ]
   }
