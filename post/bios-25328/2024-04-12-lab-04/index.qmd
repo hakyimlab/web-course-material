@@ -17,6 +17,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+LIZ: test changes
+
 # Goals and Introduction 
 In this lab we are going to use the PRSice software to take height GWAS results and predict height of the  Personal Genome Project individuals using their genotype data.
 
