@@ -22,6 +22,8 @@ DATA = glue("{PRE}/2024-04-10-gwas-catalog-analysis-2022")
 if(!file.exists(DATA)) system(glue("mkdir -p {DATA}"))
 WORK=DATA
 
+DOWNLOAD_DATE="2024-04-10"
+
 ## download data from GWAS catalog
 ## https://www.ebi.ac.uk/gwas/docs/file-downloads
 
@@ -31,7 +33,6 @@ DATAFILE="full"
 filename = glue("{DATA}/{DATAFILE}")
 
 if(!file.exists(filename)) system(glue("wget -P {DATA} https://www.ebi.ac.uk/gwas/api/search/downloads/full"))
-
 
 ```
 
@@ -60,3 +61,13 @@ Number of entries in the GWAS catalog with cancer, unique loci (it's a reasonabl
 gwascatalog %>% select(`DISEASE/TRAIT`, MAPPED_GENE) %>% filter(grepl("cancer",`DISEASE/TRAIT`)) %>% unique() %>% dim()
 
 ```
+
+```{r}
+## plot histogram of GWAS loci by year
+gwascat_sig = gwascatalog %>% mutate(year=as.factor(lubridate::year(lubridate::as_date(`DATE ADDED TO CATALOG`)))) %>% filter(`P-VALUE`<5e-8)
+
+gwascat_sig %>% filter(year!="2024") %>% ggplot(aes(year)) + geom_bar() + theme_bw(base_size = 15) + scale_x_discrete(breaks=c("2008","2012","2016","2020","2022")) + xlab("year") + ylab("GWAS loci reported p<5e-8") + ggtitle(paste0("GWAS Catalog Downloaded ",DOWNLOAD_DATE) )
+##ggsave(glue::glue("{DATA}/gwas-catalog/gwas-catalog-by-year.pdf"))
+
+```
+
