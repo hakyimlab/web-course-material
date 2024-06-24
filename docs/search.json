@@ -368,7 +368,7 @@
     "href": "post/qgt/index.html",
     "title": "Transcriptome QGT Training 2024",
     "section": "",
-    "text": "Predict whole blood expression from genotype\nCheck how well the prediction works with GEUVADIS expression data\nRun association between predicted expression and a phenotype\nCalculate association between expression levels and coronary artery disease risk using s-predixcan\nFine-map the coronary artery disease gwas results using torus\nCalculate colocalization probability using fastenloc\nRun cTWAS (fine-map SNPs and genes jointly)\n© HakyImLab 2024 - MIT License"
+    "text": "Predict whole blood expression from genotype\nCheck how well the prediction works with GEUVADIS expression data\nRun association between predicted expression and a phenotype\nCalculate association between expression levels and coronary artery disease risk using s-predixcan\nFine-map the coronary artery disease gwas results using torus\nCalculate colocalization probability using fastenloc\nRun cTWAS (fine-map SNPs and genes jointly)\n© Hae Kyung Im - CC BY 4.0 License"
   },
   {
     "objectID": "post/qgt/index.html#questionnaire-01",

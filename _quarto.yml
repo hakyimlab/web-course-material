@@ -12,8 +12,7 @@ website:
       - index-bios-25328.qmd
       - index-logistics.qmd
   body-footer: |
-      © [HakyImLab 2024](https://hakyimlab.org) - [MIT License](https://opensource.org/licenses/MIT)
-
+      © [Hae Kyung Im](https://hakyimlab.org) - [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 format:
   html:
     theme: cosmo
