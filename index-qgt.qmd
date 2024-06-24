@@ -1,0 +1,20 @@
+---
+title: "Quantitative Genomic Training"
+listing:
+  contents: [post/qgt]
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+description: "Quantitative Genomic Training course material"
+---
+
+This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html
+
+
+
+
+

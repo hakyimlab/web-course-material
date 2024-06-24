@@ -8,8 +8,11 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - index-qgt.qmd
       - index-bios-25328.qmd
       - index-logistics.qmd
+  body-footer: |
+      © [HakyImLab 2024](https://hakyimlab.org) - [MIT License](https://opensource.org/licenses/MIT)
 
 format:
   html:
