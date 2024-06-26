@@ -1,0 +1,21 @@
+---
+title: quick training in statistical genetics
+date: 2024-06-24
+author: Haky Im
+description: material for introduction to statistical genetics
+---
+
+I taught today the QGT course organized by Iuliana at Columbia for the 5th time. Participants asked for material for a quick training material in statistical genomics. It's hard to choose one topic over the other one. So here is a biased selection of material that may help.
+
+
+1. Read "a brief history of human disease genetics" (nicely written summary of the development in the last two decades) https://www.nature.com/articles/s41586-019-1879-7 
+2. Read GTExs flagship paper and very thorough supplementary material https://science.sciencemag.org/content/369/6509/1318
+  - also read the GTEx working group's paper for suggested practices to apply GTEx resources to GWAS https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02252-4
+3. Read the ENCODE paper https://www.nature.com/articles/s41586-020-2493-4
+4. GWAS tutorial Marees et al (https://course-material.hakyimlab.org/post/bios-25328/2024-04-05-lab-03/)
+5. 
+6. https://course-material.hakyimlab.org/index-bios-25328 This is my portion of the cancer genetics and genomics course where I teach an lightweight intro to statistical genetics
+7. Genetic and molecular architecture of complex traits https://doi.org/10.1016/j.cell.2024.01.023
+
+
+
