@@ -1,0 +1,14 @@
+{
+  "hash": "38799c09c1e97d93bf63a5f4ab6b8bd2",
+  "result": {
+    "markdown": "---\ntitle: \"Lab Setup\"\noutput: html_document\ndate: '2022-05-06'\n---\n\n\ncopied from QGT 2023 posit\n\n## Setting up your own system \n\nLinux is the operating system of choice to run bioinformatics software. You will need either a computer running linux or or mac os, which has a linux-like environment. \n\n- [ ] install anaconda/miniconda \n- [ ] define imlabtools conda environment [how to here](https://github.com/hakyimlab/MetaXcan/blob/master/README.md#example-conda-environment-setup), which will install all the python modules needed for this analysis session\n- [ ] download data and software [from Box](https://uchicago.box.com/s/zhapf2zfxcpj7thvq4sjnqale3emleum).\n  This will have copies of all the software repositories and the models\n- [ ] download software \n  - download metaxcan repo\n  - download torus repo\n- [ ] download prediction models from predictdb.org \n- [ ] install R/RStudio/tidyverse package\n- [ ] git clone https://github.com/hakyimlab/QGT-Columbia-HKI.git\n- [ ] start Rstudio (if you installed workflowr, you can just open the QGT-Columbia-HKI.Rproj)\n\n#R setup\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#install R packages \ninstall.packages(\"remotes\")\nlibrary(remotes)\nremotes::install_github(\"stephenslab/susieR\") #gives the most up to date SusieR \ninstall.packages(\"coloc\")\ninstall.packages(\"tidyverse\")\n\n#install.packages(\"R.utils\")\n\n#install.packages(\"remotes\")\n# remotes::install_github(\"simingz/ctwas\", ref = \"develop\")\n\n## make sure these are installed\n# library(data.table)\n# library(BEDMatrix)\n# library(Rfast)\n# library(susieR)\n# library(coloc)\n\n#installing base miniconda\ninstall.packages(\"keras\")\nreticulate::install_miniconda(\"miniconda\")\n```\n:::\n\n\n#Setting up Conda Environment\n\n::: {.cell}\n\n```{.bash .cell-code}\n#adding path\nexport PATH=$PATH:/cloud/project/miniconda/bin\n# adding repos/data\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI-repo.git\ngit clone https://github.com/hakyimlab/MetaXcan.git\nconda config --append channels conda-forge\nconda config --append channels bioconda\nconda env create -f /cloud/project/MetaXcan/software/conda_env.yaml\nconda activate imlabtools\n```\n:::\n\nSet the Ram to 5gb in order to create the environment. \n\n#Box Data\nTo upload the data. I first downloaded the box folder onto a local machine and then compressed the folders in the box folder to upload onto the server. \n\nNotes:\nFor some reason setting up the environment and uploading the data will continue to use a lot of background RAM set sure to close the project and reopen to close extraneous programs. \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

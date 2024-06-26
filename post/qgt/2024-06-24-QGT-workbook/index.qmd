@@ -11,6 +11,9 @@ format:
     code-overflow: wrap
 ---
 
+NEEDS UPDATE
+
+
 # Goals of Lab
 
 -   Predict whole blood expression from genotype

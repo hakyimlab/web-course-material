@@ -26,9 +26,16 @@
     ]
   },
   {
+    "listing": "/index-qgt.html",
+    "items": [
+      "/post/qgt/2024-06-24-QGT-workbook/index.html",
+      "/post/qgt/2023-06-10-QGT-workbook/setup.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
-      "/post/qgt/index.html",
+      "/post/qgt/2024-06-24-QGT-workbook/index.html",
       "/post/bios-25328/2024-04-19-homework-05/index.html",
       "/post/bios-25328/2024-04-12-lab-04/index.html",
       "/post/bios-25328/2024-04-12-homework-04/index.html",
@@ -45,13 +52,8 @@
       "/post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
       "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
       "/post/bios-25328/2024-03-20-hw-01/index.html",
-      "/post/logistics/2024-03-19-course-checklist/index.html"
-    ]
-  },
-  {
-    "listing": "/index-qgt.html",
-    "items": [
-      "/post/qgt/index.html"
+      "/post/logistics/2024-03-19-course-checklist/index.html",
+      "/post/qgt/2023-06-10-QGT-workbook/setup.html"
     ]
   }
 ]
