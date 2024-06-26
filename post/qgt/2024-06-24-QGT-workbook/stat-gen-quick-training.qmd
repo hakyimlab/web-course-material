@@ -1,8 +1,9 @@
 ---
 title: quick training in statistical genetics
-date: 2024-06-24
+date: 2024-06-25
 author: Haky Im
 description: material for introduction to statistical genetics
+date-modified: last-modified
 ---
 
 I taught today the QGT course organized by Iuliana at Columbia for the 5th time. Participants asked for material for a quick training material in statistical genomics. It's hard to choose one topic over the other one. So here is a biased selection of material that may help.
