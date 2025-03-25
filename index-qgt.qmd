@@ -1,5 +1,5 @@
 ---
-title: "Quantitative Genomic Training"
+title: "QGT"
 listing:
   contents: [post/qgt]
   sort: "date desc"

@@ -2,9 +2,9 @@
   {
     "objectID": "index-gene-46100.html",
     "href": "index-gene-46100.html",
-    "title": "GENE-46100",
+    "title": "GENE46100",
     "section": "",
-    "text": "This page contains material for the GENE46100 Deep learning in genomics course. Find this year’s syllabus here.\n\n\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the GENE46100 Deep learning in genomics course. Find this year’s syllabus here.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "index.html",
@@ -492,7 +492,7 @@
   {
     "objectID": "index-qgt.html",
     "href": "index-qgt.html",
-    "title": "Quantitative Genomic Training",
+    "title": "QGT",
     "section": "",
     "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
