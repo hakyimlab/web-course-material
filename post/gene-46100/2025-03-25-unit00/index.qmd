@@ -1,0 +1,52 @@
+---
+title: preparing environmentfor unit 00
+author: Haky Im
+date: 2025-03-25
+description: setting up conda environement and installing packages 
+---
+
+## install conda
+```{bash}
+#| echo: false
+#| eval: false
+## download miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+## or from https://www.anaconda.com/docs/getting-started/miniconda/main
+
+## install miniconda
+bash Miniconda3-latest-Linux-x86_64.sh
+
+```
+
+## create conda environment
+```{bash}
+#| echo: false
+#| eval: false
+conda create -n gene46100 python=3.12
+conda activate gene46100
+
+```
+
+## install packages 
+(issues with torch version incompatibility with torchvision and torchmetrics)
+```{bash}
+#| echo: false
+#| eval: false
+
+# conda install scikit-learn plotnine pytorch 
+
+## installing torchvision and torchmetrics forces downgrading torch to 2.3.1 which is not compatible with mps
+
+```
+
+## install all packages within jupyter notebook with %pip
+```
+#| echo: false
+#| eval: false
+%pip install scikit-learn plotnine tqdm pandas 
+%pip install torch
+%pip install torchvision
+%pip install torchmetrics
+```
+
+
