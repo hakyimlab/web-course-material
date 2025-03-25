@@ -36,6 +36,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/post/gene-46100/2025-03-25-unit00/index.html",
+      "/post/gene-46100/2025-02-20-testing/index.html",
       "/post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
       "/post/qgt/2024-06-24-QGT-workbook/index.html",
       "/post/bios-25328/2024-04-19-homework-05/index.html",
@@ -55,7 +57,8 @@
       "/post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
       "/post/bios-25328/2024-03-20-hw-01/index.html",
       "/post/logistics/2024-03-19-course-checklist/index.html",
-      "/post/qgt/2023-06-10-QGT-workbook/setup.html"
+      "/post/qgt/2023-06-10-QGT-workbook/setup.html",
+      "/post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html"
     ]
   }
 ]

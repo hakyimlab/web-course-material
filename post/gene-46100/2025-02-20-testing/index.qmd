@@ -1,0 +1,85 @@
+---
+title: installing ollama with n8n docker compose orbstack 
+author: Haky Im
+date: 2025-03-12
+categories:
+  - testing
+description: following medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b
+---
+
+
+ 
+
+## install deepseek R1
+
+followed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45
+
+
+## Step 1: Install n8n Using Docker Compose on OrbStack
+ 
+
+## install orbstack
+``` 
+brew install orbstack
+```
+
+- [ ] Create a folder for the n8n setup
+```
+mkdir ~/n8n-docker && cd ~/n8n-docker
+```
+
+- [ ] Create a simple docker-compose.yml file for n8n
+```
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data
+    restart: unless-stopped
+```
+
+- [ ] start n8n
+
+```
+docker-compose up -d
+```
+
+- [ ] stop n8n
+```
+docker-compose down
+```
+
+
+
+## Step 2: Install Ollama
+
+- installed ollama (downloaded ollama.app and moved to Applications)
+- also installed ollama using brew
+- deleted ollama.app and kept ollama using brew
+
+```
+brew install ollama
+```
+
+- [ ] start ollama
+```
+brew services start ollama
+```
+
+- [ ] if I want tostop ollama
+```
+brew services stop ollama
+```
+
+- [ ] Download the DeepSeek 7B model using Ollama
+```
+ollama run deepseek-r1:7b  
+```
+
+- [ ] Run the gemma3 27B model
+```
+ollama run deepseek-r1:7b  
+```
