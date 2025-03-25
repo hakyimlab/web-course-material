@@ -3,7 +3,7 @@ title: installing ollama with n8n docker compose orbstack
 author: Haky Im
 date: 2025-03-12
 categories:
-  - testing
+  - howto
 description: following medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b
 ---
 

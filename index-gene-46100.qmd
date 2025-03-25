@@ -9,10 +9,10 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: false
-description: "Cancer Genetics and Genomics BIOS-25328"
+description: "Deep learning in genomics course material"
 ---
 
-This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is [here](https://bios25328.hakyimlab.org/)
+This page contains material for the GENE46100 Deep learning in genomics course. Find this year's syllabus [here](https://docs.google.com/document/d/17X3LEh_C-34JfXJcKJfFY8ew8MHBsxc_z0DPEuIlzwE/edit?usp=sharing).
 
 
 

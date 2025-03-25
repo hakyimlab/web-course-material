@@ -157,17 +157,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#fit-a-linear-model-with-gradient-descent" id="toc-fit-a-linear-model-with-gradient-descent" class="nav-link" data-scroll-target="#fit-a-linear-model-with-gradient-descent">1. Fit a linear model with gradient descent</a>
   <ul class="collapse">
-  <li><a href="#simulate-linear-data" id="toc-simulate-linear-data" class="nav-link" data-scroll-target="#simulate-linear-data">Simulate linear data</a></li>
+  <li><a href="#simulate-linear-data" id="toc-simulate-linear-data" class="nav-link" data-scroll-target="#simulate-linear-data">Simulate linear data</a>
+  <ul class="collapse">
+  <li><a href="#show-simulated-x-y-and-coef-beta_1-beta_2" id="toc-show-simulated-x-y-and-coef-beta_1-beta_2" class="nav-link" data-scroll-target="#show-simulated-x-y-and-coef-beta_1-beta_2">show simulated x, y, and coef= [<span class="math inline">\(\beta_1 \beta_2\)</span>]</a></li>
+  </ul></li>
   <li><a href="#predict-y-with-ground-truth-parameters" id="toc-predict-y-with-ground-truth-parameters" class="nav-link" data-scroll-target="#predict-y-with-ground-truth-parameters">Predict y with ground truth parameters</a>
   <ul class="collapse">
   <li><a href="#compare-haty-and-y" id="toc-compare-haty-and-y" class="nav-link" data-scroll-target="#compare-haty-and-y">compare <span class="math inline">\(\hat{y}\)</span> and <span class="math inline">\(y\)</span></a></li>
   </ul></li>
-  <li><a href="#compute-analytical-solution" id="toc-compute-analytical-solution" class="nav-link" data-scroll-target="#compute-analytical-solution">Compute analytical solution</a>
+  <li><a href="#compute-analytical-solution" id="toc-compute-analytical-solution" class="nav-link" data-scroll-target="#compute-analytical-solution">Compute analytical solution</a></li>
+  </ul></li>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a>
   <ul class="collapse">
   <li><a href="#result-comparison" id="toc-result-comparison" class="nav-link" data-scroll-target="#result-comparison">Result Comparison</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a>
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a>
   <ul class="collapse">
   <li><a href="#define-stochastic-gradient-descent-sgd" id="toc-define-stochastic-gradient-descent-sgd" class="nav-link" data-scroll-target="#define-stochastic-gradient-descent-sgd">Define Stochastic Gradient Descent (SGD)</a></li>
   <li><a href="#what-is-a-gradient" id="toc-what-is-a-gradient" class="nav-link" data-scroll-target="#what-is-a-gradient">What is a Gradient?</a></li>
@@ -177,12 +181,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#define-the-loss-function" id="toc-define-the-loss-function" class="nav-link" data-scroll-target="#define-the-loss-function">Define the Loss Function</a></li>
   <li><a href="#compute-the-gradient" id="toc-compute-the-gradient" class="nav-link" data-scroll-target="#compute-the-gradient">Compute the gradient</a></li>
   </ul></li>
-  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a>
+  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise</a>
   <ul class="collapse">
   <li><a href="#optimize-estimate-parameters-with-gradient-descent" id="toc-optimize-estimate-parameters-with-gradient-descent" class="nav-link" data-scroll-target="#optimize-estimate-parameters-with-gradient-descent">Optimize: estimate parameters with gradient descent</a></li>
   </ul></li>
-  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise</a></li>
   <li><a href="#exercise-3" id="toc-exercise-3" class="nav-link" data-scroll-target="#exercise-3">Exercise</a></li>
+  <li><a href="#exercise-4" id="toc-exercise-4" class="nav-link" data-scroll-target="#exercise-4">Exercise</a></li>
   <li><a href="#summary-of-section" id="toc-summary-of-section" class="nav-link" data-scroll-target="#summary-of-section">Summary of section</a></li>
   <li><a href="#motivate-utility-of-multi-layer-perceptrons" id="toc-motivate-utility-of-multi-layer-perceptrons" class="nav-link" data-scroll-target="#motivate-utility-of-multi-layer-perceptrons">Motivate utility of multi-layer perceptrons</a></li>
   <li><a href="#fit-linear-model-to-nonlinear-data" id="toc-fit-linear-model-to-nonlinear-data" class="nav-link" data-scroll-target="#fit-linear-model-to-nonlinear-data">Fit linear model to nonlinear data</a>
@@ -192,7 +196,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
   <li><a href="#define-multi-layer-perceptron-mlp" id="toc-define-multi-layer-perceptron-mlp" class="nav-link" data-scroll-target="#define-multi-layer-perceptron-mlp">Define Multi-layer perceptron (MLP)</a></li>
-  <li><a href="#exercise-4" id="toc-exercise-4" class="nav-link" data-scroll-target="#exercise-4">Exercise</a></li>
+  <li><a href="#exercise-5" id="toc-exercise-5" class="nav-link" data-scroll-target="#exercise-5">Exercise</a></li>
   <li><a href="#why-pytorch" id="toc-why-pytorch" class="nav-link" data-scroll-target="#why-pytorch">Why PyTorch?</a>
   <ul class="collapse">
   <li><a href="#install-packages-if-needed" id="toc-install-packages-if-needed" class="nav-link" data-scroll-target="#install-packages-if-needed">Install packages if needed</a>
@@ -266,7 +270,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install scikit<span class="op">-</span>learn plotnine tqdm pandas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-executioninfo="{&quot;elapsed&quot;:6183,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869160317,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="6">
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:6183,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869160317,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="1">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_regression</span>
@@ -291,9 +295,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>x: predictors/features (shape: 1000×2)</li>
 <li>y: response variable (shape: 1000×1)</li>
-<li>coef: the true coefficients used to generate y</li>
+<li>coef = [<span class="math inline">\(\beta_1 \beta_2\)</span>]: the true coefficients used to generate <span class="math inline">\(y\)</span></li>
 </ul>
-<div class="cell" data-executioninfo="{&quot;elapsed&quot;:2,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742878320952,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="7">
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:2,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742878320952,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="2">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">42</span>)</span>
@@ -310,19 +314,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<ul>
-<li>x contains the predictors (1000 by 2)</li>
-<li>y (1000 by 1) contains the response</li>
-<li>coef contains the coefficients (length 2)</li>
-</ul>
+<section id="show-simulated-x-y-and-coef-beta_1-beta_2" class="level3">
+<h3 class="anchored" data-anchor-id="show-simulated-x-y-and-coef-beta_1-beta_2">show simulated x, y, and coef= [<span class="math inline">\(\beta_1 \beta_2\)</span>]</h3>
+<div class="cell" data-execution_count="18">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x.shape:'</span>, x.shape)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'y.shape:'</span>, y.shape)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'coef.shape:'</span>, coef.shape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>x.shape: (1000, 2)
+y.shape: (1000,)
+coef.shape: (2,)</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="19">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x:</span><span class="ch">\n</span><span class="st">'</span>,x,<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'y[0:10]:</span><span class="ch">\n</span><span class="st">'</span>,y[<span class="dv">0</span>:<span class="dv">10</span>],<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'coef:</span><span class="ch">\n</span><span class="st">'</span>,coef,<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>x:
+ [[-0.16711808  0.14671369]
+ [-0.02090159  0.11732738]
+ [ 0.15041891  0.364961  ]
+ ...
+ [ 0.30263547 -0.75427585]
+ [ 0.38193545  0.43004165]
+ [ 0.07736831 -0.8612842 ]] 
+
+y[0:10]:
+ [-14.99694989 -12.67808888  17.77545452   6.66146467 -14.19552996
+ -25.24484815 -39.23162627 -52.01803821   5.76368853 -50.11860295] 
+
+coef:
+ [40.71064891  6.60098441] 
+</code></pre>
+</div>
+</div>
+</section>
 </section>
 <section id="predict-y-with-ground-truth-parameters" class="level2">
 <h2 class="anchored" data-anchor-id="predict-y-with-ground-truth-parameters">Predict y with ground truth parameters</h2>
 <p>Since we know the true coefficients, we can directly compute the predicted y and visualize how well they fit.</p>
-<div class="cell" data-executioninfo="{&quot;elapsed&quot;:6,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742878325852,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="8">
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:6,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742878325852,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="3">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> x.dot(coef) <span class="op">+</span> bias</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> x.dot(coef) <span class="op">+</span> bias</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <section id="compare-haty-and-y" class="level3">
@@ -330,10 +371,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:299,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742878331117,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="9168e185-0c92-4ce8-aa2b-29a3bd8724f1" data-execution_count="9">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(qplot(x<span class="op">=</span>y, y<span class="op">=</span>y_hat, geom<span class="op">=</span><span class="st">"point"</span>, xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>) <span class="op">+</span> geom_abline(intercept<span class="op">=</span><span class="dv">0</span>, slope<span class="op">=</span><span class="dv">1</span>, color<span class="op">=</span><span class="st">'gray'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(qplot(x<span class="op">=</span>y, y<span class="op">=</span>y_hat, geom<span class="op">=</span><span class="st">"point"</span>, xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>) <span class="op">+</span> geom_abline(intercept<span class="op">=</span><span class="dv">0</span>, slope<span class="op">=</span><span class="dv">1</span>, color<span class="op">=</span><span class="st">'gray'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
+<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
@@ -344,22 +385,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><span class="math inline">\(\hat{\beta} = (X^T X)^{-1} X^T y\)</span></p>
 <p>This gives us the optimal coefficients that minimize mean square errors.</p>
 <p>Let’s get <span class="math inline">\(\hat{\beta}\)</span> and compare it with the ground truth.</p>
-<div class="cell" data-executioninfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869173429,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="10">
+</section>
+</section>
+<section id="exercise" class="level1">
+<h1>Exercise</h1>
+<p>Derive the normal equation from the model, using matrix algebra</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869173429,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="4">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>var <span class="op">=</span> x.transpose().dot(x)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>cov <span class="op">=</span> x.transpose().dot(y)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>b_hat <span class="op">=</span> inv(var).dot(cov)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>var <span class="op">=</span> x.transpose().dot(x)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>cov <span class="op">=</span> x.transpose().dot(y)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>b_hat <span class="op">=</span> inv(var).dot(cov)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-executioninfo="{&quot;elapsed&quot;:8,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869174652,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="117ee495-8762-479e-bf12-420d77efe94e" data-execution_count="11">
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:8,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869174652,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="117ee495-8762-479e-bf12-420d77efe94e" data-execution_count="5">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Estimated"</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(b_hat)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Ground truth"</span>)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(coef)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Estimated"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(b_hat)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Ground truth"</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(coef)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Estimated
@@ -373,8 +419,7 @@ Ground truth
 <p>Estimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check.</p>
 </section>
 </section>
-</section>
-<section id="exercise" class="level1">
+<section id="exercise-1" class="level1">
 <h1>Exercise</h1>
 <ul class="task-list">
 <li><input type="checkbox">Plot the prediction with the analystical estimates vs the target <span class="math inline">\(y\)</span></li>
@@ -430,7 +475,7 @@ Ground truth
 <p>Recall that in our example $ f() = = _1 x_1 + _2 x_2$. Here <span class="math inline">\(\beta_j\)</span> is either <span class="math inline">\(\beta_1\)</span> or <span class="math inline">\(\beta_2\)</span>.</p>
 </section>
 </section>
-<section id="exercise-1" class="level1">
+<section id="exercise-2" class="level1">
 <h1>Exercise</h1>
 <p>Show that the derivative of the loss function is as stated above.</p>
 <section id="optimize-estimate-parameters-with-gradient-descent" class="level2">
@@ -438,38 +483,38 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:40,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869194536,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="11">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># learning rate</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> [<span class="fl">0.0</span>, <span class="fl">0.0</span>] <span class="co"># initialize all betas to 0</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>n_examples <span class="op">=</span> <span class="bu">len</span>(y)</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>trajectory <span class="op">=</span> [b]</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">50</span>): <span class="co"># 50 steps</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  diff <span class="op">=</span> x.dot(b) <span class="op">-</span> y</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> diff.dot(x) <span class="op">/</span> n_examples</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  b <span class="op">-=</span> lr<span class="op">*</span>grad</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  trajectory.append(b.copy())</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>trajectory <span class="op">=</span> np.stack(trajectory, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># learning rate</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> [<span class="fl">0.0</span>, <span class="fl">0.0</span>] <span class="co"># initialize all betas to 0</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>n_examples <span class="op">=</span> <span class="bu">len</span>(y)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>trajectory <span class="op">=</span> [b]</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">50</span>): <span class="co"># 50 steps</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  diff <span class="op">=</span> x.dot(b) <span class="op">-</span> y</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> diff.dot(x) <span class="op">/</span> n_examples</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>  b <span class="op">-=</span> lr<span class="op">*</span>grad</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  trajectory.append(b.copy())</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>trajectory <span class="op">=</span> np.stack(trajectory, axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:724,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869200547,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="4bcff844-74bf-4560-acea-0f3bf2aac83a" data-execution_count="12">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span>trajectory[<span class="dv">0</span>], y<span class="op">=</span>trajectory[<span class="dv">1</span>], xlab<span class="op">=</span><span class="st">"beta_1"</span>, ylab<span class="op">=</span><span class="st">"beta_2"</span>, geom<span class="op">=</span>[<span class="st">"point"</span>, <span class="st">"line"</span>]) <span class="op">+</span> theme_bw() <span class="op">+</span> annotate(geom<span class="op">=</span><span class="st">"point"</span>, x<span class="op">=</span>coef[<span class="dv">0</span>], y<span class="op">=</span>coef[<span class="dv">1</span>], size<span class="op">=</span><span class="dv">8</span>, color<span class="op">=</span><span class="st">"blue"</span>,shape<span class="op">=</span><span class="st">'+'</span>,stroke<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span>trajectory[<span class="dv">0</span>], y<span class="op">=</span>trajectory[<span class="dv">1</span>], xlab<span class="op">=</span><span class="st">"beta_1"</span>, ylab<span class="op">=</span><span class="st">"beta_2"</span>, geom<span class="op">=</span>[<span class="st">"point"</span>, <span class="st">"line"</span>]) <span class="op">+</span> theme_bw() <span class="op">+</span> annotate(geom<span class="op">=</span><span class="st">"point"</span>, x<span class="op">=</span>coef[<span class="dv">0</span>], y<span class="op">=</span>coef[<span class="dv">1</span>], size<span class="op">=</span><span class="dv">8</span>, color<span class="op">=</span><span class="st">"blue"</span>,shape<span class="op">=</span><span class="st">'+'</span>,stroke<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-10-output-1.png" class="img-fluid"></p>
+<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-12-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
 </section>
-<section id="exercise-2" class="level1">
+<section id="exercise-3" class="level1">
 <h1>Exercise</h1>
 <ul class="task-list">
 <li><input type="checkbox">Add to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green</li>
 </ul>
 </section>
-<section id="exercise-3" class="level1">
+<section id="exercise-4" class="level1">
 <h1>Exercise</h1>
 <ul class="task-list">
 <li><input type="checkbox">Simulate <span class="math inline">\(y\)</span> with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison.</li>
@@ -496,8 +541,8 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:6,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881014146,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="12">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.normal(size<span class="op">=</span><span class="dv">1000</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x <span class="op">**</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.normal(size<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x <span class="op">**</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
@@ -513,27 +558,27 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881016770,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="13">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># learning rate</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> <span class="fl">0.0</span> <span class="co"># initialize all betas to 0</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>n_examples <span class="op">=</span> <span class="bu">len</span>(y)</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">50</span>): <span class="co"># 50 steps</span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  diff <span class="op">=</span> x.dot(b) <span class="op">-</span> y</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> diff.dot(x) <span class="op">/</span> n_examples</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  b <span class="op">-=</span> lr<span class="op">*</span>grad</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># learning rate</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> <span class="fl">0.0</span> <span class="co"># initialize all betas to 0</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>n_examples <span class="op">=</span> <span class="bu">len</span>(y)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">50</span>): <span class="co"># 50 steps</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  diff <span class="op">=</span> x.dot(b) <span class="op">-</span> y</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> diff.dot(x) <span class="op">/</span> n_examples</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  b <span class="op">-=</span> lr<span class="op">*</span>grad</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:274,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881019706,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="2fe5afd8-e5b3-41e0-87c4-1fc17a34119c" data-execution_count="14">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> x.dot(b)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>( qplot(x <span class="op">=</span> y, y<span class="op">=</span>y_hat, geom<span class="op">=</span><span class="st">"point"</span>, xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>) <span class="op">+</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>geom_abline(intercept<span class="op">=</span><span class="dv">0</span>, slope<span class="op">=</span><span class="dv">1</span>, color<span class="op">=</span><span class="st">'gray'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>) )</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> x.dot(b)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>( qplot(x <span class="op">=</span> y, y<span class="op">=</span>y_hat, geom<span class="op">=</span><span class="st">"point"</span>, xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>) <span class="op">+</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>geom_abline(intercept<span class="op">=</span><span class="dv">0</span>, slope<span class="op">=</span><span class="dv">1</span>, color<span class="op">=</span><span class="st">'gray'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>) )</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-13-output-1.png" class="img-fluid"></p>
+<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-15-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <p>We would like to be closer to the dashed gray, identity line! Let’s try MLP.</p>
@@ -554,7 +599,7 @@ Ground truth
 </ul>
 <p>y = W₂((W₁x + b₁)) + b₂</p>
 </section>
-<section id="exercise-4" class="level1">
+<section id="exercise-5" class="level1">
 <h1>Exercise</h1>
 <p>Consider the MLP shown in the figure with:</p>
 <ul>
@@ -593,20 +638,20 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881023621,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="16">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">## install packages if needed</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">False</span>:  <span class="co"># Change to True to run the commands</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install tqdm</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install torch</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install torchvision torchmetrics</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">## install packages if needed</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">False</span>:  <span class="co"># Change to True to run the commands</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install tqdm</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install torch</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">%</span>pip install torchvision torchmetrics</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881025164,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="fc9d5e55-8d15-4de6-ebbc-a2d8ce81d0a3" data-execution_count="17">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(torch.__version__)</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">## if on a mac check if mps is available so you use gpu</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co">## print(torch.backends.mps.is_available())</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(torch.__version__)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">## if on a mac check if mps is available so you use gpu</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">## print(torch.backends.mps.is_available())</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>2.6.0</code></pre>
@@ -617,26 +662,26 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:7,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881165105,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch <span class="im">import</span> nn</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn.functional <span class="im">as</span> F</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co">#device = torch.device("cuda")</span></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(<span class="st">"mps"</span>) <span class="co">## use this line instead of the one above withb cuda</span></span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MLP(nn.Module):</span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, input_dim, hid_dim, output_dim):</span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">super</span>().<span class="fu">__init__</span>()</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(input_dim, hid_dim)</span>
-<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hid_dim, output_dim)</span>
-<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
-<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> F.relu(<span class="va">self</span>.fc1(x))</span>
-<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="va">self</span>.fc2(x)</span>
-<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> y.squeeze(<span class="dv">1</span>)</span>
-<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>mlp <span class="op">=</span> MLP(input_dim<span class="op">=</span><span class="dv">1</span>, hid_dim<span class="op">=</span><span class="dv">1024</span>, output_dim<span class="op">=</span><span class="dv">1</span>).to(device)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch <span class="im">import</span> nn</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn.functional <span class="im">as</span> F</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co">#device = torch.device("cuda")</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(<span class="st">"mps"</span>) <span class="co">## use this line instead of the one above withb cuda</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MLP(nn.Module):</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, input_dim, hid_dim, output_dim):</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">super</span>().<span class="fu">__init__</span>()</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(input_dim, hid_dim)</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hid_dim, output_dim)</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> F.relu(<span class="va">self</span>.fc1(x))</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="va">self</span>.fc2(x)</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> y.squeeze(<span class="dv">1</span>)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>mlp <span class="op">=</span> MLP(input_dim<span class="op">=</span><span class="dv">1</span>, hid_dim<span class="op">=</span><span class="dv">1024</span>, output_dim<span class="op">=</span><span class="dv">1</span>).to(device)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
@@ -647,39 +692,39 @@ Ground truth
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:9467,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881177074,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="61">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>x_tensor <span class="op">=</span> torch.Tensor(x).unsqueeze(<span class="dv">1</span>).to(device)</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>y_tensor <span class="op">=</span> torch.Tensor(y).to(device)</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>learning_curve <span class="op">=</span> []</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10000</span>):</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  optimizer.zero_grad()</span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  y_hat <span class="op">=</span> mlp(x_tensor)</span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  loss <span class="op">=</span> loss_fn(y_hat, y_tensor)</span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>  learning_curve.append(loss.item())</span>
-<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  loss.backward()</span>
-<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  optimizer.step()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>x_tensor <span class="op">=</span> torch.Tensor(x).unsqueeze(<span class="dv">1</span>).to(device)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>y_tensor <span class="op">=</span> torch.Tensor(y).to(device)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>learning_curve <span class="op">=</span> []</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10000</span>):</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  optimizer.zero_grad()</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  y_hat <span class="op">=</span> mlp(x_tensor)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  loss <span class="op">=</span> loss_fn(y_hat, y_tensor)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>  learning_curve.append(loss.item())</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>  loss.backward()</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>  optimizer.step()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:605,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881180913,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="bcd13159-fe28-4ff5-9981-4c1e47e49695" data-execution_count="62">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span><span class="bu">range</span>(<span class="dv">10000</span>), y<span class="op">=</span>learning_curve, xlab<span class="op">=</span><span class="st">"epoch"</span>, ylab<span class="op">=</span><span class="st">"loss"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span><span class="bu">range</span>(<span class="dv">10000</span>), y<span class="op">=</span>learning_curve, xlab<span class="op">=</span><span class="st">"epoch"</span>, ylab<span class="op">=</span><span class="st">"loss"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
+<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-21-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:253,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881183386,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-outputid="55688970-ee03-413b-db6c-2b2c2c5dbf4a" data-execution_count="63">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> mlp(x_tensor)</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> y_hat.detach().cpu().numpy()</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">#qplot(x=y, y=y_hat, geom="point", xlab="y", ylab="y_hat")</span></span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span>y, y<span class="op">=</span>y_hat, geom<span class="op">=</span>[<span class="st">"point"</span>, <span class="st">"abline"</span>],</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>      xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>,</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>      abline<span class="op">=</span><span class="bu">dict</span>(slope<span class="op">=</span><span class="dv">1</span>, intercept<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">'red'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> mlp(x_tensor)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>y_hat <span class="op">=</span> y_hat.detach().cpu().numpy()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co">#qplot(x=y, y=y_hat, geom="point", xlab="y", ylab="y_hat")</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>qplot(x<span class="op">=</span>y, y<span class="op">=</span>y_hat, geom<span class="op">=</span>[<span class="st">"point"</span>, <span class="st">"abline"</span>],</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>      xlab<span class="op">=</span><span class="st">"y"</span>, ylab<span class="op">=</span><span class="st">"y_hat"</span>,</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>      abline<span class="op">=</span><span class="bu">dict</span>(slope<span class="op">=</span><span class="dv">1</span>, intercept<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">'red'</span>, linetype<span class="op">=</span><span class="st">'dashed'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-20-output-1.png" class="img-fluid"></p>
+<p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-22-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <p>Now this looks much better!</p>

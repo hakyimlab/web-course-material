@@ -10,6 +10,7 @@ website:
         text: Home
       - index-qgt.qmd
       - index-bios-25328.qmd
+      - index-gene-46100.qmd
       - index-logistics.qmd
   body-footer: |
       © [HakyImLab and Listed Authors](https://hakyimlab.org) - [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
