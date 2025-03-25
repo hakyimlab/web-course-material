@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "index-logistics.html",
-    "href": "index-logistics.html",
-    "title": "Logistics",
+    "objectID": "index-gene-46100.html",
+    "href": "index-gene-46100.html",
+    "title": "GENE-46100",
     "section": "",
-    "text": "course checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\ntesting\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "index-bios-25328.html",
-    "href": "index-bios-25328.html",
-    "title": "BIOS25328",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\ntesting\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
+    "href": "post/logistics/2024-03-19-course-checklist/index.html",
+    "title": "course checklist",
+    "section": "",
+    "text": "course checklist\nthree months prior\n\nidentify a TA for the course\n\ntwo weeks prior\n\nupdate the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)\n\none week prior\n\ndownload the class roster from facultyaccess page link\nsend welcome email (optional)\ncheck assigned classroom (edit syllabus as needed)\ncreate canvas for the course follow link under “how to create an organization site in Canvas” or try direct link canvas creation link\ndon’t forget to publish the canvas\nadd TA and intructors to canvas\nupdate slack channel\n\ncancer genetics and genomics slack\n\n\nfirst week\n\ncreate RCC account for students / or posit account\nset visibility of canvas to Institution during the first 2 weeks (shopping around period)\n\nafter two week set it to course\n\n\n\ntemplate email\n    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im\n    \n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "post/qgt/2024-06-24-QGT-workbook/index.html",
@@ -329,11 +336,193 @@
     "text": "Lecture 6 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
+    "title": "Quick introduction to deep learning",
+    "section": "",
+    "text": "Understand and implement gradient descent to fit a linear model\nBuild and train a multi-layer perceptron (MLP) using PyTorch\nLearn the basics of PyTorch, including model definition, forward pass, and optimization\n\n\n\nWe’ll start by making sure we have all the required Python packages installed and ready to go. PyTorch is the main library we’ll use for deep learning.\n\n\nCode\n## install packages if needed\nif False:\n    %pip install scikit-learn plotnine tqdm pandas\n\n\n\n\nCode\nfrom sklearn.datasets import make_regression\nimport numpy as np\nfrom numpy.linalg import inv\nfrom plotnine import qplot, ggplot, geom_point, geom_line, aes, geom_abline\nfrom plotnine.themes import theme_bw\nfrom plotnine.geoms import annotate\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
+    "title": "Quick introduction to deep learning",
+    "section": "Simulate linear data",
+    "text": "Simulate linear data\nWe generate 1000 samples, each with 2 features. We’ll define the “true” coefficients and add a bit of noise to make it realistic.\n\nx: predictors/features (shape: 1000×2)\ny: response variable (shape: 1000×1)\ncoef: the true coefficients used to generate y\n\n\n\nCode\nnp.random.seed(42)\nbias = 0\nnoise = 10\nx, y, coef = make_regression(\n    n_samples=1000,\n    n_features=2,\n    n_informative=2,\n    n_targets=1,\n    bias=bias,\n    noise=noise,\n    coef=True\n    )\n\n\n\nx contains the predictors (1000 by 2)\ny (1000 by 1) contains the response\ncoef contains the coefficients (length 2)"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
+    "title": "Quick introduction to deep learning",
+    "section": "Predict y with ground truth parameters",
+    "text": "Predict y with ground truth parameters\nSince we know the true coefficients, we can directly compute the predicted y and visualize how well they fit.\n\n\nCode\ny_hat = x.dot(coef) + bias\n\n\n\ncompare \\(\\hat{y}\\) and \\(y\\)\n\n\nCode\n(qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") + geom_abline(intercept=0, slope=1, color='gray', linetype='dashed'))"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
+    "title": "Quick introduction to deep learning",
+    "section": "Compute analytical solution",
+    "text": "Compute analytical solution\nFor linear regression, there’s a closed-form solution known as the normal equation:\n\\(\\hat{\\beta} = (X^T X)^{-1} X^T y\\)\nThis gives us the optimal coefficients that minimize mean square errors.\nLet’s get \\(\\hat{\\beta}\\) and compare it with the ground truth.\n\n\nCode\nvar = x.transpose().dot(x)\ncov = x.transpose().dot(y)\nb_hat = inv(var).dot(cov)\n\n\n\n\nCode\nprint(\"Estimated\")\nprint(b_hat)\n\nprint(\"Ground truth\")\nprint(coef)\n\n\nEstimated\n[41.06972678  6.79965716]\nGround truth\n[40.71064891  6.60098441]\n\n\n\nResult Comparison\nEstimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check."
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
+    "title": "Quick introduction to deep learning",
+    "section": "Define Stochastic Gradient Descent (SGD)",
+    "text": "Define Stochastic Gradient Descent (SGD)\nWhen analytical solutions aren’t available (which is often), we rely on numerical optimization like gradient descent.\nAlthough linear regression has analytical solutions, this is unfortunately not the case for many other models. We may need to resort to numerical approximations to find the optimal parameters. One of the most popular numerical optimizers is called stochastic gradient descent."
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
+    "title": "Quick introduction to deep learning",
+    "section": "What is a Gradient?",
+    "text": "What is a Gradient?\nA gradient is the derivative of a function, and it tells us how to adjust parameters to reduce the error.\n$f’() = _{→ 0} = $"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
+    "title": "Quick introduction to deep learning",
+    "section": "What is Gradient Descent?",
+    "text": "What is Gradient Descent?\nAn optimization algorithm that iteratively updates parameters in the direction of steepest descent (negative gradient) to minimize a loss function.\n\nLearning rate (\\(\\alpha\\)): step size. It is a hyperparameters that determines how fast we move in the direction of the gradient.\nLoss surface: the landscape we are optimizing over\n\nAt a particular \\(β_i\\), we find the gradient \\(f'(\\beta)\\), and take a step along the direction of the gradient to find the next point \\(\\beta_{i+1}\\).\n\\(\\beta_{i+1} = \\beta_i - \\alpha f'(\\beta_i)\\)\nThe \\(\\alpha\\) is called the learning rate.\n\n\n\ngradient descent"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
+    "title": "Quick introduction to deep learning",
+    "section": "What is stochastic gradient descent?",
+    "text": "What is stochastic gradient descent?\nIn real-world applications, the size of our dataset is so large that it is impossible to calculate the gradient using all data points. Therefore, we take a small chunk (called a “batch”) of the dataset to calcalate the gradient. This approximates the full-data gradients, thus the word stochastic."
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
+    "title": "Quick introduction to deep learning",
+    "section": "Three Components of Machine Learning",
+    "text": "Three Components of Machine Learning\nTo build a machine learning model, we need:\n\nModel: Defines the hypothesis space (e.g., linear model)\nLoss Function: Measures how well the model fits\nOptimizer: Updates parameters to reduce the loss (e.g., SGD)"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
+    "title": "Quick introduction to deep learning",
+    "section": "Define the Loss Function",
+    "text": "Define the Loss Function\nCommon choice for regression: Mean Squared Error (MSE)\n\\(\\ell(\\beta) = \\frac{1}{2}\\sum\\limits_{i=1}^m (f(\\beta)^{i} - y^{i})^2 / m\\)"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
+    "title": "Quick introduction to deep learning",
+    "section": "Compute the gradient",
+    "text": "Compute the gradient\n\\(\\frac{\\partial}{\\partial \\beta_j}\\ell(\\beta) = \\frac{\\partial}{\\partial \\beta_j} \\frac{1}{2} \\sum_i (f(\\beta)^i - y^i)^2 = \\sum_i (f(\\beta)^i - y^i) x_j\\)\nRecall that in our example $ f() = = _1 x_1 + _2 x_2$. Here \\(\\beta_j\\) is either \\(\\beta_1\\) or \\(\\beta_2\\)."
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
+    "title": "Quick introduction to deep learning",
+    "section": "Optimize: estimate parameters with gradient descent",
+    "text": "Optimize: estimate parameters with gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
+    "title": "Quick introduction to deep learning",
+    "section": "Simulate non linear data",
+    "text": "Simulate non linear data\nLet’s start by simulating data according to the generative model:\n$ y = x_1^3$\n\n\nCode\nx = np.random.normal(size=1000)\ny = x ** 3"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
+    "title": "Quick introduction to deep learning",
+    "section": "Predict with simple linear model",
+    "text": "Predict with simple linear model\nLet’s try to predict with a simple linear regression model\n$ y = X $"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
+    "title": "Quick introduction to deep learning",
+    "section": "Install packages if needed",
+    "text": "Install packages if needed\n\n\nCode\n## install packages if needed\nif False:  # Change to True to run the commands\n    %pip install tqdm\n    %pip install torch\n    %pip install torchvision torchmetrics\n\n\n\n\nCode\nimport torch\nprint(torch.__version__)\n## if on a mac check if mps is available so you use gpu\n## print(torch.backends.mps.is_available())\n\n\n2.6.0\n\n\n\nDefine a non linear MLP\n\n\nCode\nimport torch\nfrom torch import nn\nimport torch.nn.functional as F\n#device = torch.device(\"cuda\")\ndevice = torch.device(\"mps\") ## use this line instead of the one above withb cuda\n\n\nclass MLP(nn.Module):\n  def __init__(self, input_dim, hid_dim, output_dim):\n    super().__init__()\n    self.fc1 = nn.Linear(input_dim, hid_dim)\n    self.fc2 = nn.Linear(hid_dim, output_dim)\n\n  def forward(self, x):\n    x = F.relu(self.fc1(x))\n    y = self.fc2(x)\n\n    return y.squeeze(1)\n\nmlp = MLP(input_dim=1, hid_dim=1024, output_dim=1).to(device)"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
+    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
+    "title": "Quick introduction to deep learning",
+    "section": "train MLP model using pytorch",
+    "text": "train MLP model using pytorch\nWe are now ready to train our model. To understand how our model is doing, we record the loss vs step, which is called the learning curve in ML literature.\n\n\nCode\nx_tensor = torch.Tensor(x).unsqueeze(1).to(device)\ny_tensor = torch.Tensor(y).to(device)\nlearning_curve = []\nfor epoch in range(10000):\n  optimizer.zero_grad()\n  y_hat = mlp(x_tensor)\n  loss = loss_fn(y_hat, y_tensor)\n  learning_curve.append(loss.item())\n  loss.backward()\n  optimizer.step()\n\n\n\n\nCode\nqplot(x=range(10000), y=learning_curve, xlab=\"epoch\", ylab=\"loss\")\n\n\n\n\n\n\n\nCode\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\n#qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\nqplot(x=y, y=y_hat, geom=[\"point\", \"abline\"],\n      xlab=\"y\", ylab=\"y_hat\",\n      abline=dict(slope=1, intercept=0, color='red', linetype='dashed'))\n\n\n\n\n\nNow this looks much better!"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html",
+    "href": "post/gene-46100/2025-02-20-testing/index.html",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "",
+    "text": "followed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "",
+    "text": "followed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "Step 1: Install n8n Using Docker Compose on OrbStack",
+    "text": "Step 1: Install n8n Using Docker Compose on OrbStack"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "install orbstack",
+    "text": "install orbstack\nbrew install orbstack\n\nCreate a folder for the n8n setup\n\nmkdir ~/n8n-docker && cd ~/n8n-docker\n\nCreate a simple docker-compose.yml file for n8n\n\nservices:\n  n8n:\n    image: n8nio/n8n:latest\n    container_name: n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data\n    restart: unless-stopped\n\nstart n8n\n\ndocker-compose up -d\n\nstop n8n\n\ndocker-compose down"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "Step 2: Install Ollama",
+    "text": "Step 2: Install Ollama\n\ninstalled ollama (downloaded ollama.app and moved to Applications)\nalso installed ollama using brew\ndeleted ollama.app and kept ollama using brew\n\nbrew install ollama\n\nstart ollama\n\nbrew services start ollama\n\nif I want tostop ollama\n\nbrew services stop ollama\n\nDownload the DeepSeek 7B model using Ollama\n\nollama run deepseek-r1:7b  \n\nRun the gemma3 27B model\n\nollama run deepseek-r1:7b"
+  },
+  {
     "objectID": "index-qgt.html",
     "href": "index-qgt.html",
     "title": "Quantitative Genomic Training",
     "section": "",
     "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html",
+    "title": "preparing environmentfor unit 00",
+    "section": "",
+    "text": "#| echo: false\n#| eval: false\n## download miniconda\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n## or from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
+    "title": "preparing environmentfor unit 00",
+    "section": "",
+    "text": "#| echo: false\n#| eval: false\n## download miniconda\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n## or from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
+    "title": "preparing environmentfor unit 00",
+    "section": "create conda environment",
+    "text": "create conda environment\n#| echo: false\n#| eval: false\nconda create -n gene46100 python=3.12\nconda activate gene46100"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
+    "title": "preparing environmentfor unit 00",
+    "section": "install packages",
+    "text": "install packages\n(issues with torch version incompatibility with torchvision and torchmetrics)\n#| echo: false\n#| eval: false\n\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forces downgrading torch to 2.3.1 which is not compatible with mps"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
+    "title": "preparing environmentfor unit 00",
+    "section": "install all packages within jupyter notebook with %pip",
+    "text": "install all packages within jupyter notebook with %pip\n#| echo: false\n#| eval: false\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
   },
   {
     "objectID": "post/images/2024-03-25-GWAS/index.html",
@@ -476,20 +665,6 @@
     "text": "Setting up your own system\nLinux is the operating system of choice to run bioinformatics software. You will need either a computer running linux or or mac os, which has a linux-like environment.\n\ninstall anaconda/miniconda\ndefine imlabtools conda environment how to here, which will install all the python modules needed for this analysis session\ndownload data and software from Box. This will have copies of all the software repositories and the models\ndownload software\n\ndownload metaxcan repo\ndownload torus repo\n\ndownload prediction models from predictdb.org\ninstall R/RStudio/tidyverse package\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI.git\nstart Rstudio (if you installed workflowr, you can just open the QGT-Columbia-HKI.Rproj)\n\n#R setup\n\n\nCode\n#install R packages \ninstall.packages(\"remotes\")\nlibrary(remotes)\nremotes::install_github(\"stephenslab/susieR\") #gives the most up to date SusieR \ninstall.packages(\"coloc\")\ninstall.packages(\"tidyverse\")\n\n#install.packages(\"R.utils\")\n\n#install.packages(\"remotes\")\n# remotes::install_github(\"simingz/ctwas\", ref = \"develop\")\n\n## make sure these are installed\n# library(data.table)\n# library(BEDMatrix)\n# library(Rfast)\n# library(susieR)\n# library(coloc)\n\n#installing base miniconda\ninstall.packages(\"keras\")\nreticulate::install_miniconda(\"miniconda\")\n\n\n#Setting up Conda Environment\n\n\nCode\n#adding path\nexport PATH=$PATH:/cloud/project/miniconda/bin\n# adding repos/data\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI-repo.git\ngit clone https://github.com/hakyimlab/MetaXcan.git\nconda config --append channels conda-forge\nconda config --append channels bioconda\nconda env create -f /cloud/project/MetaXcan/software/conda_env.yaml\nconda activate imlabtools\n\n\nSet the Ram to 5gb in order to create the environment.\n#Box Data To upload the data. I first downloaded the box folder onto a local machine and then compressed the folders in the box folder to upload onto the server.\nNotes: For some reason setting up the environment and uploading the data will continue to use a lot of background RAM set sure to close the project and reopen to close extraneous programs."
   },
   {
-    "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
-    "href": "post/logistics/2024-03-19-course-checklist/index.html",
-    "title": "course checklist",
-    "section": "",
-    "text": "course checklist\nthree months prior\n\nidentify a TA for the course\n\ntwo weeks prior\n\nupdate the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)\n\none week prior\n\ndownload the class roster from facultyaccess page link\nsend welcome email (optional)\ncheck assigned classroom (edit syllabus as needed)\ncreate canvas for the course follow link under “how to create an organization site in Canvas” or try direct link canvas creation link\ndon’t forget to publish the canvas\nadd TA and intructors to canvas\nupdate slack channel\n\ncancer genetics and genomics slack\n\n\nfirst week\n\ncreate RCC account for students / or posit account\nset visibility of canvas to Institution during the first 2 weeks (shopping around period)\n\nafter two week set it to course\n\n\n\ntemplate email\n    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im\n    \n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hakyimlab Training Material Page",
-    "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\ntesting\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
     "objectID": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
     "href": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
     "title": "quick training in statistical genetics",
@@ -497,297 +672,17 @@
     "text": "I taught today the QGT course organized by Iuliana at Columbia for the 5th time. Participants asked for material for a quick training material in statistical genomics. It’s hard to choose one topic over the other one. So here is a biased selection of material that may help.\n\nRead “a brief history of human disease genetics” (nicely written summary of the development in the last two decades) https://www.nature.com/articles/s41586-019-1879-7\nRead GTExs flagship paper and very thorough supplementary material https://science.sciencemag.org/content/369/6509/1318\n\n\nalso read the GTEx working group’s paper for suggested practices to apply GTEx resources to GWAS https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02252-4\n\n\nRead the ENCODE paper https://www.nature.com/articles/s41586-020-2493-4\nGWAS tutorial Marees et al (https://course-material.hakyimlab.org/post/bios-25328/2024-04-05-lab-03/)\n\nhttps://course-material.hakyimlab.org/index-bios-25328 This is my portion of the cancer genetics and genomics course where I teach an lightweight intro to statistical genetics\nGenetic and molecular architecture of complex traits https://doi.org/10.1016/j.cell.2024.01.023\n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html",
-    "href": "post/gene-46100/2025-02-20-testing/index.html",
-    "title": "installing ollama with n8n docker compose orbstack",
+    "objectID": "index-bios-25328.html",
+    "href": "index-bios-25328.html",
+    "title": "BIOS25328",
     "section": "",
-    "text": "followed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
-    "title": "installing ollama with n8n docker compose orbstack",
+    "objectID": "index-logistics.html",
+    "href": "index-logistics.html",
+    "title": "Logistics",
     "section": "",
-    "text": "followed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 1: Install n8n Using Docker Compose on OrbStack",
-    "text": "Step 1: Install n8n Using Docker Compose on OrbStack"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "install orbstack",
-    "text": "install orbstack\nbrew install orbstack\n\nCreate a folder for the n8n setup\n\nmkdir ~/n8n-docker && cd ~/n8n-docker\n\nCreate a simple docker-compose.yml file for n8n\n\nservices:\n  n8n:\n    image: n8nio/n8n:latest\n    container_name: n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data\n    restart: unless-stopped\n\nstart n8n\n\ndocker-compose up -d\n\nstop n8n\n\ndocker-compose down"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 2: Install Ollama",
-    "text": "Step 2: Install Ollama\n\ninstalled ollama (downloaded ollama.app and moved to Applications)\nalso installed ollama using brew\ndeleted ollama.app and kept ollama using brew\n\nbrew install ollama\n\nstart ollama\n\nbrew services start ollama\n\nif I want tostop ollama\n\nbrew services stop ollama\n\nDownload the DeepSeek 7B model using Ollama\n\nollama run deepseek-r1:7b  \n\nRun the gemma3 27B model\n\nollama run deepseek-r1:7b"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html",
-    "title": "Introduction to deep learning",
-    "section": "",
-    "text": "© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "title": "Introduction to deep learning",
-    "section": "What is a gradient?",
-    "text": "What is a gradient?\nA gradient is the first derivative of a function.\n$f’(β) = lim_{Δβ → 0} = $"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "title": "Introduction to deep learning",
-    "section": "What is gradient descent?",
-    "text": "What is gradient descent?\nWe would like to find the \\(\\hat{β}\\) that minimizes \\(f(β)\\). We can do this iteratively moving along the direction of the gradient. At a particular \\(β_i\\), we find the gradient \\(f'(β)\\), and take a step along the direction of the gradient to find the next point \\(β_{i+1}\\).\n\\(β_{i+1} = β_i - \\alpha f'(β_i)\\)\nThe \\(\\alpha\\) is called the learning rate. It is a hyperparameters that determines how fast we move in the direction of the gradient.\n\n\n\ngradient descent"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "title": "Introduction to deep learning",
-    "section": "What is stochastic gradient descent?",
-    "text": "What is stochastic gradient descent?\nIn real-world applications, the size of our dataset is so large that it is impossible to calculate the gradient using all data points. Therefore, we take a small chunk (called a “batch”) of the dataset to calcalate the gradient. This approximates the full-data gradients, thus the word stochastic."
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#exercise-1",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#exercise-1",
-    "title": "Introduction to deep learning",
-    "section": "Exercise 1",
-    "text": "Exercise 1\nAdd to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#exercise-2",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#exercise-2",
-    "title": "Introduction to deep learning",
-    "section": "Exercise 2",
-    "text": "Exercise 2\nSimulate y with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison."
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#question",
-    "href": "post/gene-46100/2025-02-20-testing/hki-testing-hands-on-introduction_to_deep_learning.html#question",
-    "title": "Introduction to deep learning",
-    "section": "Question",
-    "text": "Question\nWhat is missing to be exactly a two layer MLP?"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "#| echo: false\n#| eval: false\n## download miniconda\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n## or from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "#| echo: false\n#| eval: false\n## download miniconda\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n## or from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "title": "preparing environmentfor unit 00",
-    "section": "create conda environment",
-    "text": "create conda environment\n#| echo: false\n#| eval: false\nconda create -n gene46100 python=3.12\nconda activate gene46100"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
-    "title": "preparing environmentfor unit 00",
-    "section": "install packages",
-    "text": "install packages\n(issues with torch version incompatibility with torchvision and torchmetrics)\n#| echo: false\n#| eval: false\n\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forces downgrading torch to 2.3.1 which is not compatible with mps"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "title": "preparing environmentfor unit 00",
-    "section": "install all packages within jupyter notebook with %pip",
-    "text": "install all packages within jupyter notebook with %pip\n#| echo: false\n#| eval: false\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-    "title": "Quick introduction to deep learning",
-    "section": "",
-    "text": "Understand and implement gradient descent to fit a linear model\nBuild and train a multi-layer perceptron (MLP) using PyTorch\nLearn the basics of PyTorch, including model definition, forward pass, and optimization\n\n\n\nWe’ll start by making sure we have all the required Python packages installed and ready to go. PyTorch is the main library we’ll use for deep learning.\n\n\nCode\n## install packages if needed\nif False:\n    %pip install scikit-learn plotnine tqdm pandas\n\n\n\n\nCode\nfrom sklearn.datasets import make_regression\nimport numpy as np\nfrom numpy.linalg import inv\nfrom plotnine import qplot, ggplot, geom_point, geom_line, aes, geom_abline\nfrom plotnine.themes import theme_bw\nfrom plotnine.geoms import annotate\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "title": "Quick introduction to deep learning",
-    "section": "What is a Gradient?",
-    "text": "What is a Gradient?\nA gradient is the derivative of a function, and it tells us how to adjust parameters to reduce the error.\n$f’() = _{→ 0} = $"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "What is Gradient Descent?",
-    "text": "What is Gradient Descent?\nAn optimization algorithm that iteratively updates parameters in the direction of steepest descent (negative gradient) to minimize a loss function.\n\nLearning rate (\\(\\alpha\\)): step size. It is a hyperparameters that determines how fast we move in the direction of the gradient.\nLoss surface: the landscape we are optimizing over\n\nAt a particular \\(β_i\\), we find the gradient \\(f'(\\beta)\\), and take a step along the direction of the gradient to find the next point \\(\\beta_{i+1}\\).\n\\(\\beta_{i+1} = \\beta_i - \\alpha f'(\\beta_i)\\)\nThe \\(\\alpha\\) is called the learning rate.\n\n\n\ngradient descent"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "What is stochastic gradient descent?",
-    "text": "What is stochastic gradient descent?\nIn real-world applications, the size of our dataset is so large that it is impossible to calculate the gradient using all data points. Therefore, we take a small chunk (called a “batch”) of the dataset to calcalate the gradient. This approximates the full-data gradients, thus the word stochastic."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#perform-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#perform-gradient-descent",
-    "title": "Introduction to deep learning",
-    "section": "Perform gradient descent",
-    "text": "Perform gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#exercise-1",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#exercise-1",
-    "title": "Introduction to deep learning",
-    "section": "Exercise 1",
-    "text": "Exercise 1\nAdd to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#exercise-2",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#exercise-2",
-    "title": "Introduction to deep learning",
-    "section": "Exercise 2",
-    "text": "Exercise 2\nSimulate y with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#question",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#question",
-    "title": "Introduction to deep learning",
-    "section": "Question",
-    "text": "Question\nWhat is missing to be exactly a two layer MLP?"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
-    "title": "Quick introduction to deep learning",
-    "section": "Install packages if needed",
-    "text": "Install packages if needed\n\n\nCode\n## install packages if needed\nif False:  # Change to True to run the commands\n    %pip install tqdm\n    %pip install torch\n    %pip install torchvision torchmetrics\n\n\n\n\nCode\nimport torch\nprint(torch.__version__)\n## if on a mac check if mps is available so you use gpu\n## print(torch.backends.mps.is_available())\n\n\n2.6.0\n\n\n\nDefine a non linear MLP\n\n\nCode\nimport torch\nfrom torch import nn\nimport torch.nn.functional as F\n#device = torch.device(\"cuda\")\ndevice = torch.device(\"mps\") ## use this line instead of the one above withb cuda\n\n\nclass MLP(nn.Module):\n  def __init__(self, input_dim, hid_dim, output_dim):\n    super().__init__()\n    self.fc1 = nn.Linear(input_dim, hid_dim)\n    self.fc2 = nn.Linear(hid_dim, output_dim)\n\n  def forward(self, x):\n    x = F.relu(self.fc1(x))\n    y = self.fc2(x)\n\n    return y.squeeze(1)\n\nmlp = MLP(input_dim=1, hid_dim=1024, output_dim=1).to(device)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#estimate-parameters-with-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#estimate-parameters-with-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "Estimate parameters with gradient descent",
-    "text": "Estimate parameters with gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
-    "title": "Quick introduction to deep learning",
-    "section": "Predict with simple linear model",
-    "text": "Predict with simple linear model\nLet’s try to predict with a simple linear regression model\n$ y = X $"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-the-prediction-model",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-the-prediction-model",
-    "title": "Quick introduction to deep learning",
-    "section": "Train the prediction model",
-    "text": "Train the prediction model\n\n\nCode\nx_tensor = torch.Tensor(x).unsqueeze(1).to(device)\ny_tensor = torch.Tensor(y).to(device)\nfor epoch in range(100):\n  optimizer.zero_grad()\n  y_hat = mlp(x_tensor) ## forward pass\n  loss = loss_fn(y_hat, y_tensor) ## calculate loss\n  loss.backward() ## calcualte gradients\n  optimizer.step() ## backward propagation\n\n\n\n\nCode\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\nqplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\n\n\n\n\n\nWell, that is not really better than linear regression. Why?\nIt turns out that the a linear transformation of another linear transformation is just a linear transformation.\n\\(y = W_2 (W_1 X + b_1) + b_2 = W_2 W_1 X + (W_1 b_1 + b_2) = W'X + b'\\)\nTo make the model more expressive, we need to add some non-linear transformation.\nThe most popular linear transformation is the rectified linear unit.\n\n\n\nrelu"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
-    "title": "Quick introduction to deep learning",
-    "section": "Simulate linear data",
-    "text": "Simulate linear data\nWe generate 1000 samples, each with 2 features. We’ll define the “true” coefficients and add a bit of noise to make it realistic.\n\nx: predictors/features (shape: 1000×2)\ny: response variable (shape: 1000×1)\ncoef: the true coefficients used to generate y\n\n\n\nCode\nnp.random.seed(42)\nbias = 0\nnoise = 10\nx, y, coef = make_regression(\n    n_samples=1000,\n    n_features=2,\n    n_informative=2,\n    n_targets=1,\n    bias=bias,\n    noise=noise,\n    coef=True\n    )\n\n\n\nx contains the predictors (1000 by 2)\ny (1000 by 1) contains the response\ncoef contains the coefficients (length 2)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-ground-truth-parameters",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-ground-truth-parameters",
-    "title": "Quick introduction to deep learning",
-    "section": "Predict with ground truth parameters",
-    "text": "Predict with ground truth parameters\nsince we know the ground truth, we can predict the response with them\n\n\nCode\ny_hat = x.dot(coef) + bias\n\n\n\n\nCode\n(qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") + geom_abline(intercept=0, slope=1, color='gray', linetype='dashed'))"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
-    "title": "Quick introduction to deep learning",
-    "section": "Compute analytical solution",
-    "text": "Compute analytical solution\nFor linear regression, there’s a closed-form solution known as the normal equation:\n\\(\\hat{\\beta} = (X^T X)^{-1} X^T y\\)\nThis gives us the optimal coefficients that minimize mean square errors.\nLet’s get \\(\\hat{\\beta}\\) and compare it with the ground truth.\n\n\nCode\nvar = x.transpose().dot(x)\ncov = x.transpose().dot(y)\nb_hat = inv(var).dot(cov)\n\n\n\n\nCode\nprint(\"Estimated\")\nprint(b_hat)\n\nprint(\"Ground truth\")\nprint(coef)\n\n\nEstimated\n[41.06972678  6.79965716]\nGround truth\n[40.71064891  6.60098441]\n\n\n\nResult Comparison\nEstimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
-    "title": "Quick introduction to deep learning",
-    "section": "Predict y with ground truth parameters",
-    "text": "Predict y with ground truth parameters\nSince we know the true coefficients, we can directly compute the predicted y and visualize how well they fit.\n\n\nCode\ny_hat = x.dot(coef) + bias\n\n\n\ncompare \\(\\hat{y}\\) and \\(y\\)\n\n\nCode\n(qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") + geom_abline(intercept=0, slope=1, color='gray', linetype='dashed'))"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "Define stochastic gradient descent",
-    "text": "Define stochastic gradient descent\nAlthough linear regression has analytical solutions, this is unfortunately not the case for many other models. We may need to resort to numerical approximations to find the optimal parameters. One of the most popular numerical optimizers is called stochastic gradient descent."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
-    "title": "Quick introduction to deep learning",
-    "section": "Three Components of Machine Learning",
-    "text": "Three Components of Machine Learning\nTo build a machine learning model, we need:\n\nModel: Defines the hypothesis space (e.g., linear model)\nLoss Function: Measures how well the model fits\nOptimizer: Updates parameters to reduce the loss (e.g., SGD)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
-    "title": "Quick introduction to deep learning",
-    "section": "Compute the gradient",
-    "text": "Compute the gradient\n\\(\\frac{\\partial}{\\partial \\beta_j}\\ell(\\beta) = \\frac{\\partial}{\\partial \\beta_j} \\frac{1}{2} \\sum_i (f(\\beta)^i - y^i)^2 = \\sum_i (f(\\beta)^i - y^i) x_j\\)\nRecall that in our example $ f() = = _1 x_1 + _2 x_2$. Here \\(\\beta_j\\) is either \\(\\beta_1\\) or \\(\\beta_2\\)."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "Optimize: estimate parameters with gradient descent",
-    "text": "Optimize: estimate parameters with gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
-    "title": "Quick introduction to deep learning",
-    "section": "Define the Loss Function",
-    "text": "Define the Loss Function\nCommon choice for regression: Mean Squared Error (MSE)\n\\(\\ell(\\beta) = \\frac{1}{2}\\sum\\limits_{i=1}^m (f(\\beta)^{i} - y^{i})^2 / m\\)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
-    "title": "Quick introduction to deep learning",
-    "section": "Simulate non linear data",
-    "text": "Simulate non linear data\nLet’s start by simulating data according to the generative model:\n$ y = x_1^3$\n\n\nCode\nx = np.random.normal(size=1000)\ny = x ** 3"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
-    "title": "Quick introduction to deep learning",
-    "section": "train MLP model using pytorch",
-    "text": "train MLP model using pytorch\nWe are now ready to train our model. To understand how our model is doing, we record the loss vs step, which is called the learning curve in ML literature.\n\n\nCode\nx_tensor = torch.Tensor(x).unsqueeze(1).to(device)\ny_tensor = torch.Tensor(y).to(device)\nlearning_curve = []\nfor epoch in range(10000):\n  optimizer.zero_grad()\n  y_hat = mlp(x_tensor)\n  loss = loss_fn(y_hat, y_tensor)\n  learning_curve.append(loss.item())\n  loss.backward()\n  optimizer.step()\n\n\n\n\nCode\nqplot(x=range(10000), y=learning_curve, xlab=\"epoch\", ylab=\"loss\")\n\n\n\n\n\n\n\nCode\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\n#qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\nqplot(x=y, y=y_hat, geom=[\"point\", \"abline\"],\n      xlab=\"y\", ylab=\"y_hat\",\n      abline=dict(slope=1, intercept=0, color='red', linetype='dashed'))\n\n\n\n\n\nNow this looks much better!"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compare-prediction-with-response",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compare-prediction-with-response",
-    "title": "Quick introduction to deep learning",
-    "section": "Compare prediction with response",
-    "text": "Compare prediction with response\n\n\nCode\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\n#qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\nqplot(x=y, y=y_hat, geom=[\"point\", \"abline\"],\n      xlab=\"y\", ylab=\"y_hat\",\n      abline=dict(slope=1, intercept=0, color='red', linetype='dashed'))\n\n\n\n\n\nNow this looks much better!"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
-    "title": "Quick introduction to deep learning",
-    "section": "Define Stochastic Gradient Descent (SGD)",
-    "text": "Define Stochastic Gradient Descent (SGD)\nWhen analytical solutions aren’t available (which is often), we rely on numerical optimization like gradient descent.\nAlthough linear regression has analytical solutions, this is unfortunately not the case for many other models. We may need to resort to numerical approximations to find the optimal parameters. One of the most popular numerical optimizers is called stochastic gradient descent."
+    "text": "course checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   }
 ]
