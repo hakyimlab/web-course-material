@@ -2,7 +2,13 @@
 title: lecture 2
 author: "Haky Im"
 date: "March 26, 2025"
-description: "Dissection of Genetics & Prediction of Cancer Risk: Methods & Tools"
+description: "Lecture 2: Cancer GWAS"
+categories:
+  - lecture
+  - bios25328
 ---
+
+
+
 
 Find the lecture notes [here](https://www.icloud.com/keynote/0a3OAeoWVYXFqv4fowd5q8U1Q#L2-Cancer-GWAS).
