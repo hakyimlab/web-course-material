@@ -32,12 +32,12 @@ conda activate gene46100
 ```
 
 ## do not install packages with conda
-(I ran into lots ofissues with torch version incompatibility with torchvision and torchmetrics)
+(I ran into lots of issues with torch version incompatibility with torchvision and torchmetrics)
 ```{bash}
 # DONT USE CONDA TO INSTALL PYTORCH at least for now
 # conda install scikit-learn plotnine pytorch 
 
-## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps
+## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which was not compatible with mps
 
 ```
 

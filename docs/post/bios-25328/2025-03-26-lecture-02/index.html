@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Haky Im">
-<meta name="dcterms.date" content="2025-03-25">
-<meta name="description" content="setting up conda environement and installing packages">
+<meta name="dcterms.date" content="2025-03-26">
+<meta name="description" content="Dissection of Genetics &amp; Prediction of Cancer Risk: Methods &amp; Tools">
 
-<title>HKI Courses - preparing environmentfor unit 00</title>
+<title>HKI Courses - lecture 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -150,33 +150,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#install-conda" id="toc-install-conda" class="nav-link active" data-scroll-target="#install-conda">install conda</a></li>
-  <li><a href="#create-conda-environment" id="toc-create-conda-environment" class="nav-link" data-scroll-target="#create-conda-environment">create conda environment</a></li>
-  <li><a href="#do-not-install-packages-with-conda" id="toc-do-not-install-packages-with-conda" class="nav-link" data-scroll-target="#do-not-install-packages-with-conda">do not install packages with conda</a></li>
-  <li><a href="#install-all-packages-within-jupyter-notebook-with-pip" id="toc-install-all-packages-within-jupyter-notebook-with-pip" class="nav-link" data-scroll-target="#install-all-packages-within-jupyter-notebook-with-pip">install all packages within jupyter notebook with %pip</a></li>
-  <li><a href="#install-cursor-or-vscode-to-run-the-jupyter-notebook" id="toc-install-cursor-or-vscode-to-run-the-jupyter-notebook" class="nav-link" data-scroll-target="#install-cursor-or-vscode-to-run-the-jupyter-notebook">install cursor or vscode to run the jupyter notebook</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">preparing environmentfor unit 00</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-  <div class="quarto-categories">
-    <div class="quarto-category">gene46100</div>
-    <div class="quarto-category">howto</div>
-  </div>
-  </div>
+<div class="quarto-title-block"><div><h1 class="title">lecture 2</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
 
 <div>
   <div class="description">
-    setting up conda environement and installing packages
+    Dissection of Genetics &amp; Prediction of Cancer Risk: Methods &amp; Tools
   </div>
 </div>
 
@@ -193,7 +179,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 25, 2025</p>
+      <p class="date">March 26, 2025</p>
     </div>
   </div>
   
@@ -203,54 +189,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="install-conda" class="level2">
-<h2 class="anchored" data-anchor-id="install-conda">install conda</h2>
-<pre class="{bash}"><code>
-## download miniconda from the command line
-
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
-
-## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main
-
-## install miniconda
-bash Miniconda3-latest-Linux-x86_64.sh
-</code></pre>
-</section>
-<section id="create-conda-environment" class="level2">
-<h2 class="anchored" data-anchor-id="create-conda-environment">create conda environment</h2>
-<pre class="{bash}"><code>conda create -n gene46100 python=3.12
-conda activate gene46100
-</code></pre>
-</section>
-<section id="do-not-install-packages-with-conda" class="level2">
-<h2 class="anchored" data-anchor-id="do-not-install-packages-with-conda">do not install packages with conda</h2>
-<p>(I ran into lots of issues with torch version incompatibility with torchvision and torchmetrics)</p>
-<pre class="{bash}"><code># DONT USE CONDA TO INSTALL PYTORCH at least for now
-# conda install scikit-learn plotnine pytorch 
-
-## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which was not compatible with mps
-</code></pre>
-</section>
-<section id="install-all-packages-within-jupyter-notebook-with-pip" class="level2">
-<h2 class="anchored" data-anchor-id="install-all-packages-within-jupyter-notebook-with-pip">install all packages within jupyter notebook with %pip</h2>
-<p>as of 2025-03-24</p>
-<p>using %pip will make sure that the packages are accessible by the kernel you are using for the jupyter notebook</p>
-<pre class="{bash}"><code>%pip install scikit-learn plotnine tqdm pandas 
-%pip install torch
-%pip install torchvision
-%pip install torchmetrics</code></pre>
-</section>
-<section id="install-cursor-or-vscode-to-run-the-jupyter-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="install-cursor-or-vscode-to-run-the-jupyter-notebook">install cursor or vscode to run the jupyter notebook</h2>
-<ul>
-<li><p>install the python extension for cursor or vscode.</p></li>
-<li><p>select the python interpreter to be the one in the conda environment you created</p></li>
-</ul>
+<p>Find the lecture notes <a href="https://www.icloud.com/keynote/0a3OAeoWVYXFqv4fowd5q8U1Q#L2-Cancer-GWAS">here</a>.</p>
 
 
 <!-- -->
 
-</section>
 
 <p>© <a href="https://hakyimlab.org">HakyImLab and Listed Authors</a> - <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 License</a></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -537,70 +480,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> preparing environmentfor unit 00</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> Haky Im</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2025-03-25</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> setting up conda environement and installing packages</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - gene46100</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - howto</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="an">eval:</span><span class="co"> false</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## install conda</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="in">```{bash}</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="co">## download miniconda from the command line</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co">## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="co">## install miniconda</span></span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> Miniconda3-latest-Linux-x86_64.sh</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## create conda environment</span></span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="in">```{bash}</span></span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">-n</span> gene46100 python=3.12</span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate gene46100</span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## do not install packages with conda</span></span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>(I ran into lots of issues with torch version incompatibility with torchvision and torchmetrics)</span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="in">```{bash}</span></span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a><span class="co"># DONT USE CONDA TO INSTALL PYTORCH at least for now</span></span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="co"># conda install scikit-learn plotnine pytorch </span></span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="co">## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which was not compatible with mps</span></span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## install all packages within jupyter notebook with %pip</span></span>
-<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>as of 2025-03-24</span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>using %pip will make sure that the packages are accessible by the kernel you are using for the jupyter notebook</span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a><span class="in">```{bash}</span></span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="ex">%pip</span> install scikit-learn plotnine tqdm pandas </span>
-<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="ex">%pip</span> install torch</span>
-<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="ex">%pip</span> install torchvision</span>
-<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="ex">%pip</span> install torchmetrics</span>
-<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a><span class="fu">## install cursor or vscode to run the jupyter notebook</span></span>
-<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>install the python extension for cursor or vscode.</span>
-<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>select the python interpreter to be the one in the conda environment you created </span>
-<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a></span>
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> lecture 2</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Haky Im"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "March 26, 2025"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Dissection of Genetics &amp; Prediction of Cancer Risk: Methods &amp; Tools"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>Find the lecture notes <span class="co">[</span><span class="ot">here</span><span class="co">](https://www.icloud.com/keynote/0a3OAeoWVYXFqv4fowd5q8U1Q#L2-Cancer-GWAS)</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

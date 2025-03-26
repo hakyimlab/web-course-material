@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Boxiang Liu, modified by Haky Im">
-<meta name="dcterms.date" content="2022-03-23">
+<meta name="dcterms.date" content="2025-03-25">
 
 <title>HKI Courses - Quick introduction to deep learning</title>
 <style>
@@ -169,38 +169,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#compare-haty-and-y" id="toc-compare-haty-and-y" class="nav-link" data-scroll-target="#compare-haty-and-y">compare <span class="math inline">\(\hat{y}\)</span> and <span class="math inline">\(y\)</span></a></li>
   </ul></li>
-  <li><a href="#compute-analytical-solution" id="toc-compute-analytical-solution" class="nav-link" data-scroll-target="#compute-analytical-solution">Compute analytical solution</a></li>
-  </ul></li>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a>
+  <li><a href="#compute-analytical-solution" id="toc-compute-analytical-solution" class="nav-link" data-scroll-target="#compute-analytical-solution">Compute analytical solution</a>
   <ul class="collapse">
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a></li>
   <li><a href="#result-comparison" id="toc-result-comparison" class="nav-link" data-scroll-target="#result-comparison">Result Comparison</a></li>
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a></li>
   </ul></li>
-  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a>
-  <ul class="collapse">
   <li><a href="#define-stochastic-gradient-descent-sgd" id="toc-define-stochastic-gradient-descent-sgd" class="nav-link" data-scroll-target="#define-stochastic-gradient-descent-sgd">Define Stochastic Gradient Descent (SGD)</a></li>
   <li><a href="#what-is-a-gradient" id="toc-what-is-a-gradient" class="nav-link" data-scroll-target="#what-is-a-gradient">What is a Gradient?</a></li>
   <li><a href="#what-is-gradient-descent" id="toc-what-is-gradient-descent" class="nav-link" data-scroll-target="#what-is-gradient-descent">What is Gradient Descent?</a></li>
   <li><a href="#what-is-stochastic-gradient-descent" id="toc-what-is-stochastic-gradient-descent" class="nav-link" data-scroll-target="#what-is-stochastic-gradient-descent">What is stochastic gradient descent?</a></li>
   <li><a href="#three-components-of-machine-learning" id="toc-three-components-of-machine-learning" class="nav-link" data-scroll-target="#three-components-of-machine-learning">Three Components of Machine Learning</a></li>
   <li><a href="#define-the-loss-function" id="toc-define-the-loss-function" class="nav-link" data-scroll-target="#define-the-loss-function">Define the Loss Function</a></li>
-  <li><a href="#compute-the-gradient" id="toc-compute-the-gradient" class="nav-link" data-scroll-target="#compute-the-gradient">Compute the gradient</a></li>
-  </ul></li>
-  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise</a>
+  <li><a href="#compute-the-gradient" id="toc-compute-the-gradient" class="nav-link" data-scroll-target="#compute-the-gradient">Compute the gradient</a>
   <ul class="collapse">
-  <li><a href="#optimize-estimate-parameters-with-gradient-descent" id="toc-optimize-estimate-parameters-with-gradient-descent" class="nav-link" data-scroll-target="#optimize-estimate-parameters-with-gradient-descent">Optimize: estimate parameters with gradient descent</a></li>
+  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise</a></li>
   </ul></li>
+  <li><a href="#optimize-estimate-parameters-with-gradient-descent" id="toc-optimize-estimate-parameters-with-gradient-descent" class="nav-link" data-scroll-target="#optimize-estimate-parameters-with-gradient-descent">Optimize: estimate parameters with gradient descent</a>
+  <ul class="collapse">
   <li><a href="#exercise-3" id="toc-exercise-3" class="nav-link" data-scroll-target="#exercise-3">Exercise</a></li>
   <li><a href="#exercise-4" id="toc-exercise-4" class="nav-link" data-scroll-target="#exercise-4">Exercise</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#summary-of-section" id="toc-summary-of-section" class="nav-link" data-scroll-target="#summary-of-section">Summary of section</a></li>
   <li><a href="#motivate-utility-of-multi-layer-perceptrons" id="toc-motivate-utility-of-multi-layer-perceptrons" class="nav-link" data-scroll-target="#motivate-utility-of-multi-layer-perceptrons">Motivate utility of multi-layer perceptrons</a></li>
   <li><a href="#fit-linear-model-to-nonlinear-data" id="toc-fit-linear-model-to-nonlinear-data" class="nav-link" data-scroll-target="#fit-linear-model-to-nonlinear-data">Fit linear model to nonlinear data</a>
   <ul class="collapse">
   <li><a href="#simulate-non-linear-data" id="toc-simulate-non-linear-data" class="nav-link" data-scroll-target="#simulate-non-linear-data">Simulate non linear data</a></li>
-  <li><a href="#predict-with-simple-linear-model" id="toc-predict-with-simple-linear-model" class="nav-link" data-scroll-target="#predict-with-simple-linear-model">Predict with simple linear model</a></li>
-  </ul></li>
+  <li><a href="#predict-with-simple-linear-model" id="toc-predict-with-simple-linear-model" class="nav-link" data-scroll-target="#predict-with-simple-linear-model">Predict with simple linear model</a>
+  <ul class="collapse">
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#define-multi-layer-perceptron-mlp" id="toc-define-multi-layer-perceptron-mlp" class="nav-link" data-scroll-target="#define-multi-layer-perceptron-mlp">Define Multi-layer perceptron (MLP)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#define-multi-layer-perceptron-mlp" id="toc-define-multi-layer-perceptron-mlp" class="nav-link" data-scroll-target="#define-multi-layer-perceptron-mlp">Define Multi-layer perceptron (MLP)</a>
+  <ul class="collapse">
   <li><a href="#exercise-5" id="toc-exercise-5" class="nav-link" data-scroll-target="#exercise-5">Exercise</a></li>
+  </ul></li>
   <li><a href="#why-pytorch" id="toc-why-pytorch" class="nav-link" data-scroll-target="#why-pytorch">Why PyTorch?</a>
   <ul class="collapse">
   <li><a href="#install-packages-if-needed" id="toc-install-packages-if-needed" class="nav-link" data-scroll-target="#install-packages-if-needed">Install packages if needed</a>
@@ -209,6 +213,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#train-mlp-model-using-pytorch" id="toc-train-mlp-model-using-pytorch" class="nav-link" data-scroll-target="#train-mlp-model-using-pytorch">train MLP model using pytorch</a></li>
   </ul></li>
+  <li><a href="#exercise-create-a-more-performant-model-to-predict-y-x3" id="toc-exercise-create-a-more-performant-model-to-predict-y-x3" class="nav-link" data-scroll-target="#exercise-create-a-more-performant-model-to-predict-y-x3">Exercise: create a more performant model to predict y = x^3</a></li>
   <li><a href="#universal-approximation-theorem" id="toc-universal-approximation-theorem" class="nav-link" data-scroll-target="#universal-approximation-theorem">Universal approximation theorem</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
@@ -240,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 23, 2022</p>
+      <p class="date">March 25, 2025</p>
     </div>
   </div>
   
@@ -389,10 +394,8 @@ coef:
 <p><span class="math inline">\(\hat{\beta} = (X^T X)^{-1} X^T y\)</span></p>
 <p>This gives us the optimal coefficients that minimize mean square errors.</p>
 <p>Let’s get <span class="math inline">\(\hat{\beta}\)</span> and compare it with the ground truth.</p>
-</section>
-</section>
-<section id="exercise" class="level1">
-<h1>Exercise</h1>
+<section id="exercise" class="level3">
+<h3 class="anchored" data-anchor-id="exercise">Exercise</h3>
 <p>Derive the normal equation from the model, using matrix algebra</p>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869173429,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="4">
 <details>
@@ -418,16 +421,18 @@ Ground truth
 [40.71064891  6.60098441]</code></pre>
 </div>
 </div>
+</section>
 <section id="result-comparison" class="level3">
 <h3 class="anchored" data-anchor-id="result-comparison">Result Comparison</h3>
 <p>Estimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check.</p>
 </section>
-</section>
-<section id="exercise-1" class="level1">
-<h1>Exercise</h1>
+<section id="exercise-1" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1">Exercise</h3>
 <ul class="task-list">
 <li><input type="checkbox">Plot the prediction with the analystical estimates vs the target <span class="math inline">\(y\)</span></li>
 </ul>
+</section>
+</section>
 <section id="define-stochastic-gradient-descent-sgd" class="level2">
 <h2 class="anchored" data-anchor-id="define-stochastic-gradient-descent-sgd">Define Stochastic Gradient Descent (SGD)</h2>
 <p>When analytical solutions aren’t available (which is often), we rely on numerical optimization like gradient descent.</p>
@@ -477,11 +482,11 @@ Ground truth
 <h2 class="anchored" data-anchor-id="compute-the-gradient">Compute the gradient</h2>
 <p><span class="math inline">\(\frac{\partial}{\partial \beta_j}\ell(\beta) = \frac{\partial}{\partial \beta_j} \frac{1}{2} \sum_i (f(\beta)^i - y^i)^2 = \sum_i (f(\beta)^i - y^i) x_j\)</span></p>
 <p>Recall that in our example $ f() = = _1 x_1 + _2 x_2$. Here <span class="math inline">\(\beta_j\)</span> is either <span class="math inline">\(\beta_1\)</span> or <span class="math inline">\(\beta_2\)</span>.</p>
-</section>
-</section>
-<section id="exercise-2" class="level1">
-<h1>Exercise</h1>
+<section id="exercise-2" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-2">Exercise</h3>
 <p>Show that the derivative of the loss function is as stated above.</p>
+</section>
+</section>
 <section id="optimize-estimate-parameters-with-gradient-descent" class="level2">
 <h2 class="anchored" data-anchor-id="optimize-estimate-parameters-with-gradient-descent">Optimize: estimate parameters with gradient descent</h2>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:40,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742869194536,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="11">
@@ -510,19 +515,19 @@ Ground truth
 <p><img src="hands-on-introduction_to_deep_learning_files/figure-html/cell-12-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-</section>
-</section>
-<section id="exercise-3" class="level1">
-<h1>Exercise</h1>
+<section id="exercise-3" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-3">Exercise</h3>
 <ul class="task-list">
 <li><input type="checkbox">Add to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green</li>
 </ul>
 </section>
-<section id="exercise-4" class="level1">
-<h1>Exercise</h1>
+<section id="exercise-4" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-4">Exercise</h3>
 <ul class="task-list">
 <li><input type="checkbox">Simulate <span class="math inline">\(y\)</span> with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison.</li>
 </ul>
+</section>
+</section>
 </section>
 <section id="summary-of-section" class="level1">
 <h1>Summary of section</h1>
@@ -554,10 +559,8 @@ Ground truth
 <h2 class="anchored" data-anchor-id="predict-with-simple-linear-model">Predict with simple linear model</h2>
 <p>Let’s try to predict with a simple linear regression model</p>
 <p>$ y = X $</p>
-</section>
-</section>
-<section id="question" class="level1">
-<h1>Question</h1>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
 <p>how many parameters do we need to estimate for this simple linear model?</p>
 <div class="cell" data-executioninfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1742881016770,&quot;user&quot;:{&quot;displayName&quot;:&quot;Hae Kyung Im&quot;,&quot;userId&quot;:&quot;15264871052778021308&quot;},&quot;user_tz&quot;:300}" data-execution_count="13">
 <details>
@@ -587,24 +590,26 @@ Ground truth
 </div>
 <p>We would like to be closer to the dashed gray, identity line! Let’s try MLP.</p>
 </section>
+</section>
+</section>
 <section id="define-multi-layer-perceptron-mlp" class="level1">
 <h1>Define Multi-layer perceptron (MLP)</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://www.allaboutcircuits.com/uploads/articles/an-introduction-to-training-theory-for-neural-networks_rk_aac_image2.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">MLP</figcaption>
+<p><img src="assets/tensorflow-playground.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">MLP in tensorflow playground</figcaption>
 </figure>
 </div>
+<p>This is screenshot from the <a href="https://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=circle&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=3&amp;seed=0.19895&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false">tensorflow playground</a>. It’s a great website to develop some intuition on how models learn with easily modifiable hyper parameters, data types, loss, activation, etc. Tensorflow is another deep learning framework developed by Google. In contrast, Pytorch was developed by Meta and is more commonly used in academic research.</p>
 <p>Multi-Layer Perceptron (MLP) is a type of artificial neural network that consists of:</p>
 <ul>
 <li>An input layer (in your case, 2-dimensional input)</li>
-<li>One or more hidden layers (in your case, one hidden layer)</li>
+<li>One or more hidden layers (in this case, one hidden layer)</li>
 <li>An output layer (in your case, 1-dimensional output)</li>
 </ul>
 <p>y = W₂((W₁x + b₁)) + b₂</p>
-</section>
-<section id="exercise-5" class="level1">
-<h1>Exercise</h1>
+<section id="exercise-5" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-5">Exercise</h3>
 <p>Consider the MLP shown in the figure with:</p>
 <ul>
 <li>Input layer: 2 dimensions</li>
@@ -619,6 +624,7 @@ Ground truth
 </ol>
 <p>Hint: Remember that each connection between layers has a weight, and each node (except input nodes) has a bias term.</p>
 <p><strong>Manually calculating gradients and updating the parameters becomes tedious, so we use Pytorch</strong></p>
+</section>
 </section>
 <section id="why-pytorch" class="level1">
 <h1>Why PyTorch?</h1>
@@ -733,6 +739,9 @@ Ground truth
 </div>
 <p>Now this looks much better!</p>
 </section>
+</section>
+<section id="exercise-create-a-more-performant-model-to-predict-y-x3" class="level1">
+<h1>Exercise: create a more performant model to predict y = x^3</h1>
 </section>
 <section id="universal-approximation-theorem" class="level1">
 <h1>Universal approximation theorem</h1>

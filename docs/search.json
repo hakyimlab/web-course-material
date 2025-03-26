@@ -4,14 +4,14 @@
     "href": "index-gene-46100.html",
     "title": "GENE46100",
     "section": "",
-    "text": "This page contains material for the GENE46100 Deep learning in genomics course. Find this year’s syllabus here.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the GENE46100 Deep learning in genomics course. Find this year’s syllabus here.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2022\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\n  \n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\n\nhowto\n\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\ncourse checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
@@ -336,6 +336,111 @@
     "text": "Lecture 6 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
+    "objectID": "post/images/2024-03-25-GWAS/index.html",
+    "href": "post/images/2024-03-25-GWAS/index.html",
+    "title": "Images GWAS",
+    "section": "",
+    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "href": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "title": "Images GWAS",
+    "section": "",
+    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html",
+    "title": "preparing environmentfor unit 00",
+    "section": "",
+    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
+    "title": "preparing environmentfor unit 00",
+    "section": "",
+    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
+    "title": "preparing environmentfor unit 00",
+    "section": "create conda environment",
+    "text": "create conda environment\nconda create -n gene46100 python=3.12\nconda activate gene46100"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
+    "title": "preparing environmentfor unit 00",
+    "section": "do not install packages with conda",
+    "text": "do not install packages with conda\n(I ran into lots of issues with torch version incompatibility with torchvision and torchmetrics)\n# DONT USE CONDA TO INSTALL PYTORCH at least for now\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which was not compatible with mps"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
+    "title": "preparing environmentfor unit 00",
+    "section": "install all packages within jupyter notebook with %pip",
+    "text": "install all packages within jupyter notebook with %pip\nas of 2025-03-24\nusing %pip will make sure that the packages are accessible by the kernel you are using for the jupyter notebook\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
+  },
+  {
+    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
+    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
+    "title": "preparing environmentfor unit 00",
+    "section": "install cursor or vscode to run the jupyter notebook",
+    "text": "install cursor or vscode to run the jupyter notebook\n\ninstall the python extension for cursor or vscode.\nselect the python interpreter to be the one in the conda environment you created"
+  },
+  {
+    "objectID": "index-qgt.html",
+    "href": "index-qgt.html",
+    "title": "QGT",
+    "section": "",
+    "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html",
+    "href": "post/gene-46100/2025-02-20-testing/index.html",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "",
+    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory.\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "",
+    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory."
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "install deepseek R1",
+    "text": "install deepseek R1\nfollowed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "Step 1: Install n8n Using Docker Compose on OrbStack",
+    "text": "Step 1: Install n8n Using Docker Compose on OrbStack"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "install orbstack",
+    "text": "install orbstack\nbrew install orbstack\n\nCreate a folder for the n8n setup\n\nmkdir ~/n8n-docker && cd ~/n8n-docker\n\nCreate a simple docker-compose.yml file for n8n\n\nservices:\n  n8n:\n    image: n8nio/n8n:latest\n    container_name: n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data\n    restart: unless-stopped\n\nstart n8n\n\ndocker-compose up -d\n\nstop n8n\n\ndocker-compose down"
+  },
+  {
+    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
+    "href": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
+    "title": "installing ollama with n8n docker compose orbstack",
+    "section": "Step 2: Install Ollama",
+    "text": "Step 2: Install Ollama\n\ninstalled ollama (downloaded ollama.app and moved to Applications)\nalso installed ollama using brew\ndeleted ollama.app and kept ollama using brew\n\nbrew install ollama\n\nstart ollama\n\nbrew services start ollama\n\nif I want tostop ollama\n\nbrew services stop ollama\n\nDownload the DeepSeek 7B model using Ollama\n\nollama run deepseek-r1:7b  \n\nRun the gemma3 27B model\n\nollama run deepseek-r1:7b"
+  },
+  {
     "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
     "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
     "title": "Quick introduction to deep learning",
@@ -361,7 +466,7 @@
     "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
     "title": "Quick introduction to deep learning",
     "section": "Compute analytical solution",
-    "text": "Compute analytical solution\nFor linear regression, there’s a closed-form solution known as the normal equation:\n\\(\\hat{\\beta} = (X^T X)^{-1} X^T y\\)\nThis gives us the optimal coefficients that minimize mean square errors.\nLet’s get \\(\\hat{\\beta}\\) and compare it with the ground truth."
+    "text": "Compute analytical solution\nFor linear regression, there’s a closed-form solution known as the normal equation:\n\\(\\hat{\\beta} = (X^T X)^{-1} X^T y\\)\nThis gives us the optimal coefficients that minimize mean square errors.\nLet’s get \\(\\hat{\\beta}\\) and compare it with the ground truth.\n\nExercise\nDerive the normal equation from the model, using matrix algebra\n\n\nCode\nvar = x.transpose().dot(x)\ncov = x.transpose().dot(y)\nb_hat = inv(var).dot(cov)\n\n\n\n\nCode\nprint(\"Estimated\")\nprint(b_hat)\n\nprint(\"Ground truth\")\nprint(coef)\n\n\nEstimated\n[41.06972678  6.79965716]\nGround truth\n[40.71064891  6.60098441]\n\n\n\n\nResult Comparison\nEstimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check.\n\n\nExercise\n\nPlot the prediction with the analystical estimates vs the target \\(y\\)"
   },
   {
     "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
@@ -410,14 +515,14 @@
     "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
     "title": "Quick introduction to deep learning",
     "section": "Compute the gradient",
-    "text": "Compute the gradient\n\\(\\frac{\\partial}{\\partial \\beta_j}\\ell(\\beta) = \\frac{\\partial}{\\partial \\beta_j} \\frac{1}{2} \\sum_i (f(\\beta)^i - y^i)^2 = \\sum_i (f(\\beta)^i - y^i) x_j\\)\nRecall that in our example $ f() = = _1 x_1 + _2 x_2$. Here \\(\\beta_j\\) is either \\(\\beta_1\\) or \\(\\beta_2\\)."
+    "text": "Compute the gradient\n\\(\\frac{\\partial}{\\partial \\beta_j}\\ell(\\beta) = \\frac{\\partial}{\\partial \\beta_j} \\frac{1}{2} \\sum_i (f(\\beta)^i - y^i)^2 = \\sum_i (f(\\beta)^i - y^i) x_j\\)\nRecall that in our example $ f() = = _1 x_1 + _2 x_2$. Here \\(\\beta_j\\) is either \\(\\beta_1\\) or \\(\\beta_2\\).\n\nExercise\nShow that the derivative of the loss function is as stated above."
   },
   {
     "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
     "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
     "title": "Quick introduction to deep learning",
     "section": "Optimize: estimate parameters with gradient descent",
-    "text": "Optimize: estimate parameters with gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)"
+    "text": "Optimize: estimate parameters with gradient descent\n\n\nCode\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nCode\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)\n\n\n\n\n\n\nExercise\n\nAdd to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green\n\n\n\nExercise\n\nSimulate \\(y\\) with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison."
   },
   {
     "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
@@ -431,7 +536,7 @@
     "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
     "title": "Quick introduction to deep learning",
     "section": "Predict with simple linear model",
-    "text": "Predict with simple linear model\nLet’s try to predict with a simple linear regression model\n$ y = X $"
+    "text": "Predict with simple linear model\nLet’s try to predict with a simple linear regression model\n$ y = X $\n\nQuestion\nhow many parameters do we need to estimate for this simple linear model?\n\n\nCode\nlr = 0.1 # learning rate\nb = 0.0 # initialize all betas to 0\nn_examples = len(y)\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n\n\n\n\nCode\ny_hat = x.dot(b)\n( qplot(x = y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") +\ngeom_abline(intercept=0, slope=1, color='gray', linetype='dashed') )\n\n\n\n\n\n\n\nWe would like to be closer to the dashed gray, identity line! Let’s try MLP."
   },
   {
     "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
@@ -448,102 +553,11 @@
     "text": "train MLP model using pytorch\nWe are now ready to train our model. To understand how our model is doing, we record the loss vs step, which is called the learning curve in ML literature.\n\n\nCode\nx_tensor = torch.Tensor(x).unsqueeze(1).to(device)\ny_tensor = torch.Tensor(y).to(device)\nlearning_curve = []\nfor epoch in range(10000):\n  optimizer.zero_grad()\n  y_hat = mlp(x_tensor)\n  loss = loss_fn(y_hat, y_tensor)\n  learning_curve.append(loss.item())\n  loss.backward()\n  optimizer.step()\n\n\n\n\nCode\nqplot(x=range(10000), y=learning_curve, xlab=\"epoch\", ylab=\"loss\")\n\n\n\n\n\n\n\nCode\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\n#qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\nqplot(x=y, y=y_hat, geom=[\"point\", \"abline\"],\n      xlab=\"y\", ylab=\"y_hat\",\n      abline=dict(slope=1, intercept=0, color='red', linetype='dashed'))\n\n\n\n\n\nNow this looks much better!"
   },
   {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html",
-    "href": "post/gene-46100/2025-02-20-testing/index.html",
-    "title": "installing ollama with n8n docker compose orbstack",
+    "objectID": "post/bios-25328/2025-03-26-lecture-02/index.html",
+    "href": "post/bios-25328/2025-03-26-lecture-02/index.html",
+    "title": "lecture 2",
     "section": "",
-    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory.\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "",
-    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory."
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#install-deepseek-r1",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "install deepseek R1",
-    "text": "install deepseek R1\nfollowed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 1: Install n8n Using Docker Compose on OrbStack",
-    "text": "Step 1: Install n8n Using Docker Compose on OrbStack"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#install-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "install orbstack",
-    "text": "install orbstack\nbrew install orbstack\n\nCreate a folder for the n8n setup\n\nmkdir ~/n8n-docker && cd ~/n8n-docker\n\nCreate a simple docker-compose.yml file for n8n\n\nservices:\n  n8n:\n    image: n8nio/n8n:latest\n    container_name: n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data\n    restart: unless-stopped\n\nstart n8n\n\ndocker-compose up -d\n\nstop n8n\n\ndocker-compose down"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
-    "href": "post/gene-46100/2025-02-20-testing/index.html#step-2-install-ollama",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 2: Install Ollama",
-    "text": "Step 2: Install Ollama\n\ninstalled ollama (downloaded ollama.app and moved to Applications)\nalso installed ollama using brew\ndeleted ollama.app and kept ollama using brew\n\nbrew install ollama\n\nstart ollama\n\nbrew services start ollama\n\nif I want tostop ollama\n\nbrew services stop ollama\n\nDownload the DeepSeek 7B model using Ollama\n\nollama run deepseek-r1:7b  \n\nRun the gemma3 27B model\n\nollama run deepseek-r1:7b"
-  },
-  {
-    "objectID": "index-qgt.html",
-    "href": "index-qgt.html",
-    "title": "QGT",
-    "section": "",
-    "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n  \n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "title": "preparing environmentfor unit 00",
-    "section": "create conda environment",
-    "text": "create conda environment\nconda create -n gene46100 python=3.12\nconda activate gene46100"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-packages",
-    "title": "preparing environmentfor unit 00",
-    "section": "install packages",
-    "text": "install packages\n(I ran into lots ofissues with torch version incompatibility with torchvision and torchmetrics)\n# DONT USE CONDA TO INSTALL PYTORCH at least for now\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "title": "preparing environmentfor unit 00",
-    "section": "install all packages within jupyter notebook with %pip",
-    "text": "install all packages within jupyter notebook with %pip\nas of 2025-03-24\nusing %pip will make sure that the packages are accessible by the kernel you are using for the jupyter notebook\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
-  },
-  {
-    "objectID": "post/images/2024-03-25-GWAS/index.html",
-    "href": "post/images/2024-03-25-GWAS/index.html",
-    "title": "Images GWAS",
-    "section": "",
-    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
-    "href": "post/images/2024-03-25-GWAS/index.html#gwas",
-    "title": "Images GWAS",
-    "section": "",
-    "text": "Code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
+    "text": "Find the lecture notes here.\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "post/bios-25328/2024-04-08-lecture-07-prs/index.html",
@@ -683,7 +697,7 @@
     "href": "index-bios-25328.html",
     "title": "BIOS25328",
     "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 5\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n  \n\n\n\n\nhomework 4\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 8\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 7\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 3\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n  \n\n\n\n\nhomework 3\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 6\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 5\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 2\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n  \n\n\n\n\nlecture 3\n\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 2\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n  \n\n\n\n\nhomework 1\n\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
     "objectID": "index-logistics.html",
@@ -691,68 +705,5 @@
     "title": "Logistics",
     "section": "",
     "text": "course checklist\n\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#installing-torchvision-and-torchmetrics-forced-downgrading-torch-to-2.3.1-which-is-not-compatible-with-mps",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#installing-torchvision-and-torchmetrics-forced-downgrading-torch-to-2.3.1-which-is-not-compatible-with-mps",
-    "title": "preparing environmentfor unit 00",
-    "section": "installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps",
-    "text": "installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps\n\n\n\n## install all packages within jupyter notebook with %pip\n\n\n```{bash, eval=false}\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment-1",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment-1",
-    "title": "preparing environmentfor unit 00",
-    "section": "create conda environment",
-    "text": "create conda environment\nquarto-executable-code-5450563D\n#| echo: false\n#| eval: false\n\nconda create -n gene46100 python=3.12\nconda activate gene46100"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-packages-1",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-packages-1",
-    "title": "preparing environmentfor unit 00",
-    "section": "install packages",
-    "text": "install packages\n(I ran into lots ofissues with torch version incompatibility with torchvision and torchmetrics) ```{bash, eval=false} #| echo: false #| eval: false"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#installing-torchvision-and-torchmetrics-forced-downgrading-torch-to-2.3.1-which-is-not-compatible-with-mps-1",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#installing-torchvision-and-torchmetrics-forced-downgrading-torch-to-2.3.1-which-is-not-compatible-with-mps-1",
-    "title": "preparing environmentfor unit 00",
-    "section": "installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps",
-    "text": "installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps\n\n## install all packages within jupyter notebook with %pip\n#| echo: false #| eval: false %pip install scikit-learn plotnine tqdm pandas %pip install torch %pip install torchvision %pip install torchmetrics\n\n\n:::"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#or-manually-from-httpswww.anaconda.comdocsgetting-startedminicondamain",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#or-manually-from-httpswww.anaconda.comdocsgetting-startedminicondamain",
-    "title": "preparing environmentfor unit 00",
-    "section": "or manually from https://www.anaconda.com/docs/getting-started/miniconda/main",
-    "text": "or manually from https://www.anaconda.com/docs/getting-started/miniconda/main"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-miniconda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-miniconda",
-    "title": "preparing environmentfor unit 00",
-    "section": "install miniconda",
-    "text": "install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n\n\n\n## create conda environment\n\n\n```{bash, eval=false}\nconda create -n gene46100 python=3.12\nconda activate gene46100"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#download-miniconda-from-the-command-line",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#download-miniconda-from-the-command-line",
-    "title": "preparing environmentfor unit 00",
-    "section": "download miniconda from the command line",
-    "text": "download miniconda from the command line\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
-    "title": "preparing environmentfor unit 00",
-    "section": "do not install packages with conda",
-    "text": "do not install packages with conda\n(I ran into lots ofissues with torch version incompatibility with torchvision and torchmetrics)\n# DONT USE CONDA TO INSTALL PYTORCH at least for now\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which is not compatible with mps"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
-    "title": "preparing environmentfor unit 00",
-    "section": "install cursor or vscode to run the jupyter notebook",
-    "text": "install cursor or vscode to run the jupyter notebook\n\ninstall the python extension for cursor or vscode.\nselect the python interpreter to be the one in the conda environment you created"
   }
 ]
