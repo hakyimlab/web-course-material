@@ -3,8 +3,10 @@
     "listing": "/index-gene-46100.html",
     "items": [
       "/post/gene-46100/2025-03-25-unit00/index.html",
+      "/post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html",
       "/post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-      "/post/gene-46100/2025-02-20-testing/index.html"
+      "/post/gene-46100/2025-02-20-testing/ollama-testing.html",
+      "/post/gene-46100/2025-02-20-testing/gradient-descent-illustration.html"
     ]
   },
   {
@@ -12,8 +14,10 @@
     "items": [
       "/post/bios-25328/2025-03-26-lecture-02/index.html",
       "/post/gene-46100/2025-03-25-unit00/index.html",
+      "/post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html",
       "/post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-      "/post/gene-46100/2025-02-20-testing/index.html",
+      "/post/gene-46100/2025-02-20-testing/ollama-testing.html",
+      "/post/gene-46100/2025-02-20-testing/gradient-descent-illustration.html",
       "/post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
       "/post/qgt/2024-06-24-QGT-workbook/index.html",
       "/post/bios-25328/2024-04-19-homework-05/index.html",

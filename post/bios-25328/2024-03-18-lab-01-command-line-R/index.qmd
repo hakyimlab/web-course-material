@@ -13,6 +13,7 @@ format:
     code-tools: true
     code-overflow: wrap
 date-modified: last-modified
+eval: false
 ---
 
 We will learn to use the command line by doing. Follow the instructions below.

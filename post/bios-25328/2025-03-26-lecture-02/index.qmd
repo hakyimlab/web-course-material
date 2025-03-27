@@ -9,6 +9,7 @@ categories:
 ---
 
 
+This lecture introduces the foundational concepts, historical context, and modern methods used to identify genetic risk factors for cancer, with a focus on germline susceptibility. It begins with linkage analysis, highlighting its role in the discovery of high-penetrance genes such as BRCA1/2 and APC, and contrasts it with genome-wide association studies (GWAS), which leverage high-throughput genotyping and large population cohorts to identify many low-penetrance variants. The course explains the statistical framework for GWAS, including hypothesis testing, regression models, and visualizations like Manhattan and QQ plots. Emphasis is placed on the polygenic nature of most cancer risks, the interpretation of GWAS results, and landmark studies such as the Wellcome Trust Case Control Consortium (WTCCC). The session also includes practical considerations for students, such as homework expectations and lab setup. (LLM-generated summary)
 
 
 Find the lecture notes [here](https://www.icloud.com/keynote/0a3OAeoWVYXFqv4fowd5q8U1Q#L2-Cancer-GWAS).

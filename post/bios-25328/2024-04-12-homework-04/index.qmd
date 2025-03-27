@@ -14,6 +14,7 @@ format:
     code-overflow: wrap
 date-modified: last-modified
 draft: false
+eval: false
 ---
 
 ## A. Complete the following assessments

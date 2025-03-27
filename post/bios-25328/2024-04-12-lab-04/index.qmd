@@ -3,6 +3,7 @@ title: "lab 4"
 author: "Liz Gibbons"
 date: "2024-04-12"
 output: html_document
+eval: false
 ---
 
 ```{r setup, include=FALSE}
