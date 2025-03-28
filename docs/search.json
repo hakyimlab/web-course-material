@@ -1,24 +1,325 @@
 [
   {
-    "objectID": "index-gene-46100.html",
-    "href": "index-gene-46100.html",
-    "title": "GENE46100",
+    "objectID": "index-logistics.html",
+    "href": "index-logistics.html",
+    "title": "Logistics",
     "section": "",
-    "text": "This page contains material for the GENE46100 Deep learning in genomics course. Find this year’s syllabus here.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironment Setup\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nErin Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\n\n\n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\nhowto\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nGradient descent illustration\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "course checklist\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hakyimlab Training Material Page",
+    "objectID": "index-bios-25328.html",
+    "href": "index-bios-25328.html",
+    "title": "BIOS25328",
     "section": "",
-    "text": "Edit source here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\n\nlecture\n\n\nbios25328\n\n\n\nLecture 2: Cancer GWAS\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\npreparing environmentfor unit 00\n\n\n\n\n\n\ngene46100\n\n\nhowto\n\n\n\nsetting up conda environement and installing packages\n\n\n\n\n\nMar 25, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironment Setup\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nErin Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nQuick introduction to deep learning\n\n\n\n\n\n\ngene46100\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nMar 25, 2025\n\n\nBoxiang Liu, modified by Haky Im\n\n\n\n\n\n\n\n\n\n\n\n\ninstalling ollama with n8n docker compose orbstack\n\n\n\n\n\n\nhowto\n\n\n\nfollowing medium article to install ollama with web front end; for basic terminal based run use just brew install ollama; brew services start ollama; ollama run deepseek-r1:7b\n\n\n\n\n\nMar 12, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nGradient descent illustration\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 5\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 4\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 8\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 7\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 3\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 3\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 6\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 5\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 2\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 3\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 2\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 1\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\ncourse checklist\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\n\nlecture\n\n\nbios25328\n\n\n\nLecture 2: Cancer GWAS\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 5\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 4\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 8\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 7\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 3\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 3\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 6\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 5\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 2\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 3\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 2\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 1\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
-    "href": "post/logistics/2024-03-19-course-checklist/index.html",
-    "title": "course checklist",
+    "objectID": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
+    "href": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
+    "title": "quick training in statistical genetics",
     "section": "",
-    "text": "course checklist\nthree months prior\n\nidentify a TA for the course\n\ntwo weeks prior\n\nupdate the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)\n\none week prior\n\ndownload the class roster from facultyaccess page link\nsend welcome email (optional)\ncheck assigned classroom (edit syllabus as needed)\ncreate canvas for the course follow link under “how to create an organization site in Canvas” or try direct link canvas creation link\ndon’t forget to publish the canvas\nadd TA and intructors to canvas\nupdate slack channel\n\ncancer genetics and genomics slack\n\n\nfirst week\n\ncreate RCC account for students / or posit account\nset visibility of canvas to Institution during the first 2 weeks (shopping around period)\n\nafter two week set it to course\n\n\n\ntemplate email\n    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im\n    \n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "I taught today the QGT course organized by Iuliana at Columbia for the 5th time. Participants asked for material for a quick training material in statistical genomics. It’s hard to choose one topic over the other one. So here is a biased selection of material that may help.\n\nRead “a brief history of human disease genetics” (nicely written summary of the development in the last two decades) https://www.nature.com/articles/s41586-019-1879-7\nRead GTExs flagship paper and very thorough supplementary material https://science.sciencemag.org/content/369/6509/1318\n\n\nalso read the GTEx working group’s paper for suggested practices to apply GTEx resources to GWAS https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02252-4\n\n\nRead the ENCODE paper https://www.nature.com/articles/s41586-020-2493-4\nGWAS tutorial Marees et al (https://course-material.hakyimlab.org/post/bios-25328/2024-04-05-lab-03/)\n\nhttps://course-material.hakyimlab.org/index-bios-25328 This is my portion of the cancer genetics and genomics course where I teach an lightweight intro to statistical genetics\nGenetic and molecular architecture of complex traits https://doi.org/10.1016/j.cell.2024.01.023\n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/qgt/2023-06-10-QGT-workbook/setup.html",
+    "href": "post/qgt/2023-06-10-QGT-workbook/setup.html",
+    "title": "Lab Setup",
+    "section": "",
+    "text": "copied from QGT 2023 posit\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/qgt/2023-06-10-QGT-workbook/setup.html#setting-up-your-own-system",
+    "href": "post/qgt/2023-06-10-QGT-workbook/setup.html#setting-up-your-own-system",
+    "title": "Lab Setup",
+    "section": "Setting up your own system",
+    "text": "Setting up your own system\nLinux is the operating system of choice to run bioinformatics software. You will need either a computer running linux or or mac os, which has a linux-like environment.\n\ninstall anaconda/miniconda\ndefine imlabtools conda environment how to here, which will install all the python modules needed for this analysis session\ndownload data and software from Box. This will have copies of all the software repositories and the models\ndownload software\n\ndownload metaxcan repo\ndownload torus repo\n\ndownload prediction models from predictdb.org\ninstall R/RStudio/tidyverse package\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI.git\nstart Rstudio (if you installed workflowr, you can just open the QGT-Columbia-HKI.Rproj)\n\n#R setup\n\n\nShow the code\n#install R packages \ninstall.packages(\"remotes\")\nlibrary(remotes)\nremotes::install_github(\"stephenslab/susieR\") #gives the most up to date SusieR \ninstall.packages(\"coloc\")\ninstall.packages(\"tidyverse\")\n\n#install.packages(\"R.utils\")\n\n#install.packages(\"remotes\")\n# remotes::install_github(\"simingz/ctwas\", ref = \"develop\")\n\n## make sure these are installed\n# library(data.table)\n# library(BEDMatrix)\n# library(Rfast)\n# library(susieR)\n# library(coloc)\n\n#installing base miniconda\ninstall.packages(\"keras\")\nreticulate::install_miniconda(\"miniconda\")\n\n\n#Setting up Conda Environment\n\n\nShow the code\n#adding path\nexport PATH=$PATH:/cloud/project/miniconda/bin\n# adding repos/data\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI-repo.git\ngit clone https://github.com/hakyimlab/MetaXcan.git\nconda config --append channels conda-forge\nconda config --append channels bioconda\nconda env create -f /cloud/project/MetaXcan/software/conda_env.yaml\nconda activate imlabtools\n\n\nSet the Ram to 5gb in order to create the environment.\n#Box Data To upload the data. I first downloaded the box folder onto a local machine and then compressed the folders in the box folder to upload onto the server.\nNotes: For some reason setting up the environment and uploading the data will continue to use a lot of background RAM set sure to close the project and reopen to close extraneous programs."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html",
+    "title": "homework 2",
+    "section": "",
+    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
+    "title": "homework 2",
+    "section": "",
+    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
+    "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
+    "title": "homework 2",
+    "section": "2. Multiple testing simulation (30 points)",
+    "text": "2. Multiple testing simulation (30 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
+    "href": "post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
+    "title": "lecture 2",
+    "section": "",
+    "text": "Lecture 2 notes in keynote\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html",
+    "title": "homework 1",
+    "section": "",
+    "text": "Homeworks problems for week 1\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
+    "title": "homework 1",
+    "section": "1. Self assessment quiz (10 points)",
+    "text": "1. Self assessment quiz (10 points)\nGo through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
+    "title": "homework 1",
+    "section": "2. Run the lab 1 and show your work (10 points)",
+    "text": "2. Run the lab 1 and show your work (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
+    "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
+    "title": "homework 1",
+    "section": "3. Edit the bash scripts from the lab and show your work (10 points)",
+    "text": "3. Edit the bash scripts from the lab and show your work (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.\n\n\nQuiz selected and edited from content generated with chatGPT"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-25-lecture-03/index.html",
+    "href": "post/bios-25328/2024-03-25-lecture-03/index.html",
+    "title": "lecture 3",
+    "section": "",
+    "text": "Lecture 3 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
+    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
+    "title": "lab 1 - command line and R",
+    "section": "",
+    "text": "We will learn to use the command line by doing. Follow the instructions below.\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
+    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
+    "title": "lab 1 - command line and R",
+    "section": "command line",
+    "text": "command line\n\nread the article that explains why it is a good idea to learn to use the command line Five reasons why researchers should learn to love the command line\nAnswer the questions showing that you did read the paper link to questions. You have multiple attempts.\nfollow the instructions on the paper’s github README page copied below for your convenience.\n\n\nIf you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.\nFrom the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.\nEnter the newly created directory: cd nature_bash.\nMake the scripts executable: chmod +x *.sh.\nRun the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.\nYou don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.\n\nThere are six scripts in total:\n\n01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files\n02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.\n03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.\n04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.\n05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.\n99_clean_all.sh: Deletes all temporary files.\n\nFeel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands."
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
+    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
+    "title": "lab 1 - command line and R",
+    "section": "R introduction",
+    "text": "R introduction\nYou are probably familiar with R. If not, start learning with swirl\n\ninstall.packages(\"swirl\")\nlibrary(\"swirl\")\nswirl()"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
+    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
+    "title": "lab 1 - command line and R",
+    "section": "Command line basics",
+    "text": "Command line basics\nFor the bare minimum list of commands check out this link"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
+    "href": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
+    "title": "lecture 8",
+    "section": "",
+    "text": "Lecture 8 notes link\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html#download-the-gwas-catalog",
+    "href": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html#download-the-gwas-catalog",
+    "title": "lecture 8",
+    "section": "Download the GWAS catalog",
+    "text": "Download the GWAS catalog\n\n\nShow the code\nsuppressMessages(library(tidyverse))\n\n\nWarning: package 'purrr' was built under R version 4.3.3\n\n\nWarning: package 'lubridate' was built under R version 4.3.3\n\n\nShow the code\nsuppressMessages(library(glue))\n\n\nWarning: package 'glue' was built under R version 4.3.3\n\n\nShow the code\n##PRE = \"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data\"\nPRE=\"~/Downloads/\"\nDATA = glue(\"{PRE}/2024-04-10-gwas-catalog-analysis-2022\")\nif(!file.exists(DATA)) system(glue(\"mkdir -p {DATA}\"))\nWORK=DATA\n\nDOWNLOAD_DATE=\"2024-04-10\"\n\n## download data from GWAS catalog\n## https://www.ebi.ac.uk/gwas/docs/file-downloads\n\n# - [ ] make sure the DATAFILE name is the same as the one you just downloaded\n# DATAFILE = \"gwas_catalog_v1.0.2-associations_e105_r2022-04-07.tsv\"\nDATAFILE=\"full\"\nfilename = glue(\"{DATA}/{DATAFILE}\")\n\nif(!file.exists(filename)) system(glue(\"wget -P {DATA} https://www.ebi.ac.uk/gwas/api/search/downloads/full\"))\n\n\n\n\nShow the code\ngwascatalog = read_tsv(filename)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nRows: 624399 Columns: 34\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \"\\t\"\nchr  (23): FIRST AUTHOR, JOURNAL, LINK, STUDY, DISEASE/TRAIT, INITIAL SAMPLE...\ndbl   (9): PUBMEDID, UPSTREAM_GENE_DISTANCE, DOWNSTREAM_GENE_DISTANCE, MERGE...\ndate  (2): DATE ADDED TO CATALOG, DATE\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nShow the code\ndim(gwascatalog)\n\n\n[1] 624399     34\n\n\nShow the code\nnames(gwascatalog)\n\n\n [1] \"DATE ADDED TO CATALOG\"      \"PUBMEDID\"                  \n [3] \"FIRST AUTHOR\"               \"DATE\"                      \n [5] \"JOURNAL\"                    \"LINK\"                      \n [7] \"STUDY\"                      \"DISEASE/TRAIT\"             \n [9] \"INITIAL SAMPLE SIZE\"        \"REPLICATION SAMPLE SIZE\"   \n[11] \"REGION\"                     \"CHR_ID\"                    \n[13] \"CHR_POS\"                    \"REPORTED GENE(S)\"          \n[15] \"MAPPED_GENE\"                \"UPSTREAM_GENE_ID\"          \n[17] \"DOWNSTREAM_GENE_ID\"         \"SNP_GENE_IDS\"              \n[19] \"UPSTREAM_GENE_DISTANCE\"     \"DOWNSTREAM_GENE_DISTANCE\"  \n[21] \"STRONGEST SNP-RISK ALLELE\"  \"SNPS\"                      \n[23] \"MERGED\"                     \"SNP_ID_CURRENT\"            \n[25] \"CONTEXT\"                    \"INTERGENIC\"                \n[27] \"RISK ALLELE FREQUENCY\"      \"P-VALUE\"                   \n[29] \"PVALUE_MLOG\"                \"P-VALUE (TEXT)\"            \n[31] \"OR or BETA\"                 \"95% CI (TEXT)\"             \n[33] \"PLATFORM [SNPS PASSING QC]\" \"CNV\"                       \n\n\n\n\nShow the code\n## show number of entries in the GWAS catalog with cancer\ngwascatalog %&gt;% select(`DISEASE/TRAIT`, MAPPED_GENE) %&gt;% filter(grepl(\"cancer\",`DISEASE/TRAIT`)) %&gt;% dim()\n\n\n[1] 11391     2\n\n\n\nNumber of distinct loci reported in GWAS of various cancers\n\nNumber of entries in the GWAS catalog with cancer, unique loci (it’s a reasonable assumption that mapped genes will be a good way to count loci)\n\n\nShow the code\ngwascatalog %&gt;% select(`DISEASE/TRAIT`, MAPPED_GENE) %&gt;% filter(grepl(\"cancer\",`DISEASE/TRAIT`)) %&gt;% unique() %&gt;% dim()\n\n\n[1] 6736    2\n\n\n\n\nShow the code\n## plot histogram of GWAS loci by year\ngwascat_sig = gwascatalog %&gt;% mutate(year=as.factor(lubridate::year(lubridate::as_date(`DATE ADDED TO CATALOG`)))) %&gt;% filter(`P-VALUE`&lt;5e-8)\n\ngwascat_sig %&gt;% filter(year!=\"2024\") %&gt;% ggplot(aes(year)) + geom_bar() + theme_bw(base_size = 15) + scale_x_discrete(breaks=c(\"2008\",\"2012\",\"2016\",\"2020\",\"2022\")) + xlab(\"year\") + ylab(\"GWAS loci reported p&lt;5e-8\") + ggtitle(paste0(\"GWAS Catalog Downloaded \",DOWNLOAD_DATE) )\n\n\n\n\n\n\n\n\n\nShow the code\n##ggsave(glue::glue(\"{DATA}/gwas-catalog/gwas-catalog-by-year.pdf\"))"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-08-lecture-07-prs/index.html",
+    "href": "post/bios-25328/2024-04-08-lecture-07-prs/index.html",
+    "title": "lecture 7",
+    "section": "",
+    "text": "Lecture 7 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2025-03-26-lecture-02/index.html",
+    "href": "post/bios-25328/2025-03-26-lecture-02/index.html",
+    "title": "lecture 2",
+    "section": "",
+    "text": "This lecture introduces the foundational concepts, historical context, and modern methods used to identify genetic risk factors for cancer, with a focus on germline susceptibility. It begins with linkage analysis, highlighting its role in the discovery of high-penetrance genes such as BRCA1/2 and APC, and contrasts it with genome-wide association studies (GWAS), which leverage high-throughput genotyping and large population cohorts to identify many low-penetrance variants. The course explains the statistical framework for GWAS, including hypothesis testing, regression models, and visualizations like Manhattan and QQ plots. Emphasis is placed on the polygenic nature of most cancer risks, the interpretation of GWAS results, and landmark studies such as the Wellcome Trust Case Control Consortium (WTCCC). The session also includes practical considerations for students, such as homework expectations and lab setup. (LLM-generated summary)\nFind the lecture notes here.\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "index-qgt.html",
+    "href": "index-qgt.html",
+    "title": "QGT",
+    "section": "",
+    "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html",
+    "href": "post/images/2024-03-25-GWAS/index.html",
+    "title": "Images GWAS",
+    "section": "",
+    "text": "Show the code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "href": "post/images/2024-03-25-GWAS/index.html#gwas",
+    "title": "Images GWAS",
+    "section": "",
+    "text": "Show the code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-03-lecture-06/index.html",
+    "href": "post/bios-25328/2024-04-03-lecture-06/index.html",
+    "title": "lecture 6",
+    "section": "",
+    "text": "Lecture 6 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-19-homework-05/index.html",
+    "href": "post/bios-25328/2024-04-19-homework-05/index.html",
+    "title": "homework 5",
+    "section": "",
+    "text": "Lecture 9 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-19-homework-05/index.html#a.-complete-the-following-assessments",
+    "href": "post/bios-25328/2024-04-19-homework-05/index.html#a.-complete-the-following-assessments",
+    "title": "homework 5",
+    "section": "",
+    "text": "Lecture 9 assessment quiz (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html",
+    "href": "post/bios-25328/2024-04-12-lab-04/index.html",
+    "title": "lab 4",
+    "section": "",
+    "text": "In this lab we are going to use the PRSice software to take height GWAS results and predict height of the Personal Genome Project individuals using their genotype data.\n\n\n\nDownload data from box\nDownload PRSice\nRun exploratory analysis of data\nRun PRSice\nPlot observed versus predicted for height\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#goals-and-introduction",
+    "href": "post/bios-25328/2024-04-12-lab-04/index.html#goals-and-introduction",
+    "title": "lab 4",
+    "section": "",
+    "text": "In this lab we are going to use the PRSice software to take height GWAS results and predict height of the Personal Genome Project individuals using their genotype data.\n\n\n\nDownload data from box\nDownload PRSice\nRun exploratory analysis of data\nRun PRSice\nPlot observed versus predicted for height"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#setup",
+    "href": "post/bios-25328/2024-04-12-lab-04/index.html#setup",
+    "title": "lab 4",
+    "section": "Setup",
+    "text": "Setup\n\nload R packages and define paths\nYou will have to install all these packages first:\n(r code block)\n\n\nShow the code\ninstall.packages(\"tidyverse\")\ninstall.packages(\"RSQLite\")\ninstall.packages(\"glue\")\n\n\n(r code block)\n\n\nShow the code\nsuppressMessages(library(tidyverse))\nsuppressMessages(library(RSQLite))\nsuppressMessages(library(glue))\n\n\n\n\nDownload data\n\ndownload the data from here and place it in a directory called DATA\ndownload PRSice software from https://choishingwan.github.io/PRSice/\n\nIf you are on a Mac install the mac appropriate binary:\n(bash code block)\n\n\nShow the code\n# wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_mac.zip\n\n\nIf you are on Posit cloud do the linux binary:\n(bash code block)\n\n\nShow the code\nwget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_linux.zip\n\n\nUnzip the binary: (bash code block)\n\n\nShow the code\nunzip ./PRSice_linux.zip\n\n\nmove the executable to the directory where you keep your software (optional) ** the first time you run PRSice, it will install additional components make sure PRSice is executable ** chmod u+x PRSice\n(bash code block)\n\n\nShow the code\nchmod +x ./PRSice_linux\n\n\nTerminal Setup\n(bash code block)\n\n\nShow the code\nexport PRE=\"/cloud/project\"\nexport DATA=\"$PRE/Lab-personal-genomes-project-data\"\n\nexport PRSice=\"/cloud/project/\" # file/path/to/PRSice\nexport PRSice_os=\"PRSice_linux\" # optional: which operating system is your prsice named for\n#$PRSice/$PRSice_os --help\ncd $DATA\nexport WORK=$DATA"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#exploration-of-the-data",
+    "href": "post/bios-25328/2024-04-12-lab-04/index.html#exploration-of-the-data",
+    "title": "lab 4",
+    "section": "Exploration of the Data",
+    "text": "Exploration of the Data\n\nopen the database with phenotype information and list tables\n(r code block)\n\n\nShow the code\ndbname &lt;- paste0(DATA,\"/repgp-data.sqlite3\") ##This is just to create the file path to the sqlite3 file \n## connect to db\ndb = RSQLite::dbConnect(SQLite(), dbname)\n## list tables\ndbListTables(db)\n\n\nquery database users table\n(r code block)\n\n\nShow the code\ndbListFields(db,\"users\")\n\n\n(r code block)\n\n\nShow the code\nquery &lt;- function(...) dbGetQuery(db, ...)\nusers = query(\"select * from users\")\nnames(users)\n\n\nlook at distribution by count for each column\n(r code block)\n\n\nShow the code\nusers %&gt;% count(race)\n\n\n(r code block)\n\n\nShow the code\nusers  %&gt;% count(gender)\n\n\n(r code block)\n\n\nShow the code\nusers %&gt;% count(blood)\n\n\nplot height distribution by gender\n(r code block)\n\n\nShow the code\nusers %&gt;% ggplot(aes(height,fill=gender)) + geom_density(alpha=0.6) + ggtitle(\"Height by gender - Missing gender, *, has bi-modal distr.\") + theme_minimal(base_size = 15)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#run-prsice",
+    "href": "post/bios-25328/2024-04-12-lab-04/index.html#run-prsice",
+    "title": "lab 4",
+    "section": "run PRSice",
+    "text": "run PRSice\n\ncreate phenotype data file\ncreate phenotype data file as intersection of the plink formatted fam file and the users table from the database repgp-data.sqlite3\n(r code block)\n\n\nShow the code\nfam = read_tsv(glue::glue(\"{DATA}/repgp.fam\"),col_names = FALSE)\n\n\n(r code block)\n\n\nShow the code\nnames(fam)[1:2] = c(\"FID\",\"IID\")\nfam &lt;- fam %&gt;% select(FID, IID) %&gt;% inner_join(users %&gt;% select(sample,height,weight,gender), by=c(\"IID\"=\"sample\")) \nwrite_tsv(fam,file=glue::glue(\"{DATA}/phenodata.txt\"))\n\n\nexecute bash command to run PRSice\n(bash code block)\n\n\nShow the code\nmkdir /cloud/project/Lab-personal-genomes-project-data/output\n\nRscript /cloud/project/PRSice.R --dir /cloud/project \\\n    --prsice /cloud/project/PRSice_linux \\\n    --base /cloud/project/Lab-personal-genomes-project-data/ukb_height.gz \\\n    --target cloud/project/Lab-personal-genomes-project-data/repgp.chr# \\\n    --snp variant_id \\\n    --A1 effect_allele \\\n    --A2 non_effect_allele \\\n    --stat effect_size \\\n    --beta \\\n    --pvalue pvalue \\\n    --pheno-file /cloud/project/Lab-personal-genomes-project-data/phenodata.txt \\\n    --pheno-col height \\\n    --bar-levels 5e-08,5e-07,5e-06,5e-05,5e-04,5e-03,5e-02,5e-01,1 \\\n    --fastscore \\\n    --binary-target F \\\n    --thread 2 \\\n    --out /cloud/project/Lab-personal-genomes-project-data/output/height_score_all\n\n\nIf you get duplicated SNP ID, follow the instructions\n(bash code block)\n\n\nShow the code\nPRSice=\"/cloud/project/\"\nWORK=\"/cloud/project/Lab-personal-genomes-project-data/\"\n\nRscript $PRSice/PRSice.R --dir $PRSice \\\n    --prsice $PRSice/PRSice_mac \\\n    --base $WORK/ukb_height.gz \\\n    --extract $WORK/output/height_score_all.valid \\\n    --target $WORK/repgp.chr# \\\n    --snp variant_id \\\n    --A1 effect_allele \\\n    --A2 non_effect_allele \\\n    --stat effect_size \\\n    --beta \\\n    --pvalue pvalue \\\n    --pheno-file $WORK/phenodata.txt \\\n    --pheno-col height \\\n    --bar-levels 5e-08,5e-07,5e-06,5e-05,5e-04,5e-03,5e-02,5e-01,1 \\\n    --fastscore \\\n    --binary-target F \\\n    --thread 2 \\\n    --out $WORK/output/height_score_all\n\n\nThis may take a couple minutes\nplot observed vs predicted height\n(r code block)\n\n\nShow the code\n## we already have the phenotype data in the fam variable\npredicted_height = read_delim(glue::glue(\"{DATA}/output/height_score_all.best\"),delim=\" \")\n\n\n(r code block)\n\n\nShow the code\ncombined &lt;- predicted_height %&gt;% inner_join(fam,by=c(\"IID\"=\"IID\")) \ncombined %&gt;% ggplot(aes(PRS,height)) + geom_point() + theme_minimal(base_size = 15)\n\n\nregress observed height with predicted height (PRS)\n(r code block)\n\n\nShow the code\nsummary(lm(height ~ PRS,data=combined)) %&gt;% coef()"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html",
+    "href": "post/bios-25328/2024-04-05-lab-03/index.html",
+    "title": "lab 3",
+    "section": "",
+    "text": "Read and summarize in a few sentences this GWAS tutorial paper https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608\nDownload plink from LINK (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)\nCreate a github user if you don’t already have one\nGit clone the tutorial from the command line (run git clone &lt;https://github.com/MareesAT/GWA_tutorial.git&gt; on the terminal). You will need to unzip files that look like *.zip\nrun the QC and Association components of the tutorial\n\n1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt\n\nyou may want to download the hapmap data from here https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace\n\nyou may need to download plink (https://www.cog-genomics.org/plink/1.9/)\nThe tutorial is designed so that you need to run all the steps but since 2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#instructions",
+    "href": "post/bios-25328/2024-04-05-lab-03/index.html#instructions",
+    "title": "lab 3",
+    "section": "",
+    "text": "Read and summarize in a few sentences this GWAS tutorial paper https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608\nDownload plink from LINK (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)\nCreate a github user if you don’t already have one\nGit clone the tutorial from the command line (run git clone &lt;https://github.com/MareesAT/GWA_tutorial.git&gt; on the terminal). You will need to unzip files that look like *.zip\nrun the QC and Association components of the tutorial\n\n1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt\n\nyou may want to download the hapmap data from here https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace\n\nyou may need to download plink (https://www.cog-genomics.org/plink/1.9/)\nThe tutorial is designed so that you need to run all the steps but since 2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#notes",
+    "href": "post/bios-25328/2024-04-05-lab-03/index.html#notes",
+    "title": "lab 3",
+    "section": "Notes",
+    "text": "Notes\n\nSome modifications to the code may be needed. Use them if you encounter errors.\n\nRelatedness.R needs to change lines 7 and 15 to\nlegend(1,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))\nlegend(0.02,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))\nline 31 of 2_Main_script_MDS.txt replace\nplink --bfile ALL.2of4intersection.20100804.genotypes --set-missing-var-ids @:#[b37]\\$1,\\$2 --make-bed --out ALL.2of4intersection.20100804.genotypes_no_missing_IDs\nwith\nplink --bfile ALL.2of4intersection.20100804.genotypes --set-missing-var-ids '@:#[b37]$1,$2' --make-bed --out ALL.2of4intersection.20100804.genotypes_no_missing_IDs\nline 144 in 2_Main_script_MDS.txt replace\n(base) haekyungim@Im-Lab-016 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt | sed -e '1i\\FID IID race' &gt; racefile.txt\nsed: 1: \"1i\\FID IID race\n\": extra characters after \\ at the end of i command\n(base) haekyungim@Im-Lab-016 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt | sed -e '1i\\\nFID IID race' &gt; racefile.txt\ninstall qqman in R and comment out first line on Manhattan_plot.R and QQ_plot.R\n##install.packages(\"qqman\",repos=\"http://cran.cnr.berkeley.edu/\",lib=\"~\" ) # location of installation can be changed but has to correspond with the library location \n##library(\"qqman\",lib.loc=\"~\")  \nlibrary(\"qqman\")"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#questions",
+    "href": "post/bios-25328/2024-04-05-lab-03/index.html#questions",
+    "title": "lab 3",
+    "section": "Questions",
+    "text": "Questions\nUsing the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.\n\nHow many individuals are in the genotype file you downloaded? (5 pts)\nExplain the contents of .fam, .bim, .bed files (5 pts)\nWrite the captions for the figures generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)\nExplain what you accomplished with the tutorial and explain the results/figures you obtained. (20 pts)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-03-29-lab-02/index.html",
+    "href": "post/bios-25328/2024-03-29-lab-02/index.html",
+    "title": "lab 2",
+    "section": "",
+    "text": "get started with simulations for homework 2\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html",
+    "title": "homework 3",
+    "section": "",
+    "text": "Lecture 5 assessment quiz (10 points)\nLecture 6 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#a.-complete-the-following-assessments",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#a.-complete-the-following-assessments",
+    "title": "homework 3",
+    "section": "",
+    "text": "Lecture 5 assessment quiz (10 points)\nLecture 6 assessment quiz (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#b.-reproduce-figures-and-analysis-in-lectures-5-and-6-80-points",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#b.-reproduce-figures-and-analysis-in-lectures-5-and-6-80-points",
+    "title": "homework 3",
+    "section": "B. Reproduce figures and analysis in lectures 5 and 6 (80 points)",
+    "text": "B. Reproduce figures and analysis in lectures 5 and 6 (80 points)\n\nDownload HapMap3 chromosome 22 data (5pt)\n\n\nYou can find the full HapMap 3 genotype data with other useful information here\n\n\nDownload Growth Data (5pt) here\n\n\nif you want background information on this trait you can read this paper)\n\n\nCalculate PCs using plink (10pt)\nPlot the first two principal components of the genotype matrix, color by population (10pt)\nRun GWAS of growth with and without adjusting for PCs (20pt)\n\nshow qqplot and manhattan plot for each (10pt)\n\nCreate HapMap Trios Relatedness Matrix (10pt)\ngenerate a tileplot to visualize the population and relatedness patterns here (10pt)\n\nLinks\n\nYou can borrow code from the lecture and the links below\n\nhttps://hakyimlab.github.io/hgen471/L6-population-structure.html\nhttps://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/\n\nslides\n\n\nThe following code will directly download the bed/bim/fam files\nwget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed\nwget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywufrowtm3uqqgad0b2.bim\nwget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam\n\n\nHow to download plink\nwget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip\n##Use this link if you are on Rstudio Cloud otherwise go to the website\n##https://zzz.bwh.harvard.edu/plink/download.shtml \nunzip plink_linux_x86_64_20220305.zip\nmikdir bin \nmv plink bin"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#c.-finish-running-the-marees-gwas-tutorial",
+    "href": "post/bios-25328/2024-04-01-homework-03/index.html#c.-finish-running-the-marees-gwas-tutorial",
+    "title": "homework 3",
+    "section": "C. Finish running the Marees GWAS tutorial",
+    "text": "C. Finish running the Marees GWAS tutorial\n\nFinish lab 3 and answer the following questions.\n\nUsing the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.\n\nHow many individuals are in the genotype file you downloaded? (5 pts)\nExplain the contents of .fam, .bim, .bed files (5 pts)\nWrite the captions for the figures generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)\nExplain what you accomplished with the tutorial and explain the results/figures you obtained. (20 pts)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-01-lecture-05/index.html",
+    "href": "post/bios-25328/2024-04-01-lecture-05/index.html",
+    "title": "lecture 5",
+    "section": "",
+    "text": "Lecture 5 slides link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html",
+    "href": "post/bios-25328/2024-04-12-homework-04/index.html",
+    "title": "homework 4",
+    "section": "",
+    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
+    "href": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
+    "title": "homework 4",
+    "section": "",
+    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)"
+  },
+  {
+    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#b.-finish-the-knit-lab-4-40-points",
+    "href": "post/bios-25328/2024-04-12-homework-04/index.html#b.-finish-the-knit-lab-4-40-points",
+    "title": "homework 4",
+    "section": "B. Finish the knit lab 4 (40 points)",
+    "text": "B. Finish the knit lab 4 (40 points)"
   },
   {
     "objectID": "post/qgt/2024-06-24-QGT-workbook/index.html",
@@ -189,549 +490,17 @@
     "text": "Questionnaire 06\n\nOpen and start filling out questionnaire 06 cTWAS https://forms.gle/A4evWkbhR7cXLy36A\n\n\n#install.packages(\"R.utils\")\n\n#install.packages(\"remotes\")\n#remotes::install_github(\"simingz/ctwas\", ref = \"develop\")\n\nlibrary(ctwas)\n\n#get positions for region of interest (SORT1/PSRC1 locus)\nregion &lt;- unlist(strsplit(spredixcan_association$region_id[spredixcan_association$gene_name==\"PSRC1\"], \"_\"))\nchr &lt;- region[2]\nstart &lt;- as.numeric(region[3])\nend &lt;- as.numeric(region[4])\n\n#format summary statistics (and subset to variants in region to save memory)\nz_snp &lt;- data.table::fread(glue::glue(\"{DATA}/spredixcan/imputed_CARDIoGRAM_C4D_CAD_ADDITIVE.txt.gz\"), select=c(\"chromosome\", \"position\", \"variant_id\", \"effect_allele\", \"non_effect_allele\", \"zscore\", \"sample_size\"))\nz_snp &lt;- z_snp[z_snp$chromosome==chr & z_snp$position &gt;= start & z_snp$position &lt;= end,]\nz_snp &lt;- z_snp[!is.na(z_snp$variant_id),-(1:2)]\ncolnames(z_snp) &lt;- c(\"id\", \"A1\", \"A2\", \"z\", \"ss\")\n\n#specify directories for LD matrices and weights\nld_R_dir &lt;- glue::glue(\"{DATA}/cTWAS/LD_matrices\")\nweight &lt;-  glue::glue(\"{MODEL}/gtex_v8_mashr/mashr_Liver.db\")\n\n#specify output locations and names for cTWAS\noutputdir &lt;- glue::glue(\"{DATA}/cTWAS/results/\")\noutname.e &lt;- \"CARDIoGRAM_Liver_expr\"\noutname &lt;- \"CARDIoGRAM_Liver_ctwas\"\n\n#impute gene z scores using cTWAS and save the results\n##################################\n# NOTE: we are skipping this step and using the precomputed values \n## takes ~10 minutes\n##################################\n# ctwas_imputation &lt;- impute_expr_z(z_snp=z_snp, weight=weight, ld_R_dir=ld_R_dir, outputdir=outputdir, outname=outname.e, harmonize_z=F, harmonize_wgt=F)\n# save(ctwas_imputation, file = paste0(outputdir, outname.e, \"_output.Rd\"))\nload(paste0(outputdir, outname.e, \"_output.Rd\"))\n\nz_gene &lt;- ctwas_imputation$z_gene\nld_exprfs &lt;- ctwas_imputation$ld_exprfs\nz_snp &lt;- ctwas_imputation$z_snp\n\n#make custom region file for single region\nld_regions_custom &lt;- data.frame(\"chr\" = chr, \"start\" = start, \"stop\" = end)\n\nwrite.table(ld_regions_custom, \n            file= paste0(outputdir, \"ld_regions_custom.txt\"),\n            row.names=F, col.names=T, sep=\"\\t\", quote = F)\n    \nld_regions_custom &lt;- paste0(outputdir, \"ld_regions_custom.txt\")\n\n#run cTWAS with pre-specified prior parameters at a single locus\n#estimating prior requires genome-wide data, too slow for demonstration\n#prior is 1% inclusion for genes and is 100x more likely than SNPs\n#prior assumes genes have larger effect size than SNPs, in reasonable range for data we've looked at\nctwas_rss(z_gene=z_gene, z_snp=z_snp, ld_exprfs=ld_exprfs, ld_R_dir = ld_R_dir, ld_regions_custom=ld_regions_custom, outputdir = outputdir, outname = outname, thin = 0.01,\n          estimate_group_prior = F,\n          estimate_group_prior_var = F,\n          group_prior=c(0.01, 0.0001),\n          group_prior_var=c(50, 25))\n\n#load results\nctwas_results &lt;- data.table::fread(paste0(outputdir,outname,\".susieIrss.txt\"))\n\n#merge gene names into the results\nsqlite &lt;- RSQLite::dbDriver(\"SQLite\")\ndb = RSQLite::dbConnect(sqlite, weight)\nquery &lt;- function(...) RSQLite::dbGetQuery(db, ...)\nextra_table &lt;- query(\"select * from extra\")\nRSQLite::dbDisconnect(db)\n\nctwas_results$genename &lt;- extra_table$genename[match(ctwas_results$id, extra_table$gene)]\n\n#show results with highest PIPs\ncol_order_2= c(\"genename\", \"chrom\", \"id\", \"pos\", \"type\", \"region_tag1\", \"region_tag2\", \"cs_index\", \"susie_pip\" , \"mu2\")\nctwas_results &lt;- ctwas_results[, ..col_order_2]\nhead(ctwas_results[order(-ctwas_results$susie_pip),])"
   },
   {
-    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html",
-    "href": "post/bios-25328/2024-04-12-homework-04/index.html",
-    "title": "homework 4",
+    "objectID": "post/logistics/2024-03-19-course-checklist/index.html",
+    "href": "post/logistics/2024-03-19-course-checklist/index.html",
+    "title": "course checklist",
     "section": "",
-    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "course checklist\nthree months prior\n\nidentify a TA for the course\n\ntwo weeks prior\n\nupdate the syllabus (copy the one from the previous year and make necessary changes, new dates, topics, etc)\n\none week prior\n\ndownload the class roster from facultyaccess page link\nsend welcome email (optional)\ncheck assigned classroom (edit syllabus as needed)\ncreate canvas for the course follow link under “how to create an organization site in Canvas” or try direct link canvas creation link\ndon’t forget to publish the canvas\nadd TA and intructors to canvas\nupdate slack channel\n\ncancer genetics and genomics slack\n\n\nfirst week\n\ncreate RCC account for students / or posit account\nset visibility of canvas to Institution during the first 2 weeks (shopping around period)\n\nafter two week set it to course\n\n\n\ntemplate email\n    Dear students, Welcome to the Cancer Genetics and Genomics course (BIOS-25328)! We are Lixing Yang, Haky Im, and Zach Weber and will be walking you through the course. Together, we will explore the current landscape of genetics and genomics of cancer. The field of genomics has made enormous progress over the last two decades, transforming the research of cancer and other diseases. We will survey the state of the art through literature review and hands-on analytical and computational exercises. We hope that by better understanding this devastating disease, we can help push the field forward and enable discoveries for prevention and treatment. In this journey, we will be working together, learning from each other, and supporting one another's success. The homework problems are not presented to you for scoring you but as intergral part of the learning process. If you do not understand what is asked, you are encouraged to ask questions. Our motto is that the only dumb questions are the ones that are not asked. You will get participation credit, regardless of whether your comments are right or not. You can find more detailed in formation in the canvas site ([https://canvas.uchicago.edu/courses/42065](https://canvas.uchicago.edu/courses/42065)) and the linked syllabus. We encourage you to join the slack channel and introduce yourselves. Tell us something fun or boring about yourselves. We look forward to seeing you in class. Lixing Yang, Zach Weber, and Haky Im\n    \n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   },
   {
-    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
-    "href": "post/bios-25328/2024-04-12-homework-04/index.html#a.-complete-the-following-assessments",
-    "title": "homework 4",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hakyimlab Training Material Page",
     "section": "",
-    "text": "Lecture 7 assessment quiz (10 points)\nLecture 8 assessment quiz (10 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-homework-04/index.html#b.-finish-the-knit-lab-4-40-points",
-    "href": "post/bios-25328/2024-04-12-homework-04/index.html#b.-finish-the-knit-lab-4-40-points",
-    "title": "homework 4",
-    "section": "B. Finish the knit lab 4 (40 points)",
-    "text": "B. Finish the knit lab 4 (40 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-01-lecture-05/index.html",
-    "href": "post/bios-25328/2024-04-01-lecture-05/index.html",
-    "title": "lecture 5",
-    "section": "",
-    "text": "Lecture 5 slides link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html",
-    "href": "post/bios-25328/2024-04-01-homework-03/index.html",
-    "title": "homework 3",
-    "section": "",
-    "text": "Lecture 5 assessment quiz (10 points)\nLecture 6 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#a.-complete-the-following-assessments",
-    "href": "post/bios-25328/2024-04-01-homework-03/index.html#a.-complete-the-following-assessments",
-    "title": "homework 3",
-    "section": "",
-    "text": "Lecture 5 assessment quiz (10 points)\nLecture 6 assessment quiz (10 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#b.-reproduce-figures-and-analysis-in-lectures-5-and-6-80-points",
-    "href": "post/bios-25328/2024-04-01-homework-03/index.html#b.-reproduce-figures-and-analysis-in-lectures-5-and-6-80-points",
-    "title": "homework 3",
-    "section": "B. Reproduce figures and analysis in lectures 5 and 6 (80 points)",
-    "text": "B. Reproduce figures and analysis in lectures 5 and 6 (80 points)\n\nDownload HapMap3 chromosome 22 data (5pt)\n\n\nYou can find the full HapMap 3 genotype data with other useful information here\n\n\nDownload Growth Data (5pt) here\n\n\nif you want background information on this trait you can read this paper)\n\n\nCalculate PCs using plink (10pt)\nPlot the first two principal components of the genotype matrix, color by population (10pt)\nRun GWAS of growth with and without adjusting for PCs (20pt)\n\nshow qqplot and manhattan plot for each (10pt)\n\nCreate HapMap Trios Relatedness Matrix (10pt)\ngenerate a tileplot to visualize the population and relatedness patterns here (10pt)\n\nLinks\n\nYou can borrow code from the lecture and the links below\n\nhttps://hakyimlab.github.io/hgen471/L6-population-structure.html\nhttps://bios25328.hakyimlab.org/post/2020/02/06/l8-grm/\n\nslides\n\n\nThe following code will directly download the bed/bim/fam files\nwget -O hapmap3_ch22.bed https://uchicago.box.com/shared/static/uu5fbx135qgp37spnrrsxrk4acuibkwh.bed\nwget -O hapmap3_ch22.bim https://uchicago.box.com/shared/static/eh0thcbeo5sb1ywufrowtm3uqqgad0b2.bim\nwget -O hapmap3_ch22.fam https://uchicago.box.com/shared/static/7py9smo190ucl6jrdwe0de8wjdc6rrwq.fam\n\n\nHow to download plink\nwget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20220305.zip\n##Use this link if you are on Rstudio Cloud otherwise go to the website\n##https://zzz.bwh.harvard.edu/plink/download.shtml \nunzip plink_linux_x86_64_20220305.zip\nmikdir bin \nmv plink bin"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-01-homework-03/index.html#c.-finish-running-the-marees-gwas-tutorial",
-    "href": "post/bios-25328/2024-04-01-homework-03/index.html#c.-finish-running-the-marees-gwas-tutorial",
-    "title": "homework 3",
-    "section": "C. Finish running the Marees GWAS tutorial",
-    "text": "C. Finish running the Marees GWAS tutorial\n\nFinish lab 3 and answer the following questions.\n\nUsing the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.\n\nHow many individuals are in the genotype file you downloaded? (5 pts)\nExplain the contents of .fam, .bim, .bed files (5 pts)\nWrite the captions for the figures generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)\nExplain what you accomplished with the tutorial and explain the results/figures you obtained. (20 pts)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-29-lab-02/index.html",
-    "href": "post/bios-25328/2024-03-29-lab-02/index.html",
-    "title": "lab 2",
-    "section": "",
-    "text": "get started with simulations for homework 2\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html",
-    "href": "post/bios-25328/2024-04-05-lab-03/index.html",
-    "title": "lab 3",
-    "section": "",
-    "text": "Read and summarize in a few sentences this GWAS tutorial paper https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608\nDownload plink from LINK (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)\nCreate a github user if you don’t already have one\nGit clone the tutorial from the command line (run git clone &lt;https://github.com/MareesAT/GWA_tutorial.git&gt; on the terminal). You will need to unzip files that look like *.zip\nrun the QC and Association components of the tutorial\n\n1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt\n\nyou may want to download the hapmap data from here https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace\n\nyou may need to download plink (https://www.cog-genomics.org/plink/1.9/)\nThe tutorial is designed so that you need to run all the steps but since 2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#instructions",
-    "href": "post/bios-25328/2024-04-05-lab-03/index.html#instructions",
-    "title": "lab 3",
-    "section": "",
-    "text": "Read and summarize in a few sentences this GWAS tutorial paper https://onlinelibrary.wiley.com/doi/10.1002/mpr.1608\nDownload plink from LINK (choose the one corresponding to your operating system. If running on posit.cloud, you should choose the linux version even if you are accessing posit from a different operating system)\nCreate a github user if you don’t already have one\nGit clone the tutorial from the command line (run git clone &lt;https://github.com/MareesAT/GWA_tutorial.git&gt; on the terminal). You will need to unzip files that look like *.zip\nrun the QC and Association components of the tutorial\n\n1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS.txt\n\nyou may want to download the hapmap data from here https://uchicago.box.com/s/hawatrohw6fthytguaww83njrf5i6ace\n\nyou may need to download plink (https://www.cog-genomics.org/plink/1.9/)\nThe tutorial is designed so that you need to run all the steps but since 2_Population_stratification.txt is quite computationally time consuming, you can skip it and just download the files you need to run associations here https://uchicago.box.com/s/ux2xkab6zhth0csazixqoj98xtjh7h0x"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#notes",
-    "href": "post/bios-25328/2024-04-05-lab-03/index.html#notes",
-    "title": "lab 3",
-    "section": "Notes",
-    "text": "Notes\n\nSome modifications to the code may be needed. Use them if you encounter errors.\n\nRelatedness.R needs to change lines 7 and 15 to\nlegend(1,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))\nlegend(0.02,1, xjust=1, yjust=1, legend=levels(factor(relatedness$RT)), pch=16, col=c(4,3))\nline 31 of 2_Main_script_MDS.txt replace\nplink --bfile ALL.2of4intersection.20100804.genotypes --set-missing-var-ids @:#[b37]\\$1,\\$2 --make-bed --out ALL.2of4intersection.20100804.genotypes_no_missing_IDs\nwith\nplink --bfile ALL.2of4intersection.20100804.genotypes --set-missing-var-ids '@:#[b37]$1,$2' --make-bed --out ALL.2of4intersection.20100804.genotypes_no_missing_IDs\nline 144 in 2_Main_script_MDS.txt replace\n(base) haekyungim@Im-Lab-016 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt | sed -e '1i\\FID IID race' &gt; racefile.txt\nsed: 1: \"1i\\FID IID race\n\": extra characters after \\ at the end of i command\n(base) haekyungim@Im-Lab-016 1_QC_GWAS % cat race_1kG14.txt racefile_own.txt | sed -e '1i\\\nFID IID race' &gt; racefile.txt\ninstall qqman in R and comment out first line on Manhattan_plot.R and QQ_plot.R\n##install.packages(\"qqman\",repos=\"http://cran.cnr.berkeley.edu/\",lib=\"~\" ) # location of installation can be changed but has to correspond with the library location \n##library(\"qqman\",lib.loc=\"~\")  \nlibrary(\"qqman\")"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-05-lab-03/index.html#questions",
-    "href": "post/bios-25328/2024-04-05-lab-03/index.html#questions",
-    "title": "lab 3",
-    "section": "Questions",
-    "text": "Questions\nUsing the output from the tutorial or using the commands you learned from it, answer the following questions. Show the command you used to create the result.\n\nHow many individuals are in the genotype file you downloaded? (5 pts)\nExplain the contents of .fam, .bim, .bed files (5 pts)\nWrite the captions for the figures generated by the commands in 1_Main_script_QC_GWAS.txt and 3_Main_script_association_GWAS (5 pts per figure caption)\nExplain what you accomplished with the tutorial and explain the results/figures you obtained. (20 pts)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html",
-    "href": "post/bios-25328/2024-04-12-lab-04/index.html",
-    "title": "lab 4",
-    "section": "",
-    "text": "In this lab we are going to use the PRSice software to take height GWAS results and predict height of the Personal Genome Project individuals using their genotype data.\n\n\n\nDownload data from box\nDownload PRSice\nRun exploratory analysis of data\nRun PRSice\nPlot observed versus predicted for height\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#goals-and-introduction",
-    "href": "post/bios-25328/2024-04-12-lab-04/index.html#goals-and-introduction",
-    "title": "lab 4",
-    "section": "",
-    "text": "In this lab we are going to use the PRSice software to take height GWAS results and predict height of the Personal Genome Project individuals using their genotype data.\n\n\n\nDownload data from box\nDownload PRSice\nRun exploratory analysis of data\nRun PRSice\nPlot observed versus predicted for height"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#setup",
-    "href": "post/bios-25328/2024-04-12-lab-04/index.html#setup",
-    "title": "lab 4",
-    "section": "Setup",
-    "text": "Setup\n\nload R packages and define paths\nYou will have to install all these packages first:\n(r code block)\n\n\nShow the code\ninstall.packages(\"tidyverse\")\ninstall.packages(\"RSQLite\")\ninstall.packages(\"glue\")\n\n\n(r code block)\n\n\nShow the code\nsuppressMessages(library(tidyverse))\nsuppressMessages(library(RSQLite))\nsuppressMessages(library(glue))\n\n\n\n\nDownload data\n\ndownload the data from here and place it in a directory called DATA\ndownload PRSice software from https://choishingwan.github.io/PRSice/\n\nIf you are on a Mac install the mac appropriate binary:\n(bash code block)\n\n\nShow the code\n# wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_mac.zip\n\n\nIf you are on Posit cloud do the linux binary:\n(bash code block)\n\n\nShow the code\nwget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_linux.zip\n\n\nUnzip the binary: (bash code block)\n\n\nShow the code\nunzip ./PRSice_linux.zip\n\n\nmove the executable to the directory where you keep your software (optional) ** the first time you run PRSice, it will install additional components make sure PRSice is executable ** chmod u+x PRSice\n(bash code block)\n\n\nShow the code\nchmod +x ./PRSice_linux\n\n\nTerminal Setup\n(bash code block)\n\n\nShow the code\nexport PRE=\"/cloud/project\"\nexport DATA=\"$PRE/Lab-personal-genomes-project-data\"\n\nexport PRSice=\"/cloud/project/\" # file/path/to/PRSice\nexport PRSice_os=\"PRSice_linux\" # optional: which operating system is your prsice named for\n#$PRSice/$PRSice_os --help\ncd $DATA\nexport WORK=$DATA"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#exploration-of-the-data",
-    "href": "post/bios-25328/2024-04-12-lab-04/index.html#exploration-of-the-data",
-    "title": "lab 4",
-    "section": "Exploration of the Data",
-    "text": "Exploration of the Data\n\nopen the database with phenotype information and list tables\n(r code block)\n\n\nShow the code\ndbname &lt;- paste0(DATA,\"/repgp-data.sqlite3\") ##This is just to create the file path to the sqlite3 file \n## connect to db\ndb = RSQLite::dbConnect(SQLite(), dbname)\n## list tables\ndbListTables(db)\n\n\nquery database users table\n(r code block)\n\n\nShow the code\ndbListFields(db,\"users\")\n\n\n(r code block)\n\n\nShow the code\nquery &lt;- function(...) dbGetQuery(db, ...)\nusers = query(\"select * from users\")\nnames(users)\n\n\nlook at distribution by count for each column\n(r code block)\n\n\nShow the code\nusers %&gt;% count(race)\n\n\n(r code block)\n\n\nShow the code\nusers  %&gt;% count(gender)\n\n\n(r code block)\n\n\nShow the code\nusers %&gt;% count(blood)\n\n\nplot height distribution by gender\n(r code block)\n\n\nShow the code\nusers %&gt;% ggplot(aes(height,fill=gender)) + geom_density(alpha=0.6) + ggtitle(\"Height by gender - Missing gender, *, has bi-modal distr.\") + theme_minimal(base_size = 15)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-12-lab-04/index.html#run-prsice",
-    "href": "post/bios-25328/2024-04-12-lab-04/index.html#run-prsice",
-    "title": "lab 4",
-    "section": "run PRSice",
-    "text": "run PRSice\n\ncreate phenotype data file\ncreate phenotype data file as intersection of the plink formatted fam file and the users table from the database repgp-data.sqlite3\n(r code block)\n\n\nShow the code\nfam = read_tsv(glue::glue(\"{DATA}/repgp.fam\"),col_names = FALSE)\n\n\n(r code block)\n\n\nShow the code\nnames(fam)[1:2] = c(\"FID\",\"IID\")\nfam &lt;- fam %&gt;% select(FID, IID) %&gt;% inner_join(users %&gt;% select(sample,height,weight,gender), by=c(\"IID\"=\"sample\")) \nwrite_tsv(fam,file=glue::glue(\"{DATA}/phenodata.txt\"))\n\n\nexecute bash command to run PRSice\n(bash code block)\n\n\nShow the code\nmkdir /cloud/project/Lab-personal-genomes-project-data/output\n\nRscript /cloud/project/PRSice.R --dir /cloud/project \\\n    --prsice /cloud/project/PRSice_linux \\\n    --base /cloud/project/Lab-personal-genomes-project-data/ukb_height.gz \\\n    --target cloud/project/Lab-personal-genomes-project-data/repgp.chr# \\\n    --snp variant_id \\\n    --A1 effect_allele \\\n    --A2 non_effect_allele \\\n    --stat effect_size \\\n    --beta \\\n    --pvalue pvalue \\\n    --pheno-file /cloud/project/Lab-personal-genomes-project-data/phenodata.txt \\\n    --pheno-col height \\\n    --bar-levels 5e-08,5e-07,5e-06,5e-05,5e-04,5e-03,5e-02,5e-01,1 \\\n    --fastscore \\\n    --binary-target F \\\n    --thread 2 \\\n    --out /cloud/project/Lab-personal-genomes-project-data/output/height_score_all\n\n\nIf you get duplicated SNP ID, follow the instructions\n(bash code block)\n\n\nShow the code\nPRSice=\"/cloud/project/\"\nWORK=\"/cloud/project/Lab-personal-genomes-project-data/\"\n\nRscript $PRSice/PRSice.R --dir $PRSice \\\n    --prsice $PRSice/PRSice_mac \\\n    --base $WORK/ukb_height.gz \\\n    --extract $WORK/output/height_score_all.valid \\\n    --target $WORK/repgp.chr# \\\n    --snp variant_id \\\n    --A1 effect_allele \\\n    --A2 non_effect_allele \\\n    --stat effect_size \\\n    --beta \\\n    --pvalue pvalue \\\n    --pheno-file $WORK/phenodata.txt \\\n    --pheno-col height \\\n    --bar-levels 5e-08,5e-07,5e-06,5e-05,5e-04,5e-03,5e-02,5e-01,1 \\\n    --fastscore \\\n    --binary-target F \\\n    --thread 2 \\\n    --out $WORK/output/height_score_all\n\n\nThis may take a couple minutes\nplot observed vs predicted height\n(r code block)\n\n\nShow the code\n## we already have the phenotype data in the fam variable\npredicted_height = read_delim(glue::glue(\"{DATA}/output/height_score_all.best\"),delim=\" \")\n\n\n(r code block)\n\n\nShow the code\ncombined &lt;- predicted_height %&gt;% inner_join(fam,by=c(\"IID\"=\"IID\")) \ncombined %&gt;% ggplot(aes(PRS,height)) + geom_point() + theme_minimal(base_size = 15)\n\n\nregress observed height with predicted height (PRS)\n(r code block)\n\n\nShow the code\nsummary(lm(height ~ PRS,data=combined)) %&gt;% coef()"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-19-homework-05/index.html",
-    "href": "post/bios-25328/2024-04-19-homework-05/index.html",
-    "title": "homework 5",
-    "section": "",
-    "text": "Lecture 9 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-19-homework-05/index.html#a.-complete-the-following-assessments",
-    "href": "post/bios-25328/2024-04-19-homework-05/index.html#a.-complete-the-following-assessments",
-    "title": "homework 5",
-    "section": "",
-    "text": "Lecture 9 assessment quiz (10 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-03-lecture-06/index.html",
-    "href": "post/bios-25328/2024-04-03-lecture-06/index.html",
-    "title": "lecture 6",
-    "section": "",
-    "text": "Lecture 6 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/images/2024-03-25-GWAS/index.html",
-    "href": "post/images/2024-03-25-GWAS/index.html",
-    "title": "Images GWAS",
-    "section": "",
-    "text": "Show the code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/images/2024-03-25-GWAS/index.html#gwas",
-    "href": "post/images/2024-03-25-GWAS/index.html#gwas",
-    "title": "Images GWAS",
-    "section": "",
-    "text": "Show the code\nFOLDER=\"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data/images\"\nknitr::include_graphics(paste0(FOLDER,\"/\",\"2024-03-25-GWAS/GWAS.png\"))"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html",
-    "href": "post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html",
-    "title": "",
-    "section": "",
-    "text": "CodeShow All CodeHide All Code\nPytorch tutorial using DNA created by Erin Wilson. Downloaded from here. Minor edits by Haky Im for compatibility with Apple Silicon (M1/M2/M3) MacBooks using MPS\nKey changes: 1. Using float32 instead of float64 (MPS doesn’t support double precision) 2. Setting device to ‘mps’ when available 3. Ensuring tensor data types are compatible with Metal Performance Shaders (MPS)\nThese modifications ensure compatibility with Apple’s built-in GPU acceleration while maintaining compatibility with other systems (CUDA, CPU).\nBelow is the environment by erinhwilson but not recommended here, we use %pip, which yielded fewer version incompatibility issues\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html#foot-notes",
-    "href": "post/gene-46100/2025-03-25-unit00/basic_DNA_tutorial.html#foot-notes",
-    "title": "",
-    "section": "9. Foot notes",
-    "text": "9. Foot notes\n\nFOOTNOTE 1\nIn this tutorial, the CNN model definition uses a 1D convolutional layer - since DNA is not an image with 2 dimensions, Conv1D is sufficient to just slide along the length dimension and not scan up and down. (In fact, sliding a filter “up” and “down” doesn’t apply to one-hot encoded DNA matrices: separating the A and C rows from the G and T rows doesn’t make sense - you need all 4 rows to accurately represent a DNA sequence.)\nHowever, I once found myself needing to use an analysis tool built with keras and found a pytorch2keras conversion script. The conversion script only knew how to handle Conv2d layers and gave errors for models with Conv1d layers :(\nIn case this happens to you, here is an example of how to reformat the CNN definition using a Conv2D while ensuring that it still scans along the DNA as if it were a Conv1D:\n\n\nShow the code\nclass DNA_CNN_2D(nn.Module):\n    def __init__(self,\n                 seq_len,\n                 num_filters=31,\n                 kernel_size=3,\n                ):\n        super().__init__()\n        self.seq_len = seq_len\n        \n        self.conv_net = nn.Sequential(\n            nn.Conv2d(1, num_filters, kernel_size=(4,kernel_size)),\n            # ^^ changed from 4 to 1 channel, moved 4 to kernel_size\n            nn.ReLU(),\n            nn.Flatten(),\n            nn.Linear(num_filters*(seq_len-kernel_size+1), 1)\n        ) \n\n    def forward(self, xb):\n        # reshape view to batch_ssize x 4channel x seq_len\n        # permute to put channel in correct order\n        xb = xb.permute(0,2,1).unsqueeze(1)\n        # ^^ Conv2D input fix\n        \n        #print(xb.shape)\n        out = self.conv_net(xb)\n        return out\n\n\n\n\nFOOTNOTE 2\nIf you’re doing a classification task instead of a regression task, you may want to use CrossEntropyLoss. However, CrossEntropyLoss expects a slightly different format than MSELoss - try this:\n\n\nShow the code\nloss = loss_func(xb_out, yb.long().squeeze(1))"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/gradient-descent-illustration.html",
-    "href": "post/gene-46100/2025-02-20-testing/gradient-descent-illustration.html",
-    "title": "Gradient descent illustration",
-    "section": "",
-    "text": "Show the code\nimport numpy as np\nimport pandas as pd\nfrom plotnine import *\n\n\n\n\nShow the code\n# Loss function and its gradient\ndef loss(beta):\n    return beta ** 2\n\ndef grad(beta):\n    return 2 * beta\n\n# Simulate gradient descent\nbeta = 3.5  # random initial value\nlearning_rate = 0.2\nsteps = []\n\nfor i in range(10):\n    current_loss = loss(beta)\n    steps.append({'step': i, 'beta': beta, 'loss': current_loss})\n    beta -= learning_rate * grad(beta)\n\ndf = pd.DataFrame(steps)\n\n# Create full curve for loss function\nbeta_vals = np.linspace(-4, 4, 200)\nloss_vals = loss(beta_vals)\ndf_curve = pd.DataFrame({'beta': beta_vals, 'loss': loss_vals})\n\n# Create arrows for learning steps\ndf_arrows = df[:-1].copy()\ndf_arrows['beta_end'] = df['beta'][1:].values\ndf_arrows['loss_end'] = df['loss'][1:].values\n\n# Plot\np = (\n    ggplot(df_curve, aes('beta', 'loss')) +\n    geom_line(size=1.5, color=\"gray\") +\n    geom_point(df, aes('beta', 'loss'), color='purple', size=3) +\n    geom_point(df.tail(1), aes('beta', 'loss'), color='yellow', size=4) +\n    geom_segment(df_arrows,\n                 aes(x='beta', y='loss', xend='beta_end', yend='loss_end'),\n                 arrow=arrow(length=0.15, type='closed'),\n                 color='gray') +\n    annotate('text', x=3.5, y=12, label='Random\\ninitial value', ha='left') +\n#    annotate('text', x=1.5, y=5, label='Learning step', ha='left') +\n#    annotate('text', x=0, y=0.5, label='Minimum', ha='left') +\n    geom_vline(xintercept=0, linetype='dashed', color='gray') +\n    labs(x=r'$\\beta$', y='Loss') +\n    theme_minimal() +\n    theme(\n        figure_size=(7, 4),\n        axis_title=element_text(size=12),\n        axis_text=element_text(size=10)\n    )\n)\n\np\n\n\n\n\n\n\n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "index-qgt.html",
-    "href": "index-qgt.html",
-    "title": "QGT",
-    "section": "",
-    "text": "This page contains material for the Quantitative Genomic Training course material. Prior material was in https://lab-notes.hakyimlab.org/post/2022-06-10-qgt-training/index.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "",
-    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory.\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html#tldr-if-you-just-want-to-run-ollama-with-local-model",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "",
-    "text": "brew install ollama\nbrew services start ollama\nollama run deepseek-r1:7b\ncheck other models in https://ollama.com/library ollama run modelname will download the model (the first time) and run it, all locally.\nFor example to run gemma3 27B model\nollama run gemma3:27b\ngemma3:12b is also fast and good for basic llm tasks and fits better in laptop memory."
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html#install-deepseek-r1",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html#install-deepseek-r1",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "install deepseek R1",
-    "text": "install deepseek R1\nfollowed this guide https://cloudgeek7.medium.com/the-ai-game-changer-running-deepseek-r1-locally-on-a-macbook-pro-m3-a984935b0e45"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html#step-1-install-n8n-using-docker-compose-on-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 1: Install n8n Using Docker Compose on OrbStack",
-    "text": "Step 1: Install n8n Using Docker Compose on OrbStack"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html#install-orbstack",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html#install-orbstack",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "install orbstack",
-    "text": "install orbstack\nbrew install orbstack\n\nCreate a folder for the n8n setup\n\nmkdir ~/n8n-docker && cd ~/n8n-docker\n\nCreate a simple docker-compose.yml file for n8n\n\nservices:\n  n8n:\n    image: n8nio/n8n:latest\n    container_name: n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - ./n8n_data:/home/node/.n8n # Persistent storage for workflows and data\n    restart: unless-stopped\n\nstart n8n\n\ndocker-compose up -d\n\nstop n8n\n\ndocker-compose down"
-  },
-  {
-    "objectID": "post/gene-46100/2025-02-20-testing/ollama-testing.html#step-2-install-ollama",
-    "href": "post/gene-46100/2025-02-20-testing/ollama-testing.html#step-2-install-ollama",
-    "title": "installing ollama with n8n docker compose orbstack",
-    "section": "Step 2: Install Ollama",
-    "text": "Step 2: Install Ollama\n\ninstalled ollama (downloaded ollama.app and moved to Applications)\nalso installed ollama using brew\ndeleted ollama.app and kept ollama using brew\n\nbrew install ollama\n\nstart ollama\n\nbrew services start ollama\n\nif I want tostop ollama\n\nbrew services stop ollama\n\nDownload the DeepSeek 7B model using Ollama\n\nollama run deepseek-r1:7b  \n\nRun the gemma3 27B model\n\nollama run deepseek-r1:7b"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-conda",
-    "title": "preparing environmentfor unit 00",
-    "section": "",
-    "text": "## download miniconda from the command line\n\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh\n\n## or manually from https://www.anaconda.com/docs/getting-started/miniconda/main\n\n## install miniconda\nbash Miniconda3-latest-Linux-x86_64.sh"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#create-conda-environment",
-    "title": "preparing environmentfor unit 00",
-    "section": "create conda environment",
-    "text": "create conda environment\nconda create -n gene46100 python=3.12\nconda activate gene46100"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#do-not-install-packages-with-conda",
-    "title": "preparing environmentfor unit 00",
-    "section": "do not install packages with conda",
-    "text": "do not install packages with conda\n(I ran into lots of issues with torch version incompatibility with torchvision and torchmetrics)\n# DONT USE CONDA TO INSTALL PYTORCH at least for now\n# conda install scikit-learn plotnine pytorch \n\n## installing torchvision and torchmetrics forced downgrading torch to 2.3.1 which was not compatible with mps"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-all-packages-within-jupyter-notebook-with-pip",
-    "title": "preparing environmentfor unit 00",
-    "section": "install all packages within jupyter notebook with %pip",
-    "text": "install all packages within jupyter notebook with %pip\nas of 2025-03-24\nusing %pip will make sure that the packages are accessible by the kernel you are using for the jupyter notebook\n%pip install scikit-learn plotnine tqdm pandas \n%pip install torch\n%pip install torchvision\n%pip install torchmetrics"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#install-cursor-or-vscode-to-run-the-jupyter-notebook",
-    "title": "preparing environmentfor unit 00",
-    "section": "install cursor or vscode to run the jupyter notebook",
-    "text": "install cursor or vscode to run the jupyter notebook\n\ninstall the python extension for cursor or vscode.\nselect the python interpreter to be the one in the conda environment you created"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/index.html#to-reproduce-the-environment-exactly",
-    "href": "post/gene-46100/2025-03-25-unit00/index.html#to-reproduce-the-environment-exactly",
-    "title": "preparing environmentfor unit 00",
-    "section": "to reproduce the environment exactly",
-    "text": "to reproduce the environment exactly\n\nsave the environment\n# Save conda packages with their sources\nconda env export --from-history &gt; environment-gene46100.yml\n\n# Save pip-installed packages separately\npip list --format=freeze &gt; requirements-gene46100.txt\n\n# Save full environment state (for reference)\nconda env export &gt; environment_full-gene46100.yml\n\n\nreinstall the environment\n# Create environment from conda packages\nconda env create -f environment-gene46100.yml\n\n# Activate the environment\nconda activate gene46100\n\n# Install pip packages\npip install -r requirements-gene46100.txt"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html",
-    "title": "Quick introduction to deep learning",
-    "section": "",
-    "text": "Understand and implement gradient descent to fit a linear model\nBuild and train a multi-layer perceptron (MLP) using PyTorch\nLearn the basics of PyTorch, including model definition, forward pass, and optimization\n\n\n\nWe’ll start by making sure we have all the required Python packages installed and ready to go. PyTorch is the main library we’ll use for deep learning.\n\n\nShow the code\n## install packages if needed\nif False:\n    %pip install scikit-learn plotnine tqdm pandas\n\n\n\n\nShow the code\nfrom sklearn.datasets import make_regression\nimport numpy as np\nfrom numpy.linalg import inv\nfrom plotnine import qplot, ggplot, geom_point, geom_line, aes, geom_abline\nfrom plotnine.themes import theme_bw\nfrom plotnine.geoms import annotate\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-linear-data",
-    "title": "Quick introduction to deep learning",
-    "section": "Simulate linear data",
-    "text": "Simulate linear data\nWe generate 1000 samples, each with 2 features. We’ll define the “true” coefficients and add a bit of noise to make it realistic.\n\nx: predictors/features (shape: 1000×2)\ny: response variable (shape: 1000×1)\ncoef = [\\(\\beta_1 \\beta_2\\)]: the true coefficients used to generate \\(y\\)\n\n\n\nShow the code\nnp.random.seed(42)\nbias = 0\nnoise = 10\nx, y, coef = make_regression(\n    n_samples=1000,\n    n_features=2,\n    n_informative=2,\n    n_targets=1,\n    bias=bias,\n    noise=noise,\n    coef=True\n    )\n\n\n\nshow simulated x, y, and coef= [\\(\\beta_1 \\beta_2\\)]\n\n\nShow the code\nprint('x.shape:', x.shape)\nprint('y.shape:', y.shape)\nprint('coef.shape:', coef.shape)\n\n\nx.shape: (1000, 2)\ny.shape: (1000,)\ncoef.shape: (2,)\n\n\n\n\nShow the code\nprint('x:\\n',x,'\\n')\nprint('y[0:10]:\\n',y[0:10],'\\n')\nprint('coef:\\n',coef,'\\n')\n\n\nx:\n [[-0.16711808  0.14671369]\n [-0.02090159  0.11732738]\n [ 0.15041891  0.364961  ]\n ...\n [ 0.30263547 -0.75427585]\n [ 0.38193545  0.43004165]\n [ 0.07736831 -0.8612842 ]] \n\ny[0:10]:\n [-14.99694989 -12.67808888  17.77545452   6.66146467 -14.19552996\n -25.24484815 -39.23162627 -52.01803821   5.76368853 -50.11860295] \n\ncoef:\n [40.71064891  6.60098441]"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-y-with-ground-truth-parameters",
-    "title": "Quick introduction to deep learning",
-    "section": "Predict y with ground truth parameters",
-    "text": "Predict y with ground truth parameters\nSince we know the true coefficients, we can directly compute the predicted y and visualize how well they fit.\n\n\nShow the code\ny_hat = x.dot(coef) + bias\n\n\n\ncompare \\(\\hat{y}\\) and \\(y\\)\n\n\nShow the code\n(qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") + geom_abline(intercept=0, slope=1, color='gray', linetype='dashed'))"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-analytical-solution",
-    "title": "Quick introduction to deep learning",
-    "section": "Compute analytical solution",
-    "text": "Compute analytical solution\nFor linear regression, there’s a closed-form solution known as the normal equation:\n\\(\\hat{\\beta} = (X^T X)^{-1} X^T y\\)\nThis gives us the optimal coefficients that minimize mean square errors.\nLet’s get \\(\\hat{\\beta}\\) and compare it with the ground truth.\n\nExercise\nDerive the normal equation from the model, using matrix algebra\n\n\nShow the code\nvar = x.transpose().dot(x)\ncov = x.transpose().dot(y)\nb_hat = inv(var).dot(cov)\n\n\n\n\nShow the code\nprint(\"Estimated\")\nprint(b_hat)\n\nprint(\"Ground truth\")\nprint(coef)\n\n\nEstimated\n[41.06972678  6.79965716]\nGround truth\n[40.71064891  6.60098441]\n\n\n\n\nResult Comparison\nEstimated coefficients using the normal equation are close to the true ones, despite noise. That’s a good sanity check.\n\n\nExercise\n\nPlot the prediction with the analystical estimates vs the target \\(y\\)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-stochastic-gradient-descent-sgd",
-    "title": "Quick introduction to deep learning",
-    "section": "Define Stochastic Gradient Descent (SGD)",
-    "text": "Define Stochastic Gradient Descent (SGD)\nWhen analytical solutions aren’t available (which is often), we rely on numerical optimization like gradient descent.\nAlthough linear regression has analytical solutions, this is unfortunately not the case for many other models. We may need to resort to numerical approximations to find the optimal parameters. One of the most popular numerical optimizers is called stochastic gradient descent."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-a-gradient",
-    "title": "Quick introduction to deep learning",
-    "section": "What is a Gradient?",
-    "text": "What is a Gradient?\nA gradient is the derivative of a function, and it tells us how to adjust parameters to reduce the error.\n$f’() = _{→ 0} = $"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "What is Gradient Descent?",
-    "text": "What is Gradient Descent?\nAn optimization algorithm that iteratively updates parameters in the direction of steepest descent (negative gradient) to minimize a loss function.\n\nLearning rate (\\(\\alpha\\)): step size. It is a hyperparameters that determines how fast we move in the direction of the gradient.\nLoss surface: the landscape we are optimizing over\n\nAt a particular \\(β_i\\), we find the gradient \\(f'(\\beta)\\), and take a step along the direction of the gradient to find the next point \\(\\beta_{i+1}\\).\n\\(\\beta_{i+1} = \\beta_i - \\alpha f'(\\beta_i)\\)\nThe \\(\\alpha\\) is called the learning rate.\n\n\n\ngradient descent"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#what-is-stochastic-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "What is stochastic gradient descent?",
-    "text": "What is stochastic gradient descent?\nIn real-world applications, the size of our dataset is so large that it is impossible to calculate the gradient using all data points. Therefore, we take a small chunk (called a “batch”) of the dataset to calcalate the gradient. This approximates the full-data gradients, thus the word stochastic."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#three-components-of-machine-learning",
-    "title": "Quick introduction to deep learning",
-    "section": "Three Components of Machine Learning",
-    "text": "Three Components of Machine Learning\nTo build a machine learning model, we need:\n\nModel: Defines the hypothesis space (e.g., linear model)\nLoss Function: Measures how well the model fits\nOptimizer: Updates parameters to reduce the loss (e.g., SGD)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#define-the-loss-function",
-    "title": "Quick introduction to deep learning",
-    "section": "Define the Loss Function",
-    "text": "Define the Loss Function\nCommon choice for regression: Mean Squared Error (MSE)\n\\(\\ell(\\beta) = \\frac{1}{2}\\sum\\limits_{i=1}^m (f(\\beta)^{i} - y^{i})^2 / m\\)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#compute-the-gradient",
-    "title": "Quick introduction to deep learning",
-    "section": "Compute the gradient",
-    "text": "Compute the gradient\n\\(\\frac{\\partial}{\\partial \\beta_j}\\ell(\\beta) = \\frac{\\partial}{\\partial \\beta_j} \\frac{1}{2} \\sum_i (f(\\beta)^i - y^i)^2 =  \\sum_i (f(\\beta)^i - y^i) x_j\\)\nRecall that in our example $ f() = = _1 x_1 + _2 x_2$. Here \\(\\beta_j\\) is either \\(\\beta_1\\) or \\(\\beta_2\\).\n\nExercise\nShow that the derivative of the loss function is as stated above."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#optimize-estimate-parameters-with-gradient-descent",
-    "title": "Quick introduction to deep learning",
-    "section": "Optimize: estimate parameters with gradient descent",
-    "text": "Optimize: estimate parameters with gradient descent\n\n\nShow the code\nlr = 0.1 # learning rate\nb = [0.0, 0.0] # initialize all betas to 0\nn_examples = len(y)\ntrajectory = [b]\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n  trajectory.append(b.copy())\n\ntrajectory = np.stack(trajectory, axis=1)\n\n\n\n\nShow the code\nqplot(x=trajectory[0], y=trajectory[1], xlab=\"beta_1\", ylab=\"beta_2\", geom=[\"point\", \"line\"]) + theme_bw() + annotate(geom=\"point\", x=coef[0], y=coef[1], size=8, color=\"blue\",shape='+',stroke=1)\n\n\n\n\n\n\n\n\n\n\nExercise\n\nAdd to the plot the normal equation estimates (traditional linear regression) of the coefficients in a different green\n\n\n\nExercise\n\nSimulate \\(y\\) with larger noise, estimate the regression coefficients using the normal equation and the gradient descent method, and plot the trajectory, the ground truth, and the two estimates for comparison."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#simulate-non-linear-data",
-    "title": "Quick introduction to deep learning",
-    "section": "Simulate non linear data",
-    "text": "Simulate non linear data\nLet’s start by simulating data according to the generative model:\n$ y = x_1^3$\n\n\nShow the code\nx = np.random.normal(size=1000)\ny = x ** 3"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#predict-with-simple-linear-model",
-    "title": "Quick introduction to deep learning",
-    "section": "Predict with simple linear model",
-    "text": "Predict with simple linear model\nLet’s try to predict with a simple linear regression model\n$ y = X $\n\nQuestion\nhow many parameters do we need to estimate for this simple linear model?\n\n\nShow the code\nlr = 0.1 # learning rate\nb = 0.0 # initialize all betas to 0\nn_examples = len(y)\n\nfor _ in range(50): # 50 steps\n  diff = x.dot(b) - y\n  grad = diff.dot(x) / n_examples\n  b -= lr*grad\n\n\n\n\nShow the code\ny_hat = x.dot(b)\n( qplot(x = y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\") +\ngeom_abline(intercept=0, slope=1, color='gray', linetype='dashed') )\n\n\n\n\n\n\n\n\n\n\n\nWe would like to be closer to the dashed gray, identity line! Let’s try MLP."
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#install-packages-if-needed",
-    "title": "Quick introduction to deep learning",
-    "section": "Install packages if needed",
-    "text": "Install packages if needed\n\n\nShow the code\n## install packages if needed\nif False:  # Change to True to run the commands\n    %pip install tqdm\n    %pip install torch\n    %pip install torchvision torchmetrics\n\n\n\n\nShow the code\nimport torch\nprint(torch.__version__)\n## if on a mac check if mps is available so you use gpu\n## print(torch.backends.mps.is_available())\n\n\n2.6.0\n\n\n\nDefine a non linear MLP\n\n\nShow the code\nimport torch\nfrom torch import nn\nimport torch.nn.functional as F\n#device = torch.device(\"cuda\")\ndevice = torch.device(\"mps\") ## use this line instead of the one above withb cuda\n\n\nclass MLP(nn.Module):\n  def __init__(self, input_dim, hid_dim, output_dim):\n    super().__init__()\n    self.fc1 = nn.Linear(input_dim, hid_dim)\n    self.fc2 = nn.Linear(hid_dim, output_dim)\n\n  def forward(self, x):\n    x = F.relu(self.fc1(x))\n    y = self.fc2(x)\n\n    return y.squeeze(1)\n\nmlp = MLP(input_dim=1, hid_dim=1024, output_dim=1).to(device)"
-  },
-  {
-    "objectID": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
-    "href": "post/gene-46100/2025-03-25-unit00/hands-on-introduction_to_deep_learning.html#train-mlp-model-using-pytorch",
-    "title": "Quick introduction to deep learning",
-    "section": "train MLP model using pytorch",
-    "text": "train MLP model using pytorch\nWe are now ready to train our model. To understand how our model is doing, we record the loss vs step, which is called the learning curve in ML literature.\n\n\nShow the code\nx_tensor = torch.Tensor(x).unsqueeze(1).to(device)\ny_tensor = torch.Tensor(y).to(device)\nlearning_curve = []\nfor epoch in range(10000):\n  optimizer.zero_grad()\n  y_hat = mlp(x_tensor)\n  loss = loss_fn(y_hat, y_tensor)\n  learning_curve.append(loss.item())\n  loss.backward()\n  optimizer.step()\n\n\n\n\nShow the code\nqplot(x=range(10000), y=learning_curve, xlab=\"epoch\", ylab=\"loss\")\n\n\n\n\n\n\n\n\n\n\n\nShow the code\ny_hat = mlp(x_tensor)\ny_hat = y_hat.detach().cpu().numpy()\n#qplot(x=y, y=y_hat, geom=\"point\", xlab=\"y\", ylab=\"y_hat\")\nqplot(x=y, y=y_hat, geom=[\"point\", \"abline\"],\n      xlab=\"y\", ylab=\"y_hat\",\n      abline=dict(slope=1, intercept=0, color='red', linetype='dashed'))\n\n\n\n\n\n\n\n\n\nNow this looks much better!"
-  },
-  {
-    "objectID": "post/bios-25328/2025-03-26-lecture-02/index.html",
-    "href": "post/bios-25328/2025-03-26-lecture-02/index.html",
-    "title": "lecture 2",
-    "section": "",
-    "text": "This lecture introduces the foundational concepts, historical context, and modern methods used to identify genetic risk factors for cancer, with a focus on germline susceptibility. It begins with linkage analysis, highlighting its role in the discovery of high-penetrance genes such as BRCA1/2 and APC, and contrasts it with genome-wide association studies (GWAS), which leverage high-throughput genotyping and large population cohorts to identify many low-penetrance variants. The course explains the statistical framework for GWAS, including hypothesis testing, regression models, and visualizations like Manhattan and QQ plots. Emphasis is placed on the polygenic nature of most cancer risks, the interpretation of GWAS results, and landmark studies such as the Wellcome Trust Case Control Consortium (WTCCC). The session also includes practical considerations for students, such as homework expectations and lab setup. (LLM-generated summary)\nFind the lecture notes here.\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-08-lecture-07-prs/index.html",
-    "href": "post/bios-25328/2024-04-08-lecture-07-prs/index.html",
-    "title": "lecture 7",
-    "section": "",
-    "text": "Lecture 7 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
-    "href": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html",
-    "title": "lecture 8",
-    "section": "",
-    "text": "Lecture 8 notes link\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html#download-the-gwas-catalog",
-    "href": "post/bios-25328/2024-04-10-lecture-08-QTL/index.html#download-the-gwas-catalog",
-    "title": "lecture 8",
-    "section": "Download the GWAS catalog",
-    "text": "Download the GWAS catalog\n\n\nShow the code\nsuppressMessages(library(tidyverse))\n\n\nWarning: package 'purrr' was built under R version 4.3.3\n\n\nWarning: package 'lubridate' was built under R version 4.3.3\n\n\nShow the code\nsuppressMessages(library(glue))\n\n\nWarning: package 'glue' was built under R version 4.3.3\n\n\nShow the code\n##PRE = \"/Users/haekyungim/Library/CloudStorage/Box-Box/LargeFiles/imlab-data/data-Github/web-data\"\nPRE=\"~/Downloads/\"\nDATA = glue(\"{PRE}/2024-04-10-gwas-catalog-analysis-2022\")\nif(!file.exists(DATA)) system(glue(\"mkdir -p {DATA}\"))\nWORK=DATA\n\nDOWNLOAD_DATE=\"2024-04-10\"\n\n## download data from GWAS catalog\n## https://www.ebi.ac.uk/gwas/docs/file-downloads\n\n# - [ ] make sure the DATAFILE name is the same as the one you just downloaded\n# DATAFILE = \"gwas_catalog_v1.0.2-associations_e105_r2022-04-07.tsv\"\nDATAFILE=\"full\"\nfilename = glue(\"{DATA}/{DATAFILE}\")\n\nif(!file.exists(filename)) system(glue(\"wget -P {DATA} https://www.ebi.ac.uk/gwas/api/search/downloads/full\"))\n\n\n\n\nShow the code\ngwascatalog = read_tsv(filename)\n\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nRows: 624399 Columns: 34\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \"\\t\"\nchr  (23): FIRST AUTHOR, JOURNAL, LINK, STUDY, DISEASE/TRAIT, INITIAL SAMPLE...\ndbl   (9): PUBMEDID, UPSTREAM_GENE_DISTANCE, DOWNSTREAM_GENE_DISTANCE, MERGE...\ndate  (2): DATE ADDED TO CATALOG, DATE\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nShow the code\ndim(gwascatalog)\n\n\n[1] 624399     34\n\n\nShow the code\nnames(gwascatalog)\n\n\n [1] \"DATE ADDED TO CATALOG\"      \"PUBMEDID\"                  \n [3] \"FIRST AUTHOR\"               \"DATE\"                      \n [5] \"JOURNAL\"                    \"LINK\"                      \n [7] \"STUDY\"                      \"DISEASE/TRAIT\"             \n [9] \"INITIAL SAMPLE SIZE\"        \"REPLICATION SAMPLE SIZE\"   \n[11] \"REGION\"                     \"CHR_ID\"                    \n[13] \"CHR_POS\"                    \"REPORTED GENE(S)\"          \n[15] \"MAPPED_GENE\"                \"UPSTREAM_GENE_ID\"          \n[17] \"DOWNSTREAM_GENE_ID\"         \"SNP_GENE_IDS\"              \n[19] \"UPSTREAM_GENE_DISTANCE\"     \"DOWNSTREAM_GENE_DISTANCE\"  \n[21] \"STRONGEST SNP-RISK ALLELE\"  \"SNPS\"                      \n[23] \"MERGED\"                     \"SNP_ID_CURRENT\"            \n[25] \"CONTEXT\"                    \"INTERGENIC\"                \n[27] \"RISK ALLELE FREQUENCY\"      \"P-VALUE\"                   \n[29] \"PVALUE_MLOG\"                \"P-VALUE (TEXT)\"            \n[31] \"OR or BETA\"                 \"95% CI (TEXT)\"             \n[33] \"PLATFORM [SNPS PASSING QC]\" \"CNV\"                       \n\n\n\n\nShow the code\n## show number of entries in the GWAS catalog with cancer\ngwascatalog %&gt;% select(`DISEASE/TRAIT`, MAPPED_GENE) %&gt;% filter(grepl(\"cancer\",`DISEASE/TRAIT`)) %&gt;% dim()\n\n\n[1] 11391     2\n\n\n\nNumber of distinct loci reported in GWAS of various cancers\n\nNumber of entries in the GWAS catalog with cancer, unique loci (it’s a reasonable assumption that mapped genes will be a good way to count loci)\n\n\nShow the code\ngwascatalog %&gt;% select(`DISEASE/TRAIT`, MAPPED_GENE) %&gt;% filter(grepl(\"cancer\",`DISEASE/TRAIT`)) %&gt;% unique() %&gt;% dim()\n\n\n[1] 6736    2\n\n\n\n\nShow the code\n## plot histogram of GWAS loci by year\ngwascat_sig = gwascatalog %&gt;% mutate(year=as.factor(lubridate::year(lubridate::as_date(`DATE ADDED TO CATALOG`)))) %&gt;% filter(`P-VALUE`&lt;5e-8)\n\ngwascat_sig %&gt;% filter(year!=\"2024\") %&gt;% ggplot(aes(year)) + geom_bar() + theme_bw(base_size = 15) + scale_x_discrete(breaks=c(\"2008\",\"2012\",\"2016\",\"2020\",\"2022\")) + xlab(\"year\") + ylab(\"GWAS loci reported p&lt;5e-8\") + ggtitle(paste0(\"GWAS Catalog Downloaded \",DOWNLOAD_DATE) )\n\n\n\n\n\n\n\n\n\nShow the code\n##ggsave(glue::glue(\"{DATA}/gwas-catalog/gwas-catalog-by-year.pdf\"))"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
-    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html",
-    "title": "lab 1 - command line and R",
-    "section": "",
-    "text": "We will learn to use the command line by doing. Follow the instructions below.\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
-    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line",
-    "title": "lab 1 - command line and R",
-    "section": "command line",
-    "text": "command line\n\nread the article that explains why it is a good idea to learn to use the command line Five reasons why researchers should learn to love the command line\nAnswer the questions showing that you did read the paper link to questions. You have multiple attempts.\nfollow the instructions on the paper’s github README page copied below for your convenience.\n\n\nIf you are on a Mac or Linux, open your Terminal (or similar) application. On Windows, you’ll need something like MobaXterm.\nFrom the command prompt, clone this GitHub repository: git clone https://github.com/jperkel/nature_bash.git.\nEnter the newly created directory: cd nature_bash.\nMake the scripts executable: chmod +x *.sh.\nRun the scripts in numeric order, being sure to prepend each file name with a period and slash, eg: ./01_init.sh). This tells the shell where to find these scripts (i.e., the current directory) when that location is not included in your file search PATH variable.\nYou don’t have to type the complete filename. Once you type enough of the filename to be uniquely recognized, you can use Bash’s ‘autocomplete’ feature to fill in the rest of the name for you. Try it: type ./01 and then hit the TAB key to complete the command.\n\nThere are six scripts in total:\n\n01_init.sh: Creates a temporary directory (nature_tmpdir) beneath the current directory and fills it with dummy files\n02_fix_filenames.sh: We created 217 files with date-stamped names using the pattern: DD-MM-YYYY, e.g., datafile-01-01-2020.txt, datafile-02-01-2020.txt, etc. This script uses the sed command and a for-loop to rename them using the standard YYYYMMDD pattern.\n03_process_data.sh: We created a four dummy data files, such as might be output from a spectrophotometer (3 files of “readings” and 1 “background” file). This script pulls those data into a single data file, averages the readings, subtracts the background, and divides by 60 to give a per-second value. The result is a spreadsheet, which is displayed on screen.\n04_geo.sh: This script downloads a compressed gene expression datafile from the NCBI Gene Expression Omnibus database, extracts it, and searches for a gene name given on the command line. Try it with the Cactin gene: ./04_geo.sh Cactin.\n05_filter_geo.sh: This script uses sed and awk to filter the GEO datafile from 04_geo.sh for records with a p-value &lt; 0.05 and an ensembl_gene_id value other than NA.\n99_clean_all.sh: Deletes all temporary files.\n\nFeel free to use chatGPT or similar to explain the scripts if you are not familiar with these commands."
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
-    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#r-introduction",
-    "title": "lab 1 - command line and R",
-    "section": "R introduction",
-    "text": "R introduction\nYou are probably familiar with R. If not, start learning with swirl\n\ninstall.packages(\"swirl\")\nlibrary(\"swirl\")\nswirl()"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
-    "href": "post/bios-25328/2024-03-18-lab-01-command-line-R/index.html#command-line-basics",
-    "title": "lab 1 - command line and R",
-    "section": "Command line basics",
-    "text": "Command line basics\nFor the bare minimum list of commands check out this link"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-25-lecture-03/index.html",
-    "href": "post/bios-25328/2024-03-25-lecture-03/index.html",
-    "title": "lecture 3",
-    "section": "",
-    "text": "Lecture 3 notes link\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html",
-    "href": "post/bios-25328/2024-03-20-hw-01/index.html",
-    "title": "homework 1",
-    "section": "",
-    "text": "Homeworks problems for week 1\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
-    "href": "post/bios-25328/2024-03-20-hw-01/index.html#self-assessment-quiz-10-points",
-    "title": "homework 1",
-    "section": "1. Self assessment quiz (10 points)",
-    "text": "1. Self assessment quiz (10 points)\nGo through the lecture 1 self-assessment quiz. Feel free to use multiple attempts."
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
-    "href": "post/bios-25328/2024-03-20-hw-01/index.html#run-the-lab-1-and-show-your-work-10-points",
-    "title": "homework 1",
-    "section": "2. Run the lab 1 and show your work (10 points)",
-    "text": "2. Run the lab 1 and show your work (10 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
-    "href": "post/bios-25328/2024-03-20-hw-01/index.html#edit-the-bash-scripts-from-the-lab-and-show-your-work-10-points",
-    "title": "homework 1",
-    "section": "3. Edit the bash scripts from the lab and show your work (10 points)",
-    "text": "3. Edit the bash scripts from the lab and show your work (10 points)\n\nFor the 01_init.sh part:\n\nTask: Modify the script to create files with a different year (e.g., 2021 instead of 2020) in the file names.\nLearning Objective: This task will help understand how to modify string literals in bash scripts.\n\nFor the 02_fix_filenames.sh part:\n\nTask: Modify the script to rename files using a different date format (e.g., MM-DD-YYYY instead of YYYY-MM-DD).\nLearning Objective: This task will teach your how to use the sed command for more complex pattern matching and substitution.\n\nFor the 03_process_data.sh part:\n\nTask: Modify the script to calculate the sum of the readings in addition to the average.\nLearning Objective: This task will help you understand how to perform arithmetic operations in bash and work with loops.\n\nFor the 04_geo.sh part:\n\nTask: Modify the script to print a message saying “Download complete” after downloading the gene expression data file.\nLearning Objective: This task will help you understand how to add simple print statements to provide user feedback in bash scripts.\n\nFor the 05_filter_geo.sh part:\n\nTask: Modify the script to create a new file called filtered_results.csv that contains the filtered records, instead of displaying them on the screen.\nLearning Objective: This task will teach you how to redirect output to a file in bash scripts.\n\nFor the 99_clean_all.sh part:\n\nTask: Modify the script to print a message saying “Directory cleaned” after deleting all the files and removing the directory.\nLearning Objective: This task will help you understand how to add print statements to confirm the completion of a task in bash scripts.\n\n\nQuiz selected and edited from content generated with chatGPT"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
-    "href": "post/bios-25328/2024-03-20-lecture-02-gene-mapping-GWAS/index.html",
-    "title": "lecture 2",
-    "section": "",
-    "text": "Lecture 2 notes in keynote\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html",
-    "href": "post/bios-25328/2024-03-25-homework-02/index.html",
-    "title": "homework 2",
-    "section": "",
-    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
-    "href": "post/bios-25328/2024-03-25-homework-02/index.html#complete-the-following",
-    "title": "homework 2",
-    "section": "",
-    "text": "Lecture 3 assessment quiz (10 points)\nLecture 4 assessment quiz (10 points)"
-  },
-  {
-    "objectID": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
-    "href": "post/bios-25328/2024-03-25-homework-02/index.html#multiple-testing-simulation-30-points",
-    "title": "homework 2",
-    "section": "2. Multiple testing simulation (30 points)",
-    "text": "2. Multiple testing simulation (30 points)\n\nSimulate X, Ynull, Yalt\nPlot Ynull vs X, Yalt vs X\nRun linear regression and find the estimated effect sizes\nRepeat the simulations 10000 times and save the coefficients and p-values for each simulation in vectors\nPlot the distribution of p-values when you use Ynull and Yalt\nSimulate a mixture of Ynull and Yalt using a vector (selectvec) that determines whether the null or alternative is the true model\nShow the distribution of p-values using the histogram. Also try using qqplot of the p-values and simulated uniform random variables (show the identity line). Interpret the figure.\nFor your simulation, calculate the entries of the “confusion table”, i.e. the one that has the number of significant, not significant, discriminated by whether they are real or not (slide page 29)\nIn a real data analysis, can you calculate this table? Why yes or not?\nInstall the qvalue package and calculate the qvalues for your pvalues\nCalculate the pi0 from the qvalue results. How does it compare to the proportion of null Y’s you simulated? Interpret.\n\nHint: use the code from the lecture slides or here\n\nextra credit: simulate X as a more realistic genotype using maf of 0.3\nextra extra credit: simulate a binary trait using the logistic regression vignette we saw in class"
-  },
-  {
-    "objectID": "post/qgt/2023-06-10-QGT-workbook/setup.html",
-    "href": "post/qgt/2023-06-10-QGT-workbook/setup.html",
-    "title": "Lab Setup",
-    "section": "",
-    "text": "copied from QGT 2023 posit\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "post/qgt/2023-06-10-QGT-workbook/setup.html#setting-up-your-own-system",
-    "href": "post/qgt/2023-06-10-QGT-workbook/setup.html#setting-up-your-own-system",
-    "title": "Lab Setup",
-    "section": "Setting up your own system",
-    "text": "Setting up your own system\nLinux is the operating system of choice to run bioinformatics software. You will need either a computer running linux or or mac os, which has a linux-like environment.\n\ninstall anaconda/miniconda\ndefine imlabtools conda environment how to here, which will install all the python modules needed for this analysis session\ndownload data and software from Box. This will have copies of all the software repositories and the models\ndownload software\n\ndownload metaxcan repo\ndownload torus repo\n\ndownload prediction models from predictdb.org\ninstall R/RStudio/tidyverse package\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI.git\nstart Rstudio (if you installed workflowr, you can just open the QGT-Columbia-HKI.Rproj)\n\n#R setup\n\n\nShow the code\n#install R packages \ninstall.packages(\"remotes\")\nlibrary(remotes)\nremotes::install_github(\"stephenslab/susieR\") #gives the most up to date SusieR \ninstall.packages(\"coloc\")\ninstall.packages(\"tidyverse\")\n\n#install.packages(\"R.utils\")\n\n#install.packages(\"remotes\")\n# remotes::install_github(\"simingz/ctwas\", ref = \"develop\")\n\n## make sure these are installed\n# library(data.table)\n# library(BEDMatrix)\n# library(Rfast)\n# library(susieR)\n# library(coloc)\n\n#installing base miniconda\ninstall.packages(\"keras\")\nreticulate::install_miniconda(\"miniconda\")\n\n\n#Setting up Conda Environment\n\n\nShow the code\n#adding path\nexport PATH=$PATH:/cloud/project/miniconda/bin\n# adding repos/data\ngit clone https://github.com/hakyimlab/QGT-Columbia-HKI-repo.git\ngit clone https://github.com/hakyimlab/MetaXcan.git\nconda config --append channels conda-forge\nconda config --append channels bioconda\nconda env create -f /cloud/project/MetaXcan/software/conda_env.yaml\nconda activate imlabtools\n\n\nSet the Ram to 5gb in order to create the environment.\n#Box Data To upload the data. I first downloaded the box folder onto a local machine and then compressed the folders in the box folder to upload onto the server.\nNotes: For some reason setting up the environment and uploading the data will continue to use a lot of background RAM set sure to close the project and reopen to close extraneous programs."
-  },
-  {
-    "objectID": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
-    "href": "post/qgt/2024-06-24-QGT-workbook/stat-gen-quick-training.html",
-    "title": "quick training in statistical genetics",
-    "section": "",
-    "text": "I taught today the QGT course organized by Iuliana at Columbia for the 5th time. Participants asked for material for a quick training material in statistical genomics. It’s hard to choose one topic over the other one. So here is a biased selection of material that may help.\n\nRead “a brief history of human disease genetics” (nicely written summary of the development in the last two decades) https://www.nature.com/articles/s41586-019-1879-7\nRead GTExs flagship paper and very thorough supplementary material https://science.sciencemag.org/content/369/6509/1318\n\n\nalso read the GTEx working group’s paper for suggested practices to apply GTEx resources to GWAS https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02252-4\n\n\nRead the ENCODE paper https://www.nature.com/articles/s41586-020-2493-4\nGWAS tutorial Marees et al (https://course-material.hakyimlab.org/post/bios-25328/2024-04-05-lab-03/)\n\nhttps://course-material.hakyimlab.org/index-bios-25328 This is my portion of the cancer genetics and genomics course where I teach an lightweight intro to statistical genetics\nGenetic and molecular architecture of complex traits https://doi.org/10.1016/j.cell.2024.01.023\n\n\n\n\n\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "index-bios-25328.html",
-    "href": "index-bios-25328.html",
-    "title": "BIOS25328",
-    "section": "",
-    "text": "This page contains material for the BIOS25328 Cancer Genetics and Genomics course, starting from 2024. 2023 and prior material is here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\n\nlecture\n\n\nbios25328\n\n\n\nLecture 2: Cancer GWAS\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 5\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 4\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 8\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 7\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 3\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 3\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 6\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 5\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 2\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 3\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 2\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 1\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
-  },
-  {
-    "objectID": "index-logistics.html",
-    "href": "index-logistics.html",
-    "title": "Logistics",
-    "section": "",
-    "text": "course checklist\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
+    "text": "Edit source here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\n\nlecture\n\n\nbios25328\n\n\n\nLecture 2: Cancer GWAS\n\n\n\n\n\nMar 26, 2025\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nquick training in statistical genetics\n\n\n\n\n\nmaterial for introduction to statistical genetics\n\n\n\n\n\nJun 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nTranscriptome QGT Training 2024\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 5\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 19, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 4\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nLiz Gibbons\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 4\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 12, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 8\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 10, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 7\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 3\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\nIn this lab, you will run all the steps of a GWAS analysis using the Marees et al tutorial.\n\n\n\n\n\nApr 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 3\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 6\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 5\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nApr 1, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 2\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 3\n\n\n\n\n\n\nbios25328\n\n\nlecture\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 2\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nImages GWAS\n\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlecture 2\n\n\n\n\n\nDissection of Genetics & Prediction of Cancer Risk: Methods & Tools\n\n\n\n\n\nMar 20, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nlab 1 - command line and R\n\n\n\n\n\n\nbios25328\n\n\nlab\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nhomework 1\n\n\n\n\n\n\nbios25328\n\n\nhomework\n\n\n\n\n\n\n\n\n\nMar 18, 2024\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\ncourse checklist\n\n\n\n\n\n\nlogistics\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHaky Im\n\n\n\n\n\n\n\n\n\n\n\n\nLab Setup\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\n\n\n\n\nNo matching items\n\n© HakyImLab and Listed Authors - CC BY 4.0 License"
   }
 ]
