@@ -1,0 +1,13 @@
+---
+title: lecture 2
+author: "Haky Im"
+date: "March 31, 2025"
+description: "Lecture 3"
+categories:
+  - lecture
+  - bios25328
+---
+
+
+
+Find the lecture notes [here](https://www.icloud.com/keynote/0c5SIBAjVS79bFCfEHGGC0KPw#L3-Cancer-GWAS-QC-UKBiobank-2025).
