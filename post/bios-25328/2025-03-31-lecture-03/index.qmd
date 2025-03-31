@@ -1,5 +1,5 @@
 ---
-title: lecture 2
+title: lecture 3
 author: "Haky Im"
 date: "March 31, 2025"
 description: "Lecture 3"
