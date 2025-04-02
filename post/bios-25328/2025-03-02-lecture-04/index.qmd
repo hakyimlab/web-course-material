@@ -1,0 +1,85 @@
+---
+title: lecture 3 - statistical significance in gwas - addressing multiple testing
+author: "Haky Im"
+date: "March 31, 2025"
+description: "Lecture 3"
+categories:
+  - lecture
+  - bios25328
+---
+
+Find the lecture notes [here](https://www.icloud.com/keynote/07fVVMHEvj8f2aG5zyyFfXisA#L4-Multiple-Testing-Correction-2025).
+
+## learning objectives
+
+By the end of this lecture, students should be able to:
+
+*   Understand the concept and risks of multiple hypothesis testing.
+*   Compute the probability of false negatives under multiple testing.
+*   Apply Bonferroni correction and understand its limitations.
+*   Interpret genome-wide significance thresholds.
+*   Understand the distribution of p-values under null and alternative hypotheses.
+*   Perform and interpret simulations to explore p-value distributions.
+*   Explain the concept of False Discovery Rate (FDR) and how it differs from Family-Wise Error Rate (FWER).
+*   Use tools like the `qvalue` R package to calculate FDR-adjusted values.
+*   Analyze and visualize empirical distributions of p-values using simulations.
+
+## summary of the lecture notes
+
+### the perils of multiple testing
+
+*   Illustrated using XKCD comic (#882).
+*   Probability of not rejecting the null hypothesis decreases with more tests.
+    *   Example: With 100 tests at α = 0.05, the chance of not rejecting any is 0.0059.
+
+### bonferroni correction
+
+*   Adjusts significance threshold to α / number of tests.
+*   Very conservative; reduces Type I error but increases Type II error.
+
+### genome-wide significance
+
+*   Common threshold: 5 × 10<sup>-8</sup>
+*   Equivalent to Bonferroni correction for ~1 million tests.
+
+### distribution of p-values
+
+*   **Under null:** Uniform distribution.
+*   **Under alternative:** Skewed toward 0.
+*   Beta and Normal distributions considered.
+
+### simulations
+
+*   Generate p-values for null and alternative hypotheses.
+*   Simulate genotype XX, phenotype YY, and error ϵϵ.
+*   Plot Y vs. X under both null and alternative scenarios.
+
+### regression approach
+
+*   **Under null:**  `Y = a + X * 0 + ϵ`
+*   **Under alternative:** `Y = a + X * β + ϵ`
+
+### empirical distribution
+
+*   Run simulation 10,000 times.
+*   Create histograms of p-values under different scenarios.
+
+### mixed simulations
+
+*   Mix of null and alternative cases.
+*   Useful to visualize real-world settings with both signal and noise.
+
+### multiple testing corrections
+
+*   **FWER (Family-Wise Error Rate):** probability of ≥1 false positives.
+*   **FDR (False Discovery Rate):** expected proportion of false positives among rejected hypotheses.
+
+### q-value and π₀
+
+*   `qvalue` package estimates FDR-adjusted p-values.
+*   π₀: proportion of tests under the null.
+*   π₁ = 1 - π₀: proportion of true positives.
+
+### reference
+
+*   Storey & Tibshirani (2003), foundational paper on FDR in genome-wide studies.
