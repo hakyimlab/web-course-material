@@ -1,8 +1,8 @@
 ---
-title: lecture 3 - statistical significance in gwas - addressing multiple testing
+title: lecture 4 - statistical significance in gwas - addressing multiple testing
 author: "Haky Im"
 date: "March 31, 2025"
-description: "Lecture 3"
+description: "Lecture 4"
 categories:
   - lecture
   - bios25328
@@ -83,3 +83,4 @@ By the end of this lecture, students should be able to:
 ### reference
 
 *   Storey & Tibshirani (2003), foundational paper on FDR in genome-wide studies.
+Storey JD, Tibshirani R. Statistical significance for genomewide studies. Proc Natl Acad Sci U S A. 2003 Aug 5;100(16):9440-5. doi: 10.1073/pnas.1530509100. Epub 2003 Jul 25. PMID: 12883005; PMCID: PMC170937.
