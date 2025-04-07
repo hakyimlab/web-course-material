@@ -86,5 +86,5 @@ Submit a single, runnable, commented R script (.R) or R Markdown (.Rmd).
 Include all code, generated plots, and written answers/interpretations clearly labeled.
 
 
-**Hint**: feel free to use the code from the lecture slides or [here](https://bios25328.hakyimlab.org/post/2022/04/06/multiple-testing-2022/)
+**Hint**: feel free to use the code from the lecture slides or [here](/post/bios-25328/2025-04-02-lecture-04/index-with-code.qmd)
 

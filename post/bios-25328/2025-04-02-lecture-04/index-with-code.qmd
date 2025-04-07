@@ -6,7 +6,6 @@ description: "Lecture 4"
 categories:
   - bios25328
   - notebook
-draft: true
 ---
 
 Find the lecture notes [here](https://www.icloud.com/keynote/07fVVMHEvj8f2aG5zyyFfXisA#L4-Multiple-Testing-Correction-2025).
@@ -207,7 +206,8 @@ Why does this uniform distribution highlight the need for correction when perfor
 The simplest correction is the Bonferroni correction.
 
 Method: Divide the desired significance level (e.g., 0.05) by the total number of tests performed (m, here nsim). Use this adjusted value as the new significance threshold.
-Goal: Controls the Family-Wise Error Rate (FWER) - the probability of making at least one false positive discovery across all tests. P(at least 1 FP) ≤ α.
+
+Goal: Controls the Family-Wise Error Rate (FWER) - the probability of calling one or more significant results across all tests under the null. P(FP>=1) ≤ α.
 
 ```{r}
 BF_thres = 0.05 / nsim # Bonferroni significance threshold
@@ -331,18 +331,16 @@ print(paste("Simulated FNR at Bonferroni p <", BF_thres, ":", round(FNR_sim_bf, 
 
 Let m be the total number of tests. Consider the following table:
 
-Called Significant | Called Not Significant | Total
------------------ | --------------------- | -----
-Null True | FP (V) | TN (U) | m0
-Alternative True | TP (S) | FN (T) | m1
-Total | R | m - R | m
------------------ | --------------------- | -----
+|| Called Not Significant | Called Significant | Total
+|---|---------------|---------------------|-----
+| Null True | TN | FP | $m_0$
+| Alternative True | FN | TP | $m_1$
+| Total | $m$ - S | S | $m$
 
+(m total # tests, $m_0$ # null tests, FP false positives, TP true positives, TN true negatives, FN false negatives, S total significant)
 
-(Common notation in parentheses: V=FP, U=TN, S=TP, T=FN, R=Total Significant)
-
-- FWER (Family-Wise Error Rate): P(V ≥ 1). Probability of at least one false positive. Controlled by Bonferroni. Often too strict.
-- FDR (False Discovery Rate): E[V / R | R > 0]. Expected proportion of false positives among all significant results. A more liberal approach, often preferred when many tests are performed and finding true positives is important.
+- FWER (Family-Wise Error Rate): P(FP ≥ 1). Probability of at least one false positive. Controlled by Bonferroni. Often too strict.
+- FDR (False Discovery Rate): E[FP / S | S > 0]. Expected proportion of false positives among all significant results. A more liberal approach, often preferred when many tests are performed and finding true positives is important.
 
 ## Table of Simulation Results
 
@@ -449,7 +447,9 @@ Questions:
 
 ## Estimating π₀ (Proportion of True Nulls)
 
-The qvalue package also estimates π₀, the overall proportion of features (tests) that are truly null. π₁ = 1 - π₀ is the proportion of true alternative hypotheses.
+The qvalue package also estimates π₀, the overall proportion of features (tests) that are truly null. 
+
+π₁ = 1 - π₀ is the proportion of true alternative hypotheses.
 
 ```{r}
 # Estimated pi0 when all tests were truly null
