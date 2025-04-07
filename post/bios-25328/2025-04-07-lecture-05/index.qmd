@@ -2,7 +2,6 @@
 title: lecture 5 - population structure and principal component analysis
 author: "Haky Im"
 date: "April 7, 2025"
-description: 
 categories:
   - lecture
   - bios25328
