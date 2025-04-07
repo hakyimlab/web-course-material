@@ -1,0 +1,72 @@
+---
+title: lecture 5 - population structure and principal component analysis
+author: "Haky Im"
+date: "April 7, 2025"
+description: 
+categories:
+  - lecture
+  - bios25328
+---
+
+Find the lecture slides [here](https://www.icloud.com/keynote/03b4LOX0faHLSVqfRNY94WwbQ#L5-Population-Structure-PCA-2025).
+
+Summary by gemini:
+
+# Learning Objectives
+
+By the end of this lecture, you should be able to:
+
+1. Understand the concept of population structure in genetic data.
+2. Explain how Principal Component Analysis (PCA) can be used to identify and visualize population structure.
+3. Recognize how population structure can introduce bias and lead to spurious associations in Genome-Wide Association Studies (GWAS).
+4. Explain why correcting for population structure is important in GWAS and identify PCA (using principal components as covariates) as a primary method for doing so.
+5. Interpret PCA plots in the context of genetic ancestry and population stratification (e.g., HapMap, UK Biobank examples).
+6. Analyze the impact of population differences on phenotype distributions and association results (e.g., QQ plots, p-value inflation).
+
+# The Genotype Matrix
+The genotype matrix is a rich source of information. Various statistical techniques can uncover this wealth of information.
+
+# PCA Reveals Demographic History
+Principal Components (PCs) of genotype data can reflect geographic and demographic history. A famous example shows the first two PCs of European genotypes mirroring the map of Europe.
+
+# Population Structure & GWAS Bias
+Question: Could population structure bias Genome-Wide Association Study (GWAS) results?
+
+# Spurious Associations
+Differences in population composition between cases and controls can lead to spurious associations. Example: If a specific allele is more common in population 1, and population 1 is overrepresented in cases, the allele might appear associated with the disease even if it has no true effect.
+
+# Correcting for Population Structure
+Methods:
+- Genomic control (Devlin and Roeder 1999)
+- Inferring latent sub-populations and analyzing within them (Pritchard et al 2000)
+- Adjusting for Principal Components (PCs) as covariates (Patterson 2006, Price et al 2010) - Most common method
+- Mixed effects modeling (EMMAX, Kang et al 2010)
+
+# Principal Component Analysis (PCA)
+PCA (often via Singular Value Decomposition - SVD) is used for latent factor identification and dimension reduction in genotype data.
+
+# Example - HapMap Project
+The International HapMap Project gathered genotype data from diverse global populations (e.g., CEU, CHB, YRI, etc.). It aimed to create a haplotype map of the human genome. Evolved into the 1000 Genomes Project.
+
+# Population Structure in HapMap
+PCA on HapMap data reveals clear population clusters.
+- PC1 often separates African ancestry populations from others reflecting the "out of Africa" demographic history
+- PC2 further separates European and Asian populations
+
+# PCA in UK Biobank
+PCA applied to large datasets like the UK Biobank (500,000 individuals) also shows population structure. Requires specialized methods due to the large scale.
+
+# GWAS in Multi-ancestry Samples
+Population structure can inflate association statistics in GWAS, especially when phenotype means differ between populations.
+
+# Example - Growth Phenotype
+Analysis of a growth phenotype (cell proliferation rate) in HapMap LCLs shows significant mean differences between populations. GWAS for this phenotype without correction shows inflated p-values (deviation on QQ plot), exemplifying spurious associations driven by population structure.
+
+# Adjusting GWAS with PCs
+Adding PCs (e.g., the first 4 PCs) as covariates in the GWAS regression model helps correct for population structure. This adjustment typically leads to a more uniform distribution of p-values under the null hypothesis. The number of PCs to include requires sensitivity analysis and careful consideration.
+
+# Other Concepts Mentioned
+- Matrix Algebra Review: Basics like addition, scalar multiplication, transposition, and matrix multiplication are fundamental
+- Linear Regression: Matrix notation for linear regression (Y=Xβ+ϵ)
+- Hardy-Weinberg Equilibrium (HWE): Describes expected genotype frequencies based on allele frequencies under random mating; deviations can indicate population structure or other factors
+- Heritability: Concepts of broad-sense vs. narrow-sense heritability, and "chip heritability" in the context of GWAS
