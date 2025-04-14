@@ -1,0 +1,69 @@
+---
+title: "Lecture 6 - Mixed Effects Models and LDSC"
+author: "Haky Im"
+date: "April 14, 2025"
+description: "Lecture 6 - Methods for correcting population structure in genetic association studies"
+categories:
+  - lecture
+  - bios25328
+---
+
+Find the lecture notes [here](https://www.icloud.com/keynote/008paGrlDp0cyfmdvE-BmAiGQ#L6-Mixed-Effects-Models-LDSC-2025).
+
+## Learning Objectives
+
+### Population Structure and Association Studies
+- Explain why correcting for population structure is necessary in genetic association studies
+- Describe the assumptions and limitations of the Genomic Control method
+- Outline the approach of inferring latent sub-populations and performing association within them
+- Understand how Principal Components Analysis (PCA) is used to adjust for population structure
+
+### Mixed Effects Models (MEMs)
+- Explain the concept of a Mixed Effects Model in the context of genetic association studies
+- Define the components of the MEM equation (Y=Xβ+u+ϵ) and the role of the genetic relatedness matrix (K)
+- Describe how MEMs account for population structure, family structure, and cryptic relatedness
+
+### LD Score Regression
+- Define Linkage Disequilibrium (LD) Score and explain how it's calculated
+- Explain the principle behind LD Score Regression and how it distinguishes between polygenicity and confounding
+- Interpret the components of the LD Score Regression equation (E[χ2∣l j]=Nh2lj/M+Na+1)
+- Understand how LD Score Regression can be used to estimate SNP-based heritability
+- Explain how LD Score Regression can be extended to estimate genetic correlation between traits
+
+## Summary of Lecture Notes
+
+### Methods for Correcting Population Structure
+
+1. **Genomic Control**
+   - Older method assuming constant effects of population stratification across the genome
+   - Uses correction factor (λ) based on distribution of test statistics
+   - GWAS results considered acceptable if λ values close to 1
+   - Now largely superseded by LD score regression
+
+2. **Inferring Latent Sub-populations**
+   - Identifies underlying sub-populations (e.g., using STRUCTURE)
+   - Performs association analysis within each sub-population
+   - Followed by meta-analysis of results
+
+3. **Principal Components Analysis (PCA)**
+   - Uses genetic principal components as covariates in regression models
+   - Accounts for population structure through linear combinations of genetic variants
+
+4. **Mixed Effects Models (MEMs)**
+   - Incorporates random effect term to account for genetic relatedness
+   - Uses genetic relatedness matrix (K) to define covariance structure
+   - Effectively corrects for inflation in test statistics
+   - Captures population structure, family structure, and cryptic relatedness
+
+5. **LD Score Regression**
+   - Distinguishes between inflation due to confounding and true polygenicity
+   - Regresses association test statistic (Chi2) against LD score
+   - Intercept estimates inflation from confounding
+   - Slope relates to heritability
+   - Can estimate genetic correlations between traits
+   - Mathematical basis includes random effect variance structure and LD Score regression equation
+
+### Applications
+- Examples of applying LD Score regression to estimate heritability
+- Genetic correlation analysis between diseases (e.g., schizophrenia, cancers, psychiatric disorders)
+
