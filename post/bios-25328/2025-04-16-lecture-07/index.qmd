@@ -1,0 +1,34 @@
+---
+title: "Lecture 7 - "
+author: "Haky Im"
+date: "April 14, 2025"
+description: ""
+categories:
+  - lecture
+  - bios25328
+---
+
+
+Find lecture notes [here]()
+
+Summary of the notes by Gemini reviewed by Haky
+
+## Summary of Lecture Notes
+
+The lecture primarily focuses on polygenic risk scores (PRS) and the statistical methods and challenges associated with their development and application. Key points include:
+
+Polygenic Additive Model: The foundation of PRS is the polygenic additive model, which posits that complex traits are influenced by the sum of many genetic variants, each with a small effect in general.   
+
+Parameter Estimation Challenges: Estimating the effects of all SNPs simultaneously is challenging due to the large number of parameters and limited sample sizes.   
+
+Solutions to Parameter Estimation: The lecture discusses several strategies to address this, including modeling SNP effects as random effects, using GWAS effect sizes, and penalized likelihood methods (regularization) like Ridge, LASSO, and Elastic Net.   
+
+Alternative Prediction Approaches: Beyond simple PRS, the lecture touches on more complex methods like BSLMM, which model genetic effects as a mixture of normal distributions.   
+
+Improving PRS Accuracy: The importance of using Linkage Disequilibrium (LD) information to refine PRS calculations is emphasized, with methods like PRSice, LD-Pred, and others mentioned.   
+
+Deep Learning in Genomic Prediction: The potential of deep learning to improve genomic prediction is explored, but the lecture notes suggest that, so far, deep learning methods have not consistently outperformed linear models for PRS.   
+
+Clinical Utility and Limitations of PRS: The lecture discusses the potential clinical utility of PRS in predicting disease risk, using examples like height, coronary artery disease, and type 2 diabetes. However, it also highlights limitations, particularly the reduced accuracy of PRS across diverse ancestries.   
+
+Ethical Considerations: The lecture concludes by addressing the bioethical issues surrounding the use of PRS in embryo screening, an active area of research and debate.

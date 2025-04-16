@@ -52,7 +52,7 @@ This assignment focuses on simulating multiple testing scenarios, understanding 
 #### 2.3. Mixed P-values (10 pts)
 * Create a logical vector is_null (length 10k, pi0 proportion TRUE). Shuffle it.
 * Create p_mixed by selecting from p_null if is_null is TRUE, else from p_alt.
-* Plot a histogram and a QQ plot (p_mixed vs. uniform quantiles, add y=x line).
+* Plot a histogram and a QQ plot (p_mixed vs. uniform quantiles, add y=x line, feel free to use the qqunif function here https://gist.github.com/hakyim/38431b74c6c0bf90c12f).
 * Interpret the QQ plot (adherence to and deviation from the line).
 
 #### 2.4. Confusion Matrix & Reality Check (15 pts)
@@ -70,7 +70,7 @@ This assignment focuses on simulating multiple testing scenarios, understanding 
 * Report the estimated pi0 from the result. How does it compare to the true pi0 used?
 * How many tests are significant at an FDR threshold of 0.1 (q-value ≤ 0.1)?
 * Compare this number of significant tests to the numbers from the uncorrected and Bonferroni approaches.
-* Briefly state the conceptual difference between controlling FWER and FDR.
+* Briefly state the conceptual difference between controlling Bonferroni correction and FDR.
 
 ### Extra Credit
 

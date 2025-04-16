@@ -8,6 +8,7 @@ categories:
 editor_options: 
   chunk_output_type: console
 eval: true
+freeze: true
 ---
 
 Lecture 8 notes [link](https://www.icloud.com/keynote/025sZaAoLKDAekdsgjQ7-KAhg#L8-QTL-analysis-GTEx-2024)

@@ -6,6 +6,7 @@ description: "Lecture 4"
 categories:
   - bios25328
   - notebook
+freeze: true
 ---
 
 Find the lecture notes [here](https://www.icloud.com/keynote/07fVVMHEvj8f2aG5zyyFfXisA#L4-Multiple-Testing-Correction-2025).
