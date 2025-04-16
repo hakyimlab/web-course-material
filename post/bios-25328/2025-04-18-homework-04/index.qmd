@@ -19,7 +19,6 @@ eval: false
 ## A. Complete the following assessments
 - [Lecture 6 assessment quiz](https://forms.gle/2FazW6RRTqqfVgY59)   (10 points)
 - [Lecture 7 assessment quiz](https://forms.gle/nDuJCpRxaP4p7eot8) (10 points)
-- [Lecture 8 assessment quiz](https://forms.gle/jYiUXmkhUcS7tpzj7)   (10 points)
 
 ## B. Finish the knit lab 4 (70 points)
 

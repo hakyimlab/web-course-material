@@ -1,0 +1,22 @@
+---
+title: homework 5
+author: Haky Im
+date: 2025-04-25
+categories:
+  - bios25328
+  - homework
+format:
+  html:
+    toc: true
+    code-fold: false
+    code-summary: "Show the code"
+    code-tools: true
+    code-overflow: wrap
+date-modified: last-modified
+draft: true
+---
+
+## A. Complete the following assessments
+- [Lecture 8 assessment quiz](https://forms.gle/jYiUXmkhUcS7tpzj7)   (10 points)
+- [Lecture 9 assessment quiz](https://forms.gle/qTGiMqneSPRPwzEs7) (10 points)
+
