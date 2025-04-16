@@ -1,5 +1,5 @@
 ---
-title: homework 3
+title: homework 3 - population structure and GWAS
 author: Haky Im
 date: 2025-04-11
 categories:
