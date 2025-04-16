@@ -1,7 +1,7 @@
 ---
-title: "Lecture 7 - "
+title: "Lecture 7 - Polygenic additive models and Polygenic Risk Scores"
 author: "Haky Im"
-date: "April 14, 2025"
+date: "April 16, 2025"
 description: ""
 categories:
   - lecture
@@ -9,7 +9,7 @@ categories:
 ---
 
 
-Find lecture notes [here]()
+Find lecture notes [here](https://www.icloud.com/keynote/0fayagr0HCxIg819_f80hGqqg#L7-Polygenic-Risk-Scores-2025)
 
 Summary of the notes by Gemini reviewed by Haky
 
