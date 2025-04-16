@@ -4,6 +4,9 @@ author: "Liz Gibbons"
 date: "2024-04-12"
 output: html_document
 eval: false
+categories:
+  - lab
+  - bios25328
 ---
 
 ```{r setup, include=FALSE}
