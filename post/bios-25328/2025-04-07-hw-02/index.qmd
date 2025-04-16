@@ -1,5 +1,5 @@
 ---
-title: homework 2
+title: homework 2 - multiple testing
 author: Haky Im
 date: 2025-04-07
 categories:

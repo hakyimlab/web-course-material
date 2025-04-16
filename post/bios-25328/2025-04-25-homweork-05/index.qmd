@@ -1,5 +1,5 @@
 ---
-title: homework 5
+title: homework 5 - quiz of lecture 8 and 9
 author: Haky Im
 date: 2025-04-25
 categories:

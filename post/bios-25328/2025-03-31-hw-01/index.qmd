@@ -1,5 +1,5 @@
 ---
-title: homework 1
+title: homework 1 - bash scripting
 author: Haky Im
 date: 2025-03-31
 categories:
