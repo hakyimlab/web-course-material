@@ -1,0 +1,198 @@
+---
+title: "Lecture 8: Introduction to QTL Analysis"
+date: 2025-04-21
+author: Haky Im
+categories:
+  - bios25328
+  - lecture
+editor_options: 
+  chunk_output_type: console
+eval: true
+freeze: true
+---
+
+Find the lecture notes [here](https://www.icloud.com/keynote/01ds9IMhspe5AI_rzDoEime0g#L8-QTL-analysis-GTEx-2025)
+
+# Introduction to QTL Analysis
+
+## Overview
+
+This lecture covers the core concepts of Quantitative Trait Locus (QTL) analysis, its applications in understanding complex traits and disease susceptibility, and the integration of various genomic resources like GWAS Catalog, ENCODE and GTEx project to understand the mechanisms underlying complex traits.
+
+## Learning Objectives
+
+By the end of this lecture, you should be able to:
+
+1. Understand the purpose and applications of QTL analysis
+2. Describe the GTEx project and its key findings
+3. Understand fine-mapping methods and their applications
+4. Explain functional annotation and heritability partitioning methods
+
+## Lecture Summary
+
+### I. Introduction to QTL Analysis
+
+#### A. Definition and Purpose
+- QTL analysis aims to identify genetic variants that influence gene expression levels and other molecular traits (e.g., protein levels, DNA methylation, etc.)
+- These expression QTLs (eQTLs) can help identify genes that influence complex traits and disease susceptibility
+- By linking genetic variation to gene expression changes, QTL analysis provides insights into the molecular mechanisms underlying complex traits
+
+#### B. GWAS Catalog
+- Tracks findings from Genome-Wide Association Studies
+- Contains data on numerous loci associated with various traits, including cancer
+- A large proportion of GWAS catalog variants are located in non-coding regions
+
+### II. Mechanisms Linking Genetic Variation to Complex Traits
+
+#### A. Protein Levels and Disease Risk
+- Genetic variation can affect disease risk by influencing protein levels
+- eQTLs (expression Quantitative Trait Loci) and pQTLs (protein Quantitative Trait Loci) play key roles
+
+#### B. mRNA and Splicing
+- Genetic variants primarily affect complex traits through mRNA regulation and pre-mRNA splicing
+- RNA splicing is another key link between genetic variation and disease
+
+### III. The GTEx Project
+
+#### A. Goals and Objectives
+- Characterize genetic effects on the transcriptome across human tissues
+- Connect regulatory mechanisms to trait and disease associations
+
+#### B. Data and Samples
+- Large dataset of tissue samples from human donors
+- Includes various tissue types, mRNA-seq data, and WGS data
+
+#### C. Key Findings
+- eQTLs are genetic variants associated with mRNA levels
+- Number of eGenes increases with sample size
+- Reveals complex patterns of cis- and trans-QTLs
+- Identifies sex-biased and population-biased eQTLs
+
+### IV. Fine-Mapping
+
+#### A. Definition and Purpose
+- Identifies specific causal variants within GWAS-associated regions
+
+#### B. Methods
+- Analysis of association results for potential causal variants
+- Building credible sets of SNPs
+- Calculating posterior probabilities of causality
+
+#### C. Fine-mapping Methods
+- CAVIAR
+- Finemap
+- fastPAINTOR
+- DAP-G
+- SUSIE
+
+### V. Functional Annotation and Enrichment
+
+#### A. QTLs and Functional Annotations
+- Enrichment analysis of cis- and trans-QTLs in functional annotations
+
+#### B. GWAS-Associated SNPs and QTLs
+- GWAS-associated SNPs are enriched among cis-e/sQTLs
+
+#### C. ENCODE Project
+- Catalogs functional elements in the human genome
+- Provides information on regulatory elements
+
+### VI. Partitioning Heritability
+
+#### A. Methods
+- Understanding contribution of different genetic and functional categories
+- LD Score Regression
+- Functional Annotation Enrichment analysis
+
+## Practical Analysis: Download and analyze the GWAS Catalog
+
+```{r prelim}
+suppressMessages(library(tidyverse))
+suppressMessages(library(glue))
+
+# Set up working directory
+PRE = "~/Downloads/"
+DATA = glue("{PRE}/2025-04-21-gwas-catalog-analysis-2025")
+if(!file.exists(DATA)) system(glue("mkdir -p {DATA}"))
+WORK = DATA
+
+DOWNLOAD_DATE = "2025-04-21"
+
+# Download GWAS catalog data
+DATAFILE = "full"
+filename = glue("{DATA}/{DATAFILE}")
+
+if(!file.exists(filename)) {
+  system(glue("wget -P {DATA} https://www.ebi.ac.uk/gwas/api/search/downloads/full"))
+}
+```
+
+```{r}
+# Read and explore GWAS catalog data
+gwascatalog = read_tsv(filename)
+dim(gwascatalog)
+names(gwascatalog)
+```
+
+```{r}
+# Analyze cancer-related entries
+gwascatalog %>% 
+  select(`DISEASE/TRAIT`, MAPPED_GENE) %>% 
+  filter(grepl("cancer", `DISEASE/TRAIT`)) %>% 
+  dim()
+```
+
+```{r}
+# Count unique cancer loci
+# gwascatalog %>% 
+#   select(`DISEASE/TRAIT`, MAPPED_GENE) %>% 
+#   filter(grepl("cancer", `DISEASE/TRAIT`)) %>% 
+#   unique() %>% 
+#   dim() 
+# this double counts many genes
+# will use 
+
+# unique cytogenetic locations (some double counting because of cytogenetic locations reported with different subbands)
+gwascatalog %>% 
+select(`DISEASE/TRAIT`, REGION) %>% 
+filter(grepl("cancer",`DISEASE/TRAIT`)) %>% 
+unique() %>% 
+dim()
+
+# print 
+gwascatalog %>% 
+select(`DISEASE/TRAIT`, REGION) %>% 
+filter(grepl("cancer",`DISEASE/TRAIT`)) %>% 
+count(REGION) %>% 
+arrange(desc(n))  
+```
+
+:::{.callout-note}
+## 8q24.21 is a hot spot of cancer susceptibility variants
+
+The REGION column in the GWAS catalog uses standard cytogenetic band notation. For example, "8q24.21" refers to:
+- Chromosome 8
+- Long arm (q)
+- Band 24
+- Sub-band 21
+
+This region (8q24.21) is particularly well-known as it contains multiple cancer susceptibility loci, including those associated with prostate cancer, breast cancer, and colorectal cancer.
+:::
+
+```{r}
+# Plot GWAS loci by year
+gwascat_sig = gwascatalog %>% 
+  mutate(year = as.factor(lubridate::year(lubridate::as_date(`DATE ADDED TO CATALOG`)))) %>% 
+  filter(`P-VALUE` < 5e-8)
+
+gwascat_sig %>% 
+  filter(year != "2024") %>% 
+  ggplot(aes(year)) + 
+  geom_bar() + 
+  theme_bw(base_size = 15) + 
+  scale_x_discrete(breaks = c("2008", "2012", "2016", "2020", "2022")) + 
+  xlab("Year") + 
+  ylab("GWAS loci reported (p < 5e-8)") + 
+  ggtitle(paste0("GWAS Catalog Downloaded ", DOWNLOAD_DATE))
+```
+
